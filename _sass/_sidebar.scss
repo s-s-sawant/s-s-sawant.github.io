@@ -20,7 +20,7 @@
     padding-top: $masthead-height;
   }
 
-  @include breakpoint($large) {
+  @include breakpoint($x-large) {
     @include span(2 of 12);
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
@@ -79,7 +79,7 @@
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-  width: 36px;
+  width: 50px;
   // set width only, for non-square avatars
   // height: 36px;
 
