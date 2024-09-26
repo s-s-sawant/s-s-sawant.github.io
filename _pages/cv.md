@@ -9,6 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-<embed width = "620" height = "877" src="https://s-s-sawant.github.io/files/Sagar_Sawant_CV.pdf" type="application/pdf" />
+<embed width = "820" height = "650" src="https://s-s-sawant.github.io/files/Sagar_Sawant_CV.pdf" type="application/pdf" />
 
 you can [download pdf](https://s-s-sawant.github.io/files/Sagar_Sawant_CV.pdf) here.
