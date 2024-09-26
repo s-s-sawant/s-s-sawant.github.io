@@ -1,5 +1,6 @@
 ---
 title: "Complexity of Near-3-Choosability problems"
+coauthor: "with Sounaka Mishra and Rohini S."
 collection: publications
 category: manuscripts
 permalink: /publication/near-3-choosability
