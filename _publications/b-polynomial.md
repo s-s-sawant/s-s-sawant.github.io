@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/b-polynomial
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2024-08-08
+date: 2024-06-08
 venue: 'Annals of
 Combinatorics'
 slidesurl: #
