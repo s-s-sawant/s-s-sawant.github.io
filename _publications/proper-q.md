@@ -1,13 +1,14 @@
 ---
-title: "Paper Title Number 2"
+title: "Proper q-caterpillars are distinguished by their Chromatic Symmetric Functions"
+coauthor: 'G. Arunkumar, Narayanan N., and Raghavendra Rao B. V.'
 collection: publications
 category: manuscripts
-permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides2.pdf'
-paperurl: 'http://academicpages.github.io/files/paper2.pdf'
+permalink: /publication/proper-q
+excerpt: #
+date: 2024-07-01
+venue: 'Discrete Mathematics'
+slidesurl: #
+paperurl: #
 citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
 ---
 

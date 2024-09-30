@@ -182,6 +182,7 @@ exclude:
   - README
   - tmp
   - vendor
+  - .vscode
 keep_files:
   - .git
   - .svn
