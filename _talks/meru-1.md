@@ -7,5 +7,5 @@ type: "Talk"
 permalink: /talks/meru-1
 venue: "Pondicherry University"
 date: 2023-05-01
-location: "Pondicherry, India."
+location: "Puducherry, India."
 ---
