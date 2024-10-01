@@ -7,6 +7,7 @@ type: "Talk"
 permalink: /talks/rms
 venue: "SSN College of Engineering"
 date: 2022-12-01
+place: 'Chennai, India'
 location: "Kalavakkam, Tamilnadu, India."
 ---
 

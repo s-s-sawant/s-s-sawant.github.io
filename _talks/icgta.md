@@ -7,6 +7,7 @@ type: "Talk"
 permalink: /talks/icgta
 venue: "Amrita Vishwavidyapeetham"
 date: 2023-12-01
+place: 'Coimbatore, India'
 location: "Coimbatore, India."
 ---
 

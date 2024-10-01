@@ -15,9 +15,9 @@ var addressPoints = [
     8.752653
   ],
   [
-    "Puducherry, India.",
-    10.91564885,
-    79.80694879844232
+    "Auroville, India.",
+    12.0073927,
+    79.8099471
   ],
   [
     "Kalavakkam, Tamilnadu, India.",

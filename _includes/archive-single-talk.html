@@ -32,7 +32,7 @@
       {% if post.name %}<span class="archive__item-conf" itemprop="description">{{ post.name }}.  
       </span><br>
       {% endif %}
-      {% if post.venue %}<span class="archive__item-excerpt" itemprop="description">{{ post.venue }},  {{post.location}} 
+      {% if post.venue %}<span class="archive__item-excerpt" itemprop="description">{{ post.venue }},  {{post.place}}. 
       </span>
       {% endif %}
       {% if post.date %}<span class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {{post.date | date: '%B, %Y' }}. </span>

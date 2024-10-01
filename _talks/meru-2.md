@@ -7,6 +7,7 @@ type: "Talk"
 permalink: /talks/meru-2
 venue: "Graphic Era Hill Univerisity"
 date: 2024-06-01
+place: 'Bhimtal, India'
 location: "Nainital, India."
 ---
 
