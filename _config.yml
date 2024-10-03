@@ -24,7 +24,10 @@ author:
   avatar           : "profile.png"
   name             : "Sagar Sawant"
   pronouns         : "he/him"  
-  bio              : "Ph.D. (Mathematics), Combinatorics enthusiasts."
+  bio              : "Ph.D. (Mathematics), <br />
+                      - Algebraic Combinatorics <br>
+                      - Topological Combinatorics<br>
+                      - Graph Algorithms"
   location         : "Chennai"
   employer         : "Institute of Mathematical Sciences"
   uri              : # URL
@@ -36,8 +39,9 @@ author:
   impactstory      : # URL
   orcid            : "https://orcid.org/0000-0002-0289-1551"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : #
   researchgate     : "https://www.researchgate.net/profile/Sagar-Sawant-2"
+  mathscinet       : "https://mathscinet.ams.org/mathscinet/author?authorId=1623821"
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
