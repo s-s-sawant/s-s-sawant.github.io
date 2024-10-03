@@ -11,3 +11,4 @@ Gemfile.lock
 # Ingore files created by npm
 node_modules
 package-lock.json
+_teaching/2015-spring-teaching-2.md

@@ -10,5 +10,6 @@ venue: 'Graphs and Combinatorics'
 slidesurl: #
 paperurl: #
 citation: 'Sounaka Mishra, Rohini S. and Sagar S. Sawant (2024). &quot; Complexity of Near-3-Choosability problems.&quot; To appear in <i>Graphs and Combinatorics</i>.'
+url: /404.md
 ---
 
