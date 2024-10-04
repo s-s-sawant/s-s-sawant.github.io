@@ -5,10 +5,154 @@ permalink: /teaching/
 author_profile: true
 ---
 
-{% include base_path %}
+<!-- {% include base_path %}
 
 {% for post in site.teaching reversed %}
   {% include archive-single.html %}
-{% endfor %}
+{% endfor %} -->
+<head>
+<style>
+  .collapsible {
+    background-color: #f4f4f4;
+    color: rgb(23, 2, 2);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #ecdada;
+  }
+  
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+    border-color: #fbd8d8;
+    outline-color: #fbd8d8;
+  }
 
+  </style>
+  </head>
+  <body>
+
+  
+  <h2>Teaching Assistantship</h2>
+  <h3>IIT Madras</h3>
+  <button class="collapsible">Series and Matrices</button>
+  <div class="content">
+    <list>
+      <li> Spring 2020</li>
+      <li> Spring 2022</li>
+      <li> Spring 2023</li>
+    </list>
+  </div>
+  <button class="collapsible">Mathematical Logic</button>
+  <div class="content">
+    <list>
+      <li> Fall 2020</li>
+    </list>
+  </div>
+  <button class="collapsible">Combinatorics</button>
+  <div class="content">
+    <list>
+      <li> Spring 2021 </li>
+      <li> Spring 2023</li>
+    </list>
+  </div>
+  <button class="collapsible">Functions of Several Variables</button>
+  <div class="content">
+    <list>
+      <li> Fall 2021 </li>
+    </list>
+  </div>
+  <button class="collapsible">Data Structures and Algorithms</button>
+  <div class="content">
+    <list>
+      <li> Fall 2022 </li>
+    </list>
+  </div>
+
+
+    <h3> NPTEL </h3>
+
+    <button class="collapsible">Basic Calculus-I (Prof. Arindama Singh)</button>
+    <div class="content">
+      <list>
+        <li> Spring 2024</li>
+      </list>
+    </div>
+    <button class="collapsible">Combinatorics (Prof. Narayanan N)</button>
+    <div class="content">
+      <list>
+        <li> Fall 2021</li>
+        <li> Fall 2022</li>
+        <li> Fall 2023</li>
+        <li> Fall 2024</li>
+      </list>
+    </div>
+    <button class="collapsible">Commutative Algebra (Prof. Dilip Patil) </button>
+    <div class="content">
+      <list>
+        <li> Spring 2019 </li>
+      </list>
+    </div>
+    <button class="collapsible">Galois Theory (Prof. Dilip Patil)</button>
+    <div class="content">
+      <list>
+        <li> Spring 2019 </li>
+        <li> Fall 2021 </li>
+        <li> Fall 2022 </li>
+        <li> Fall 2023 </li>
+        <li> Fall 2024 </li>
+      </list>
+    </div>
+    <button class="collapsible">Introduction to Algebraic Geometry and
+      Commutative Algebra (Prof. Dilip Patil) </button>
+    <div class="content">
+      <list>
+        <li> Spring 2020 </li>
+        <li> Spring 2021 </li>
+        <li> Spring 2022 </li>
+        <li> Spring 2024 </li>
+      </list>
+    </div>
+    <button class="collapsible">Introduction to Algebraic Topology-Part II (Prof. Anant Shastri) </button>
+    <div class="content">
+      <list>
+        <li> Fall 2021 </li>
+      </list>
+    </div>
+    <button class="collapsible"> Linear Algebra (Prof. Dilip Patil)</button>
+    <div class="content">
+      <list>
+        <li> Fall 2021 </li>
+        <li> Fall 2022 </li>
+        <li> Fall 2023 </li>
+        <li> Fall 2024 </li>
+      </list>
+    </div>
+  
+  <script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+  
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight){
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      } 
+    });
+  }
+  </script>
 <span style="color:red"> *(This page is currently under construction)* </span>
