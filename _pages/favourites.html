@@ -1,0 +1,90 @@
+---
+layout: archive
+title: "Favourites"
+permalink: /favourites/
+author_profile: true
+---
+
+<span> These are list of theorems that fascinates me the most. The link contains reading materials on the internet that I found useful.</span>
+
+<br />
+
+<head>
+    <style>
+      .collapsible {
+        background-color: #f6f3f300;
+        color: rgb(23, 2, 2);
+        cursor: pointer;
+        padding: 18px;
+        width: 70%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 18px;
+      }
+      
+      .active, .collapsible:hover {
+        background-color: #fff3f38e;
+        width: 70%;
+      }
+      
+      .content {
+        padding: 1px 18px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+        background-color: #ffffff89;
+        border-color: #fbd8d8;
+        outline-color: #fbd8d8;
+        width: 70%;
+      }
+    
+      </style>
+      </head>
+      <body>
+    
+      <button class="collapsible">Algebra</button>
+      <div class="content">
+        <list>
+          <li><a href="FundThmAlg.pdf" target="_blank">Fundamental Theorem of Algebra</a> </li>
+        </list>
+      </div>
+      <button class="collapsible">Analysis</button>
+      <div class="content">
+        <list>
+          <li></li>
+        </list>
+      </div>
+      <button class="collapsible">Combinatorics</button>
+      <div class="content">
+        <list>
+          <li></li>
+        </list>
+      </div>
+      <button class="collapsible">Miscellaneous</button>
+      <div class="content">
+        <list>
+          <li></li>
+        </list>
+      </div>
+      
+      
+      <script>
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+      
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.maxHeight){
+            content.style.maxHeight = null;
+          } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+          } 
+        });
+      }
+      </script>
+
+      <span >This webpage is currently under construction. </span>
+
