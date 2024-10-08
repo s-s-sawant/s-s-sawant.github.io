@@ -15,10 +15,10 @@ I am currently a visiting fellow at Institute of Mathematical Sciences, Chennai 
 
 
 
-<h2 id="research-experience">Research Experience</h2>
+<h2 id="research-experience">Experience</h2>
 <p><img style="float: left; margin:15px 5px" src="/images/imsc.png" width="100" height="120" /></p>
 <h3 id="fudan-university">Institute of Mathematical Science</h3>
-<p style="line-height:1.0"> <font size="2"> Aug 2024 - Present<br /><strong> Visiting Fellow  </strong><br /> Host: Prof. Amritanshu Prasad<br /> </font></p>
+<p style="line-height:1.0"> <font size="2"> Aug 2024 - Present<br /><strong> Visiting Research Fellow  </strong><br /> Host: Prof. Amritanshu Prasad<br /> </font></p>
 
 <br>
 
