@@ -41,8 +41,8 @@ var addressPoints = [
   ],
   [
     "Paris, France",
-    48.8534951,
-    2.3483915
+    48.8588897,
+    2.3200410217200766
   ],
   [
     "Kalavakkam, Tamilnadu, India.",
@@ -51,7 +51,7 @@ var addressPoints = [
   ],
   [
     "Mumbai, India",
-    19.0785451,
-    72.878176
+    19.08157715,
+    72.88662753964906
   ]
 ];

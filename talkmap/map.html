@@ -6,7 +6,7 @@
 
     	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.0-beta.2/leaflet.css" />
     	<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.0-beta.2/leaflet.js"></script>
-    	<meta name="viewport" content="width=device-width, initial-scale=0.6">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     	<link rel="stylesheet" href="leaflet_dist/screen.css" />
 
     	<link rel="stylesheet" href="leaflet_dist/MarkerCluster.css" />
@@ -21,11 +21,11 @@
     	<span>Mouse over a cluster to see the bounds of its children and click a cluster to zoom to those bounds</span>
     	<script type="text/javascript">
     		var tiles = L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
-              maxZoom: 15,
+              maxZoom: 18,
               attribution: 'Tiles &copy; Esri &mdash; Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, NRCAN, Esri Japan, METI, Esri China (Hong Kong), Esri (Thailand), TomTom, 2012'
                     }),
-    			latlng = L.latLng(-35, 90);
-    		var map = L.map('map', {center: latlng, zoom: 0.5, layers: [tiles]});
+    			latlng = L.latLng(-20, 50);
+    		var map = L.map('map', {center: latlng, zoom: 0.7, layers: [tiles]});
     		var markers = L.markerClusterGroup({
     			showCoverageOnHover: false,
     			maxClusterRadius: 80

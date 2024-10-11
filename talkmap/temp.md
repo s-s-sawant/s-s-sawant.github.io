@@ -1,0 +1,1 @@
+latlng = L.latLng(-20, 50);
