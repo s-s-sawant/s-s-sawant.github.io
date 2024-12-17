@@ -18,7 +18,7 @@ I am currently a Postdoctoral fellow at Chennai Mathematical Institute, India.
 
 <h2 id="research-experience">Experience</h2>
 
-<p><img style="float: left; margin:15px 5px; min-width: 100px;" src="/images/iisc.png" width="100" height="120" /></p>
+<p><img style="float: left; margin:15px 5px; min-width: 100px;" src="/images/cmi-logo-blue-large.png" width="100" height="120" /></p>
 <h3 id="fudan-university">Chennai Mathematical Institute</h3>
 <p style="line-height:1.0"> <font size="2"> Dec 2024 - Present<br /><strong> Postdoctoral Fellow  </strong><</font></p>
 
