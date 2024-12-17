@@ -7,7 +7,7 @@ type: "Talk"
 permalink: /talks/paderborn
 venue: "Universität Paderborn"
 date: 2022-11-01
-place: 'Paderborn, India'
+place: 'Paderborn, Germany'
 location: "Paderborn, Germany."
 ---
 
