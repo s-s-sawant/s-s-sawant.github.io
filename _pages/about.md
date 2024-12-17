@@ -12,15 +12,20 @@ redirect_from:
 
 I completed my PhD from the Department of Mathematics, Indian Institute of Technology Madras, under the supervision of Dr. Narayanan N. My research interest lies in algebraic combinatorics, topological combinatorics, and graph algorithms. 
 
-I am currently a visiting fellow at Institute of Mathematical Sciences, Chennai with Dr. Amritanshu Prasad.
+I am currently a Postdoctoral fellow at Chennai Mathematical Institute, India.
 
 
 
 <h2 id="research-experience">Experience</h2>
 
 <p><img style="float: left; margin:15px 5px; min-width: 100px;" src="/images/iisc.png" width="100" height="120" /></p>
+<h3 id="fudan-university">Chennai Mathematical Institute</h3>
+<p style="line-height:1.0"> <font size="2"> Dec 2024 - Present<br /><strong> Postdoctoral Fellow  </strong><</font></p>
+
+
+<p><img style="float: left; margin:15px 5px; min-width: 100px;" src="/images/iisc.png" width="100" height="120" /></p>
 <h3 id="fudan-university">Indian Institute of Science</h3>
-<p style="line-height:1.0"> <font size="2"> Nov 2024 - Present<br /><strong> Research Associate  </strong><br /> Host: Prof. Arvind Ayyer<br /> </font></p>
+<p style="line-height:1.0"> <font size="2"> Nov 2024 - Dec 2024<br /><strong> Research Associate-I</strong><br /> Host: Prof. Arvind Ayyer<br /> </font></p>
 
 
 <p><img style="float: left; margin:15px 5px" src="/images/imsc.png" width="100" height="120" /></p>
