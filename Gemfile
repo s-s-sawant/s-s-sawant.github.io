@@ -5,7 +5,7 @@ group :jekyll_plugins do
   gem 'jekyll-feed'
   gem 'jekyll-sitemap'
   gem 'jemoji'
-  gem 'webrick', '~> 1.8'
+  gem 'webrick', '~> 1.6'
   gem 'jekyll-livereload'
   gem 'jekyll-gist'
   gem 'jekyll-paginate'
