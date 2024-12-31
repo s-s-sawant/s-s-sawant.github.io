@@ -31,8 +31,8 @@ author_profile: true
     /* Dropdown icon */
     .collapsible .icon {
       display: inline-block;
-      width: 12px;
-      height: 12px;
+      width: 6px;
+      height: 6px;
       margin-right: 10px;
       border: solid #333;
       border-width: 0 2px 2px 0;
@@ -71,6 +71,9 @@ author_profile: true
   </head>
   <body>
 
+    <button id="expandAll">Expand All</button>
+    <button id="collapseAll">Collapse All</button>
+    <br>
   
   <h2>Teaching Assistantship</h2>
   <h3>IIT Madras</h3>
@@ -168,19 +171,44 @@ author_profile: true
       </list>
     </div>
   
-  <script>
-  var coll = document.getElementsByClassName("collapsible");
-  var i;
+    <script>
+      var coll = document.getElementsByClassName("collapsible");
+      var expandAllBtn = document.getElementById("expandAll");
+      var collapseAllBtn = document.getElementById("collapseAll");
   
-  for (i = 0; i < coll.length; i++) {
-    coll[i].addEventListener("click", function() {
-      this.classList.toggle("active");
-      var content = this.nextElementSibling;
-      if (content.style.maxHeight){
-        content.style.maxHeight = null;
-      } else {
-        content.style.maxHeight = content.scrollHeight + "px";
-      } 
-    });
-  }
-  </script>
+      // Initialize collapsibles to be expanded by default
+      for (var i = 0; i < coll.length; i++) {
+        var content = coll[i].nextElementSibling;
+        // coll[i].classList.add("active");
+        // content.style.maxHeight = content.scrollHeight + "px";
+  
+        // Add toggle behavior
+        coll[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.maxHeight) {
+            content.style.maxHeight = null;
+          } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+          }
+        });
+      }
+  
+      // Expand All functionality
+      expandAllBtn.addEventListener("click", function () {
+        for (var i = 0; i < coll.length; i++) {
+          var content = coll[i].nextElementSibling;
+          coll[i].classList.add("active");
+          content.style.maxHeight = content.scrollHeight + "px";
+        }
+      });
+  
+      // Collapse All functionality
+      collapseAllBtn.addEventListener("click", function () {
+        for (var i = 0; i < coll.length; i++) {
+          var content = coll[i].nextElementSibling;
+          coll[i].classList.remove("active");
+          content.style.maxHeight = null;
+        }
+      });
+    </script>
