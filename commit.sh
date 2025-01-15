@@ -6,7 +6,7 @@ timestamp() {
 }
 
 cd
-ssh-add thinkpad
+ssh-add think_pad
 cd git/s-s-sawant.github.io
 
 git add --all
