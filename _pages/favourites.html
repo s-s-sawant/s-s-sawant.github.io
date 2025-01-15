@@ -11,9 +11,10 @@ author_profile: true
 
 <head>
     <style>
+      /* Dark mode styles for collapsible sections */
       .collapsible {
-        background-color: #f6f3f300;
-        color: rgb(23, 2, 2);
+        background-color: #252a34; /* Dark background for collapsible button */
+        color: #f0f0f0; /* Light text for visibility */
         cursor: pointer;
         padding: 18px;
         width: 70%;
@@ -21,10 +22,12 @@ author_profile: true
         text-align: left;
         outline: none;
         font-size: 18px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
       }
       
       .active, .collapsible:hover {
-        background-color: #fff3f38e;
+        background-color: rgba(255, 255, 255, 0.15); /* Lighter background on hover or when active */
         width: 70%;
       }
       
@@ -33,83 +36,103 @@ author_profile: true
         max-height: 0;
         overflow: hidden;
         transition: max-height 0.2s ease-out;
-        background-color: #ffffff89;
-        border-color: #fbd8d8;
-        outline-color: #fbd8d8;
+        background-color: rgba(255, 255, 255, 0.1); /* Light semi-transparent background */
+        border-color: #444; /* Darker border for dark mode */
+        outline-color: #444; /* Darker outline */
         width: 70%;
+        color: #ddd; /* Light text in the content */
+        border-radius: 5px;
       }
 
       .list-1 {
-        padding:none;
+        padding: none;
         float: right;
-        clear:right;
+        clear: right;
         padding-right: 27px;
       }
-    
-      </style>
-      </head>
-      <body>
-    
-      <button class="collapsible">Algebra</button>
-      <div class="content">
-        <list>
-          <li><a href="FundThmAlg.pdf" target="_blank">Fundamental Theorem of Algebra</a> </li>
-          <li><a href="solvability.pdf" target="_blank">Solvable groups and Radical solutions</a> </li>
-          <li><a href="galoiscorr.pdf" target="_blank">Fundamental Theorem of Galois Theory</a> </li>
-          <li><a href="jordan-form.pdf" target="_blank">Jordan Normal Decomposition</a> </li>
-          <li><a href="modules_over_pid.pdf" target="_blank">Finitely generated modules over PID</a> </li>
-          <li><a href="localization.pdf" target="_blank">Localization</a> </li>
-        </list>
-      </div>
-      <button class="collapsible">Geometry/Topology</button>
-      <div class="content">
-        <list>
-          <li><a href="galoiscover.pdf" target="_blank">Galois Correspondence in Algebraic Topology</a> </li>
-          <li><a href="Seifert-van-kampen.pdf" target="_blank">Seifert-Van-Kampen Theorem</a> </li>
-        </list>
-      </div>
-      <button class="collapsible">Combinatorics</button>
-      <div class="content">
-        <list>
-          <li><a href="PolyaThm.pdf" target="_blank">Polya's Enumeration Theorem</a> </li>
-          <li><a href="species.pdf" target="_blank">Introduction to Combinatorial Species</a> </li>
-          <li><a href="JoyalCayley.pdf" target="_blank">Joyal's proof for counting labelled trees</a> and a <a href="https://www.youtube.com/watch?v=NhiqFE62GXY" target="_blank">video</a> explaining it.</li>
-          <li><a href="csf_heaps.pdf" target="_blank">Combinatorial reciprocity through theory of heaps</a> </li>
-        </list>
-      </div>
-      <button class="collapsible">Miscellaneous</button>
-      <div class="content">
-        <list>
-          <li><a href="probability_stats_for_DS.pdf" target="_blank">Probability and Statistics for Data Science</a></li>
-        </list>
-      </div>
 
-      <button class="collapsible">Quotes</button>
-      <div class="content">
-        <list>
-          <li><i>It is not the strongest of the species that survives, nor the most intelligent, but the one most responsive to change.</i>(Leon C. Megginson)</li>
-        </list>
-      </div>
-
-      
-      
-      
-      <script>
-      var coll = document.getElementsByClassName("collapsible");
-      var i;
-      
-      for (i = 0; i < coll.length; i++) {
-        coll[i].addEventListener("click", function() {
-          this.classList.toggle("active");
-          var content = this.nextElementSibling;
-          if (content.style.maxHeight){
-            content.style.maxHeight = null;
-          } else {
-            content.style.maxHeight = content.scrollHeight + "px";
-          } 
-        });
+      /* Link styles */
+      a {
+        color: #82aaff; /* Light blue color for links */
+        text-decoration: none;
       }
-      </script>
 
-      <span >This webpage is currently under construction. </span>
+      a:hover {
+        text-decoration: underline;
+        color: #ffcc66; /* Yellow on hover for links */
+      }
 
+      /* Styling for quotes */
+      .content i {
+        color: #f0f0f0; /* Light color for quotes */
+        font-style: italic;
+      }
+
+    </style>
+</head>
+<body>
+
+<button class="collapsible">Algebra</button>
+<div class="content">
+  <ul>
+    <li><a href="FundThmAlg.pdf" target="_blank">Fundamental Theorem of Algebra</a> </li>
+    <li><a href="solvability.pdf" target="_blank">Solvable groups and Radical solutions</a> </li>
+    <li><a href="galoiscorr.pdf" target="_blank">Fundamental Theorem of Galois Theory</a> </li>
+    <li><a href="jordan-form.pdf" target="_blank">Jordan Normal Decomposition</a> </li>
+    <li><a href="modules_over_pid.pdf" target="_blank">Finitely generated modules over PID</a> </li>
+    <li><a href="localization.pdf" target="_blank">Localization</a> </li>
+  </ul>
+</div>
+
+<button class="collapsible">Geometry/Topology</button>
+<div class="content">
+  <ul>
+    <li><a href="galoiscover.pdf" target="_blank">Galois Correspondence in Algebraic Topology</a> </li>
+    <li><a href="Seifert-van-kampen.pdf" target="_blank">Seifert-Van-Kampen Theorem</a> </li>
+  </ul>
+</div>
+
+<button class="collapsible">Combinatorics</button>
+<div class="content">
+  <ul>
+    <li><a href="PolyaThm.pdf" target="_blank">Polya's Enumeration Theorem</a> </li>
+    <li><a href="species.pdf" target="_blank">Introduction to Combinatorial Species</a> </li>
+    <li><a href="JoyalCayley.pdf" target="_blank">Joyal's proof for counting labelled trees</a> and a <a href="https://www.youtube.com/watch?v=NhiqFE62GXY" target="_blank">video</a> explaining it.</li>
+    <li><a href="csf_heaps.pdf" target="_blank">Combinatorial reciprocity through theory of heaps</a> </li>
+  </ul>
+</div>
+
+<button class="collapsible">Miscellaneous</button>
+<div class="content">
+  <ul>
+    <li><a href="probability_stats_for_DS.pdf" target="_blank">Probability and Statistics for Data Science</a></li>
+  </ul>
+</div>
+
+<button class="collapsible">Quotes</button>
+<div class="content">
+  <ul>
+    <li><i>It is not the strongest of the species that survives, nor the most intelligent, but the one most responsive to change.</i> (Leon C. Megginson)</li>
+  </ul>
+</div>
+
+<script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight){
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      } 
+    });
+  }
+</script>
+
+<span>This webpage is currently under construction.</span>
+
+</body>

@@ -31,7 +31,7 @@ I am currently a Postdoctoral fellow at Chennai Mathematical Institute, India.
             padding: 10px;
             border-radius: 8px;
             max-width: 500px;
-            background-color:rgb(255, 255, 255);
+            background-color:background-color;
         }
 
         .institute-container img {
@@ -53,32 +53,32 @@ I am currently a Postdoctoral fellow at Chennai Mathematical Institute, India.
 
         .job-role {
             font-size: 0.8rem;
-            color: #555;
+            <!-- color: #555; -->
             margin-bottom: 3px
         }
 
         .degree {
             font-size: 0.8rem;
-            color: #555;
+            <!-- color: #555; -->
             margin-bottom: 3px
         }
 
         .cgpa {
             font-size: 0.8rem;
             font-weight: bold;
-            color: #555;
+            <!-- color: #555; -->
             margin-bottom: 3px
         }
 
         .mentor {
             font-size: 0.7rem;
-            color: #777;
+            <!-- color: #777; -->
             margin-bottom: 3px
         }
 
         .tenure {
             font-size: 0.7rem;
-            color: #555;
+            <!-- color: #555; -->
             margin-bottom: 3px
         }
     </style>
