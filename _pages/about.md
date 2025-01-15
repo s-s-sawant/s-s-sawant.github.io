@@ -92,7 +92,7 @@ I am currently a Postdoctoral fellow at Chennai Mathematical Institute, India.
             <div class="institute-name">Chennai Mathematical Institute</div>
             <div class="job-role">Postdoctoral Fellow</div>
             <div class="tenure">Dec 2024 - Present</div>
-            <div class="mentor:>Mentor: Prof. Priyavrat Deshpande </div>
+            <div class="mentor">Mentor: Prof. Priyavrat Deshpande </div>
         </div>
     </div>
 
