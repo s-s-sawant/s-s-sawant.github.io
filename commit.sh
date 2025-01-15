@@ -1,6 +1,6 @@
 #!/bin/bash
 
-read -p "Enter commit msg" cmt
+read -p "Enter commit msg: " cmt
 
 cd
 ssh-add think_pad
