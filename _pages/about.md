@@ -10,164 +10,68 @@ redirect_from:
 <meta name="google-site-verification" content="u_mNr2QwGTy9cj_pifv3uxncaZbClR5rk7RVQfACU64" />
 <h1> Welcome to My Homepage </h1>
 
+Hello! I am Sagar Sawant, a Postdoctoral Fellow at the <a href="https://www.cmi.ac.in/">Chennai Mathematical Institute</a>, India. I recently completed my PhD in Mathematics at the <a href="https://www.iitm.ac.in">Indian Institute of Technology Madras</a>, under the guidance of <a href="https://math.iitm.ac.in/innerfaculty.php?fname=Narayanan%20N&__ncforminfo=Jj8NMQ3jMxE2Uebk_RRsTIgdpujyjWKbOk9HFFoDQAKsOpT2DV6R7_HOyO8nD39pHBP-5-22wQW7EfjQr_O6wncG5CObDtZ-">Dr. Narayanan N</a>. My <a href="https://s-s-sawant.github.io/files/Thesis_Sagar.pdf">doctoral thesis</a> focused on distinguishing graphs through their symmetric and quasisymmetric functions.
 
-Hello! I am Sagar Sawant, a Postdoctoral Fellow at the Chennai Mathematical Institute, India. I recently completed my PhD in Mathematics at the Indian Institute of Technology Madras, under the guidance of Dr. Narayanan N. [My doctoral thesis](https://s-s-sawant.github.io/files/Thesis_Sagar.pdf) focused on distinguishing graphs through their symmetric and quasisymmetric functions.
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Institute Info</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-
-        .institute-container {
-            display: flex;
-            align-items: center;  
-            padding: 10px;
-            border-radius: 8px;
-            max-width: 500px;
-            background-color:background-color;
-        }
-
-        .institute-container img {
-            width: 100px;
-            height: 100px;
-            margin-right: 20px;
-            object-fit: contain;
-        }
-
-        .institute-details {
-            line-height: 1;
-        }
-
-        .institute-name {
-            font-size: 1rem;
-            font-weight: bold;
-            margin-bottom: 6px;
-        }
-
-        .job-role {
-            font-size: 0.8rem;
-            <!-- color: #555; -->
-            margin-bottom: 3px
-        }
-
-        .degree {
-            font-size: 0.8rem;
-            <!-- color: #555; -->
-            margin-bottom: 3px
-        }
-
-        .cgpa {
-            font-size: 0.8rem;
-            font-weight: bold;
-            <!-- color: #555; -->
-            margin-bottom: 3px
-        }
-
-        .mentor {
-            font-size: 0.7rem;
-            <!-- color: #777; -->
-            margin-bottom: 3px
-        }
-
-        .tenure {
-            font-size: 0.7rem;
-            <!-- color: #555; -->
-            margin-bottom: 3px
-        }
-    </style>
-</head>
-<body>
 <h2 id="research-experience">Experience</h2>
 
-    <div class="institute-container">
-        <img src="/images/cmi-logo-blue-large.png" width = "100" heightalt="Institute Logo">
-        <div class="institute-details">
-            <div class="institute-name">Chennai Mathematical Institute</div>
-            <div class="job-role">Postdoctoral Fellow</div>
-            <div class="tenure">Dec 2024 - Present</div>
-            <div class="mentor">Mentor: Prof. Priyavrat Deshpande </div>
-        </div>
+<div class="institute-container">
+    <img src="/images/cmi-logo-blue-large.png" alt="CMI Logo">
+    <div class="institute-details">
+        <div class="institute-name">Chennai Mathematical Institute</div>
+        <div class="job-role">Postdoctoral Fellow</div>
+        <div class="tenure">Dec 2024 - Present</div>
+        <div class="mentor">Mentor: Prof. Priyavrat Deshpande</div>
     </div>
+</div>
 
-    <div class="institute-container">
-        <img src="/images/iisc.png" width = "100" heightalt="Institute Logo">
-        <div class="institute-details">
-            <div class="institute-name">Indian Institute of Science</div>
-            <div class="job-role">Research Associate-I</div>
-            <div class="tenure">Nov 2024 - Dec 2024</div>
-            <div class="mentor">Host: Prof. Arvind Ayyer</div>
-        </div>
+<div class="institute-container">
+    <img src="/images/iisc.png" alt="IISc Logo">
+    <div class="institute-details">
+        <div class="institute-name">Indian Institute of Science</div>
+        <div class="job-role">Research Associate-I</div>
+        <div class="tenure">Nov 2024 - Dec 2024</div>
+        <div class="mentor">Host: Prof. Arvind Ayyer</div>
     </div>
+</div>
 
-    <div class="institute-container">
-        <img src="/images/imsc.png" width = "100" heightalt="Institute Logo">
-        <div class="institute-details">
-            <div class="institute-name">Institute of Mathematical Sciences</div>
-            <div class="job-role">Visiting Research Fellow</div>
-            <div class="tenure">Aug 2024 - Oct 2024</div>
-            <div class="mentor">Host: Prof. Amritanshu Prasad</div>
-        </div>
+<div class="institute-container">
+    <img src="/images/imsc.png" alt="IMSc Logo">
+    <div class="institute-details">
+        <div class="institute-name">Institute of Mathematical Sciences</div>
+        <div class="job-role">Visiting Research Fellow</div>
+        <div class="tenure">Aug 2024 - Oct 2024</div>
+        <div class="mentor">Host: Prof. Amritanshu Prasad</div>
     </div>
+</div>
 
 <h2 id="education">Education</h2>
 
-    <div class="institute-container">
-        <img src="/images/iitmadras.png" width = "100" heightalt="Institute Logo">
-        <div class="institute-details">
-            <div class="institute-name">Indian Institute of Technology Madras</div>
-            <div class="degree">Ph.D. (Mathematics)</div>
-            <div class="tenure">Jan 2019 - Aug 2024</div>
-            <div class="cgpa">CGPA: 9.47 / 10.00</div>
-
-        </div>
+<div class="institute-container">
+    <img src="/images/iitmadras.png" alt="IIT Madras Logo">
+    <div class="institute-details">
+        <div class="institute-name">Indian Institute of Technology Madras</div>
+        <div class="degree">Ph.D. (Mathematics)</div>
+        <div class="tenure">Jan 2019 - Aug 2024</div>
+        <div class="cgpa">CGPA: 9.47 / 10.00</div>
     </div>
+</div>
 
-    <div class="institute-container">
-        <img src="/images/mu.png" width = "100" heightalt="Institute Logo">
-        <div class="institute-details">
-            <div class="institute-name">Mumbai University</div>
-            <div class="degree">M.Sc. (Mathematics)</div>
-            <div class="tenure">July 2016 - May 2018</div>
-            <div class="cgpa">CGPA: 9.13 / 10.00</div>
-
-        </div>
+<div class="institute-container">
+    <img src="/images/mu.png" alt="Mumbai University Logo">
+    <div class="institute-details">
+        <div class="institute-name">Mumbai University</div>
+        <div class="degree">M.Sc. (Mathematics)</div>
+        <div class="tenure">July 2016 - May 2018</div>
+        <div class="cgpa">CGPA: 9.13 / 10.00</div>
     </div>
+</div>
 
-    <div class="institute-container">
-        <img src="/images/ruia.png" width = "100" heightalt="Institute Logo">
-        <div class="institute-details">
-            <div class="institute-name">R. N. Ruia Autonomous College</div>
-            <div class="degree">B.Sc. (Mathematics)</div>
-            <div class="tenure">July 2013 - May 2016</div>
-            <div class="cgpa">CGPA: 6.78 / 7.00</div>
-
-        </div>
+<div class="institute-container">
+    <img src="/images/ruia.png" alt="Ruia College Logo">
+    <div class="institute-details">
+        <div class="institute-name">R. N. Ruia Autonomous College</div>
+        <div class="degree">B.Sc. (Mathematics)</div>
+        <div class="tenure">July 2013 - May 2016</div>
+        <div class="cgpa">CGPA: 6.78 / 7.00</div>
     </div>
-
-</body>
-
-
-<!-- 
-
-
-<p><img style="float: left; margin:25px 5px; min-width: 100px;" src="/images/iisc.png" width="100" height="120" /></p>
-<h3 id="fudan-university">Indian Institute of Science</h3>
-<p style="line-height:1.0"> <font size="2"> Nov 2024 - Dec 2024<br /><strong> Research Associate-I</strong><br /> Host: Prof. Arvind Ayyer<br /> </font></p>
-
-
-<p><img style="float: left; margin:5px 5px" src="/images/imsc.png" width="100" height="120" /></p>
-<h3 id="fudan-university">Institute of Mathematical Sciences</h3>
-<p style="line-height:1.0"> <font size="2"> Aug 2024 - October 2024<br /><strong> Visiting Research Fellow  </strong><br /> Host: Prof. Amritanshu Prasad<br /> </font></p> -->
-
-<br>
-
-
-
-
-
-
+</div>

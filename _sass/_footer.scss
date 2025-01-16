@@ -5,31 +5,31 @@
    .page__footer {
     @include clearfix;
     float: left;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0;
     width: 100%;
     clear: both;
-    /* sticky footer fix start */
+  
+    /* Sticky footer fix */
     position: absolute;
-    bottom: 0em;
+    bottom: 0;
     height: auto;
-    /* sticky footer fix end */
-    margin-top: 3em;
-    color: mix(#fff, $gray, 50%); /* Lighter text color for readability */
+    margin-top: 1em;
+    color: mix(#fff, $gray, 50%);
     -webkit-animation: intro 0.3s both;
             animation: intro 0.3s both;
     -webkit-animation-delay: 0.45s;
             animation-delay: 0.45s;
-    background-color: #2a2a2a; /* Darker background color */
-    border-top: 1px solid #444; /* Darker border to match dark theme */
+    background-color: #2a2a2a; /* Dark background */
+    border-top: 1px solid #444;
   
     footer {
       @include clearfix;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 1em;
+      display: flex;
+      align-items: center;
+      justify-content: space-between; /* Align content on a single line */
+      margin: auto auto;
       max-width: 100%;
-      padding: 0 1em 1em;
+      padding: 0.5em 0.5em;
   
       @include breakpoint($x-large) {
         max-width: $x-large;
@@ -37,12 +37,12 @@
     }
   
     a {
-      color: #ccc; /* Lighter link color */
+      color: #ccc;
       text-decoration: none;
   
       &:hover {
         text-decoration: underline;
-        color: #fff; /* Hover color for links */
+        color: #fff;
       }
     }
   
@@ -50,14 +50,15 @@
     .fab,
     .far,
     .fal {
-      color: #ccc; /* Icons use a lighter color for visibility */
+      color: #ccc;
     }
   }
   
   .page__footer-copyright {
     font-family: $global-font-family;
     font-size: $type-size-7;
-    color: #aaa; /* Lighter copyright text color */
+    color: #aaa;
+    margin: auto; /* Remove unnecessary margins */
   }
   
   .page__footer-follow {
@@ -65,36 +66,33 @@
       margin: 0;
       padding: 0;
       list-style-type: none;
+      display: flex; /* Single-line layout for links */
+      gap: 1em; /* Space between items */
     }
   
     li {
-      display: inline-block;
-      padding-top: 5px;
-      padding-bottom: 5px;
       font-family: $sans-serif-narrow;
       font-size: $type-size-6;
       text-transform: uppercase;
-      color: #ccc; /* Light text for footer links */
-    }
-  
-    li + li:before {
-      content: "";
-      padding-right: 5px;
+      color: #ccc;
     }
   
     a {
-      padding-right: 10px;
       font-weight: bold;
-      color: #ccc; /* Link color for footer items */
+      color: #ccc;
+  
+      &:hover {
+        color: #fff;
+      }
     }
   
     .social-icons {
       a {
         white-space: nowrap;
-        color: #ccc; /* Social media links color */
-        
+        color: #ccc;
+  
         &:hover {
-          color: #fff; /* Hover color for social links */
+          color: #fff;
         }
       }
     }
