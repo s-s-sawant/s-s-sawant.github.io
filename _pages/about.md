@@ -8,12 +8,10 @@ redirect_from:
 ---
 
 <meta name="google-site-verification" content="u_mNr2QwGTy9cj_pifv3uxncaZbClR5rk7RVQfACU64" />
-<h1> About </h1>
+<h1> Welcome to My Homepage </h1>
 
-I completed my PhD from the Department of Mathematics, Indian Institute of Technology Madras, under the supervision of Dr. Narayanan N. My research interest lies in Algebraic Combinatorics, Topological Combinatorics, and Graph Algorithms. 
 
-I am currently a Postdoctoral fellow at Chennai Mathematical Institute, India.
-
+Hello! I am Sagar Sawant, a Postdoctoral Fellow at the Chennai Mathematical Institute, India. I recently completed my PhD in Mathematics at the Indian Institute of Technology Madras, under the guidance of Dr. Narayanan N. [My doctoral thesis](https://s-s-sawant.github.io/files/Thesis_Sagar.pdf) focused on distinguishing graphs through their symmetric and quasisymmetric functions.
 
 <head>
     <meta charset="UTF-8">
