@@ -4,12 +4,12 @@
 
 .archive {
   margin-bottom: 2em;
-
-  @include breakpoint($medium) {
-    @include span(12 of 12);
+  width: 100%;
+  @include breakpoint($x-large) {
+    @include span(10 of 12 last);
   }
 
-  @include breakpoint($large) {
+  @include breakpoint($x-large) {
     @include span(10 of 12 last);
     @include prefix(0.5 of 12);
   }
@@ -43,10 +43,11 @@
 .archive__item-title {
   margin-bottom: 0em;
   font-family: $sans-serif-narrow;
-  white-space: nowrap;
+  width: 100%;
   a + a {
     opacity: 0.5;
   }
+  
 }
 
 /* remove border*/
@@ -55,6 +56,7 @@
   .archive__item-title {
     margin-top: 0em;
     border-bottom: none;
+    width: 100%;
   }
 
   
@@ -64,7 +66,7 @@
   margin-top: 0.3em;
   border-bottom: none;
   font-size: $type-size-5;
-  white-space: nowrap;
+  width: 100%;
 }
 
 .archive__item-excerpt {
@@ -110,15 +112,13 @@
 
 .list__item {
   @include breakpoint($x-large) {
-    padding-right: $right-sidebar-width-narrow;
+    @include span(12 of 12);
   }
 
   @include breakpoint($x-large) {
-    padding-right: $right-sidebar-width;
   }
 
   @include breakpoint($x-large) {
-    padding-right: $right-sidebar-width-wide;
   }
 
   .page__meta {

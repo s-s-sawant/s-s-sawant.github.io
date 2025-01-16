@@ -4,7 +4,7 @@
 
 .masthead {
   position: fixed;
-  background: background-color;
+  background: #252a34;
   border-bottom: 1px solid $border-color;
   height: $masthead-height;
   top: 0;
@@ -21,6 +21,7 @@
     @include clearfix;
     padding: 1em 1em 1em;
     font-family: $sans-serif-narrow;
+    background-color: #252a34;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -50,6 +51,7 @@
   display: block;
   list-style-type: none;
   white-space: nowrap;
+  background-color: #252a34;
 
   &--lg {
     padding-left:2em;
