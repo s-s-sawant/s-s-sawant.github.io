@@ -1,0 +1,76 @@
+---
+layout: archive
+title: "Gallery"
+permalink: /gallery/
+author_profile: true
+---
+
+<h2> Gallery </h2>
+
+<div class="carousel">
+    <div class="carousel-track">
+      <div class="carousel-slide">
+        <img src="image1.jpg" alt="Slide 1">
+      </div>
+      <div class="carousel-slide">
+        <img src="image2.jpg" alt="Slide 2">
+      </div>
+      <div class="carousel-slide">
+        <img src="image3.jpg" alt="Slide 3">
+      </div>
+      <div class="carousel-slide">
+        <img src="image4.jpg" alt="Slide 4">
+      </div>
+      <div class="carousel-slide">
+        <img src="image5.jpg" alt="Slide 5">
+      </div>
+    </div>
+    <div class="carousel-indicators">
+      <span class="indicator active" data-slide="0"></span>
+      <span class="indicator" data-slide="1"></span>
+      <span class="indicator" data-slide="2"></span>
+      <span class="indicator" data-slide="3"></span>
+      <span class="indicator" data-slide="4"></span>
+    </div>
+  </div>
+
+  <script>
+    const carouselTrack = document.querySelector('.carousel-track');
+    const indicators = document.querySelectorAll('.indicator');
+    const slideCount = indicators.length;
+    let currentSlide = 0;
+    let slideInterval;
+    
+    function updateIndicators() {
+      indicators.forEach((indicator, index) => {
+        indicator.classList.toggle('active', index === currentSlide);
+      });
+    }
+    
+    function goToSlide(slideIndex) {
+      currentSlide = slideIndex;
+      const translateXValue = -(100 * currentSlide);
+      carouselTrack.style.transform = `translateX(${translateXValue}%)`;
+      updateIndicators();
+    }
+    
+    function nextSlide() {
+      currentSlide = (currentSlide + 1) % slideCount;
+      goToSlide(currentSlide);
+    }
+    
+    function stopSlideshow() {
+      clearInterval(slideInterval);
+    }
+    
+    // Start the automatic slideshow
+    slideInterval = setInterval(nextSlide, 2000);
+    
+    // Add click event listeners to indicators
+    indicators.forEach((indicator, index) => {
+      indicator.addEventListener('click', () => {
+        stopSlideshow();
+        goToSlide(index);
+      });
+    });
+    </script>

@@ -19,3 +19,6 @@ main:
 
   - title: "Favourites"
     url: /favourites/
+
+  - title: "Gallery"
+    url: /gallery/

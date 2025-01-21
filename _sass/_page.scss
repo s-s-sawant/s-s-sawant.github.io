@@ -224,6 +224,89 @@
     font-size: 0.9rem;
     color: $text-color;
 }
+
+/*
+Image Corousel
+============================================================================*/
+
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+
+  .carousel-track {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+  }
+
+  .carousel-slide {
+    min-width: 100%;
+    height: 100%;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+
+    .indicator {
+      width: 10px;
+      height: 10px;
+      background-color: #fff;
+      border-radius: 50%;
+      opacity: 0.5;
+      cursor: pointer;
+
+      &.active {
+        opacity: 1;
+        transform: scale(1.5);
+        background-color: #007bff; /* Prominent color for active indicator */
+        box-shadow: 0 0 10px rgba(0, 123, 255, 0.7);
+      }
+    }
+  }
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(-100%);
+  }
+  40% {
+    transform: translateX(-200%);
+  }
+  60% {
+    transform: translateX(-300%);
+  }
+  80% {
+    transform: translateX(-400%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.carousel-track {
+  animation: slide 20s infinite;
+}
+
+
+
   
   /*
      Social sharing
