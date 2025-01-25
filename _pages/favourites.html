@@ -9,70 +9,7 @@ author_profile: true
 
 <br />
 
-<head>
-    <style>
-      /* Dark mode styles for collapsible sections */
-      .collapsible {
-        background-color: #252a34; /* Dark background for collapsible button */
-        color: #f0f0f0; /* Light text for visibility */
-        cursor: pointer;
-        padding: 18px;
-        width: 70%;
-        border: none;
-        text-align: left;
-        outline: none;
-        font-size: 18px;
-        border-radius: 5px;
-        transition: background-color 0.3s ease;
-      }
-      
-      .active, .collapsible:hover {
-        background-color: rgba(255, 255, 255, 0.15); /* Lighter background on hover or when active */
-        width: 70%;
-      }
-      
-      .content {
-        padding: 1px 35px;
-        max-height: 0;
-        overflow: hidden;
-        transition: max-height 0.2s ease-out;
-        background-color: rgba(255, 255, 255, 0.1); /* Light semi-transparent background */
-        border-color: #444; /* Darker border for dark mode */
-        outline-color: #444; /* Darker outline */
-        width: 70%;
-        color: #ddd; /* Light text in the content */
-        border-radius: 5px;
-      }
-
-      .list-1 {
-        padding: none;
-        float: right;
-        clear: right;
-        padding-right: 27px;
-      }
-
-      /* Link styles */
-      a {
-        color: #82aaff; /* Light blue color for links */
-        text-decoration: none;
-      }
-
-      a:hover {
-        text-decoration: underline;
-        color: #ffcc66; /* Yellow on hover for links */
-      }
-
-      /* Styling for quotes */
-      .content i {
-        color: #f0f0f0; /* Light color for quotes */
-        font-style: italic;
-      }
-
-    </style>
-</head>
-<body>
-
-<button class="collapsible">Algebra</button>
+<button class="collapsible"><span class="icon"></span>Algebra</button>
 <div class="content">
   <ul>
     <li><a href="FundThmAlg.pdf" target="_blank">Fundamental Theorem of Algebra</a> </li>
@@ -84,7 +21,7 @@ author_profile: true
   </ul>
 </div>
 
-<button class="collapsible">Geometry/Topology</button>
+<button class="collapsible"><span class="icon"></span>Geometry/Topology</button>
 <div class="content">
   <ul>
     <li><a href="galoiscover.pdf" target="_blank">Galois Correspondence in Algebraic Topology</a> </li>
@@ -92,7 +29,7 @@ author_profile: true
   </ul>
 </div>
 
-<button class="collapsible">Combinatorics</button>
+<button class="collapsible"><span class="icon"></span>Combinatorics</button>
 <div class="content">
   <ul>
     <li><a href="PolyaThm.pdf" target="_blank">Polya's Enumeration Theorem</a> </li>
@@ -102,14 +39,14 @@ author_profile: true
   </ul>
 </div>
 
-<button class="collapsible">Miscellaneous</button>
+<button class="collapsible"><span class="icon"></span>Miscellaneous</button>
 <div class="content">
   <ul>
     <li><a href="probability_stats_for_DS.pdf" target="_blank">Probability and Statistics for Data Science</a></li>
   </ul>
 </div>
 
-<button class="collapsible">Quotes</button>
+<button class="collapsible"><span class="icon"></span>Quotes</button>
 <div class="content">
   <ul>
     <li><i>It is not the strongest of the species that survives, nor the most intelligent, but the one most responsive to change.</i> (Leon C. Megginson)</li>
@@ -118,21 +55,46 @@ author_profile: true
 
 <script>
   var coll = document.getElementsByClassName("collapsible");
-  var i;
+  var expandAllBtn = document.getElementById("expandAll");
+  var collapseAllBtn = document.getElementById("collapseAll");
 
-  for (i = 0; i < coll.length; i++) {
-    coll[i].addEventListener("click", function() {
+  // Initialize collapsibles to be expanded by default
+  for (var i = 0; i < coll.length; i++) {
+    var content = coll[i].nextElementSibling;
+    // coll[i].classList.add("active");
+    // content.style.maxHeight = content.scrollHeight + "px";
+
+    // Add toggle behavior
+    coll[i].addEventListener("click", function () {
       this.classList.toggle("active");
       var content = this.nextElementSibling;
-      if (content.style.maxHeight){
+      if (content.style.maxHeight) {
         content.style.maxHeight = null;
       } else {
         content.style.maxHeight = content.scrollHeight + "px";
-      } 
+      }
     });
   }
+
+  // Expand All functionality
+  expandAllBtn.addEventListener("click", function () {
+    for (var i = 0; i < coll.length; i++) {
+      var content = coll[i].nextElementSibling;
+      coll[i].classList.add("active");
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+
+  // Collapse All functionality
+  collapseAllBtn.addEventListener("click", function () {
+    for (var i = 0; i < coll.length; i++) {
+      var content = coll[i].nextElementSibling;
+      coll[i].classList.remove("active");
+      content.style.maxHeight = null;
+    }
+  });
 </script>
 
+<br>
 <span>This webpage is currently under construction.</span>
 
-</body>
