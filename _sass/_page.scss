@@ -317,11 +317,14 @@ Image Corousel
 }
 
 
-/* Teaching */
+/* Teaching
+
+/* Style the collapsible button */
+
 
 .collapsible {
-  background-color: #252a34; /* Dark background */
-  color: rgb(241, 241, 241); /* Bright text color */
+  background-color: #252a34; /* Lighter, semi-transparent dark background */
+  color: rgb(241, 241, 241); /* Slightly brighter text color */
   cursor: pointer;
   padding: 18px;
   width: 70%;
@@ -329,16 +332,14 @@ Image Corousel
   text-align: left;
   outline: none;
   font-size: 18px;
-  display: flex;
-  align-items: center;
 }
 
 .collapsible .icon {
   display: inline-block;
-  width: 8px;
-  height: 8px;
-  margin-right: 12px;
-  border: solid #ddd; /* Light border color for arrow */
+  width: 6px;
+  height: 6px;
+  margin-right: 10px;
+  border: solid #ddd; /* Lighter border color */
   border-width: 0 2px 2px 0;
   transform: rotate(45deg);
   transition: transform 0.3s ease;
@@ -349,32 +350,34 @@ Image Corousel
   transform: rotate(-135deg);
 }
 
-.active,
-.collapsible:hover {
+.active, .collapsible:hover {
   background-color: rgba(255, 255, 255, 0.15); /* Softer hover color for dark mode */
+  width: 70%;
   border-radius: 5px;
 }
 
 .content {
-  padding: 10px 35px;
+  padding: 1px 35px;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   background-color: rgba(255, 255, 255, 0.1); /* Light semi-transparent background */
+  border-color: #444; /* Darker border for dark mode */
+  outline-color: #444; /* Darker outline */
   width: 70%;
   border-radius: 5px;
-  margin-top: 5px;
 }
-
 /* Show content when expanded */
 .collapsible.active + .content {
-  max-height: 200px; /* Adjust based on content height */
+  display: block;
 }
 
-/* Optional: Ensure spacing between sections */
-.collapsible + .collapsible {
-  margin-top: 10px;
-}
+
+    /* Show content when expanded */
+    .collapsible.active + .content {
+      display: block;
+    }
+
 
   
   /*
