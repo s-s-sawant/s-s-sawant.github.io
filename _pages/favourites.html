@@ -5,71 +5,150 @@ permalink: /favourites/
 author_profile: true
 ---
 
-<span> These are list of content that fascinates me the most. The link contains reading materials on the internet that I found useful.</span>
+<head>
+    <title>Favourites</title>
+    <style>
+        
+.collapsible {
+  background-color: #252a34; /* Lighter, semi-transparent dark background */
+  color: rgb(241, 241, 241); /* Slightly brighter text color */
+  cursor: pointer;
+  padding: 18px;
+  width: 70%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+}
 
-<br />
+.collapsible .icon {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin-right: 10px;
+  border: solid #ddd; /* Lighter border color */
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  transition: transform 0.3s ease;
+}
 
-<button class="collapsible"><span class="icon"></span>Algebra</button>
-<div class="content">
-  <ul>
-    <li><a href="FundThmAlg.pdf" target="_blank">Fundamental Theorem of Algebra</a> </li>
-    <li><a href="solvability.pdf" target="_blank">Solvable groups and Radical solutions</a> </li>
-    <li><a href="galoiscorr.pdf" target="_blank">Fundamental Theorem of Galois Theory</a> </li>
-    <li><a href="jordan-form.pdf" target="_blank">Jordan Normal Decomposition</a> </li>
-    <li><a href="modules_over_pid.pdf" target="_blank">Finitely generated modules over PID</a> </li>
-    <li><a href="localization.pdf" target="_blank">Localization</a> </li>
-  </ul>
-</div>
+/* Rotate icon for expanded state */
+.collapsible.active .icon {
+  transform: rotate(-135deg);
+}
 
-<button class="collapsible"><span class="icon"></span>Geometry/Topology</button>
-<div class="content">
-  <ul>
-    <li><a href="galoiscover.pdf" target="_blank">Galois Correspondence in Algebraic Topology</a> </li>
-    <li><a href="Seifert-van-kampen.pdf" target="_blank">Seifert-Van-Kampen Theorem</a> </li>
-  </ul>
-</div>
+.active, .collapsible:hover {
+  background-color: rgba(255, 255, 255, 0.15); /* Softer hover color for dark mode */
+  width: 70%;
+  border-radius: 5px;
+}
 
-<button class="collapsible"><span class="icon"></span>Combinatorics</button>
-<div class="content">
-  <ul>
-    <li><a href="PolyaThm.pdf" target="_blank">Polya's Enumeration Theorem</a> </li>
-    <li><a href="species.pdf" target="_blank">Introduction to Combinatorial Species</a> </li>
-    <li><a href="JoyalCayley.pdf" target="_blank">Joyal's proof for counting labelled trees</a> and a <a href="https://www.youtube.com/watch?v=NhiqFE62GXY" target="_blank">video</a> explaining it.</li>
-    <li><a href="csf_heaps.pdf" target="_blank">Combinatorial reciprocity through theory of heaps</a> </li>
-  </ul>
-</div>
+.content {
+  padding: 1px 35px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: rgba(255, 255, 255, 0.1); /* Light semi-transparent background */
+  border-color: #444; /* Darker border for dark mode */
+  outline-color: #444; /* Darker outline */
+  width: 70%;
+  border-radius: 5px;
+}
+/* Show content when expanded */
+    .collapsible.active + .content {
+      display: block;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>
+            These are lists of content that fascinate me the most. The links below lead to resources I find valuable in various topics such as Algebra, Geometry, Topology, and Combinatorics.
+        </p>
 
-<button class="collapsible"><span class="icon"></span>Miscellaneous</button>
-<div class="content">
-  <ul>
-    <li><a href="probability_stats_for_DS.pdf" target="_blank">Probability and Statistics for Data Science</a></li>
-  </ul>
-</div>
+        <div class="controls">
+            <button id="expandAll">Expand All</button>
+            <button id="collapseAll">Collapse All</button>
+        </div>
 
-<button class="collapsible"><span class="icon"></span>Quotes</button>
-<div class="content">
-  <ul>
-    <li><i>It is not the strongest of the species that survives, nor the most intelligent, but the one most responsive to change.</i> (Leon C. Megginson)</li>
-  </ul>
-</div>
+        <button class="collapsible"><span class="icon"></span>Algebra</button>
+        <div class="content">
+            <ul>
+                <li><a href="FundThmAlg.pdf" target="_blank">Fundamental Theorem of Algebra</a></li>
+                <li><a href="solvability.pdf" target="_blank">Solvable Groups and Radical Solutions</a></li>
+                <li><a href="galoiscorr.pdf" target="_blank">Fundamental Theorem of Galois Theory</a></li>
+                <li><a href="jordan-form.pdf" target="_blank">Jordan Normal Decomposition</a></li>
+                <li><a href="modules_over_pid.pdf" target="_blank">Finitely Generated Modules over PID</a></li>
+                <li><a href="localization.pdf" target="_blank">Localization</a></li>
+            </ul>
+        </div>
 
-<script>
-  var coll = document.getElementsByClassName("collapsible");
-  var i;
+        <button class="collapsible"><span class="icon"></span>Geometry/Topology</button>
+        <div class="content">
+            <ul>
+                <li><a href="galoiscover.pdf" target="_blank">Galois Correspondence in Algebraic Topology</a></li>
+                <li><a href="Seifert-van-kampen.pdf" target="_blank">Seifert-Van-Kampen Theorem</a></li>
+            </ul>
+        </div>
 
-  for (i = 0; i < coll.length; i++) {
-    coll[i].addEventListener("click", function() {
-      this.classList.toggle("active");
-      var content = this.nextElementSibling;
-      if (content.style.maxHeight){
-        content.style.maxHeight = null;
-      } else {
-        content.style.maxHeight = content.scrollHeight + "px";
-      } 
-    });
-  }
-</script>
+        <button class="collapsible"><span class="icon"></span>Combinatorics</button>
+        <div class="content">
+            <ul>
+                <li><a href="PolyaThm.pdf" target="_blank">Polya's Enumeration Theorem</a></li>
+                <li><a href="species.pdf" target="_blank">Introduction to Combinatorial Species</a></li>
+                <li><a href="JoyalCayley.pdf" target="_blank">Joyal's Proof for Counting Labelled Trees</a> and a <a href="https://www.youtube.com/watch?v=NhiqFE62GXY" target="_blank">video</a> explaining it.</li>
+                <li><a href="csf_heaps.pdf" target="_blank">Combinatorial Reciprocity through Theory of Heaps</a></li>
+            </ul>
+        </div>
 
-<span>This webpage is currently under construction.</span>
+        <button class="collapsible"><span class="icon"></span>Miscellaneous</button>
+        <div class="content">
+            <ul>
+                <li><a href="probability_stats_for_DS.pdf" target="_blank">Probability and Statistics for Data Science</a></li>
+            </ul>
+        </div>
 
+        <button class="collapsible"><span class="icon"></span>Quotes</button>
+        <div class="content">
+            <ul>
+                <li><i>It is not the strongest of the species that survives, nor the most intelligent, but the one most responsive to change.</i> (Leon C. Megginson)</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var expandAllBtn = document.getElementById("expandAll");
+        var collapseAllBtn = document.getElementById("collapseAll");
+
+        for (let i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content) {
+                    if (content.style.maxHeight) {
+                        content.style.maxHeight = null;
+                    } else {
+                        content.style.maxHeight = content.scrollHeight + "px";
+                    }
+                }
+            });
+        }
+
+        expandAllBtn.addEventListener("click", function () {
+            for (let i = 0; i < coll.length; i++) {
+                var content = coll[i].nextElementSibling;
+                coll[i].classList.add("active");
+                if (content) content.style.maxHeight = content.scrollHeight + "px";
+            }
+        });
+
+        collapseAllBtn.addEventListener("click", function () {
+            for (let i = 0; i < coll.length; i++) {
+                var content = coll[i].nextElementSibling;
+                coll[i].classList.remove("active");
+                if (content) content.style.maxHeight = null;
+            }
+        });
+    </script>
 </body>

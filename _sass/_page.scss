@@ -317,68 +317,6 @@ Image Corousel
 }
 
 
-/* Teaching
-
-/* Style the collapsible button */
-
-
-.collapsible {
-  background-color: #252a34; /* Lighter, semi-transparent dark background */
-  color: rgb(241, 241, 241); /* Slightly brighter text color */
-  cursor: pointer;
-  padding: 18px;
-  width: 70%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 18px;
-}
-
-.collapsible .icon {
-  display: inline-block;
-  width: 6px;
-  height: 6px;
-  margin-right: 10px;
-  border: solid #ddd; /* Lighter border color */
-  border-width: 0 2px 2px 0;
-  transform: rotate(45deg);
-  transition: transform 0.3s ease;
-}
-
-/* Rotate icon for expanded state */
-.collapsible.active .icon {
-  transform: rotate(-135deg);
-}
-
-.active, .collapsible:hover {
-  background-color: rgba(255, 255, 255, 0.15); /* Softer hover color for dark mode */
-  width: 70%;
-  border-radius: 5px;
-}
-
-.content {
-  padding: 1px 35px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: rgba(255, 255, 255, 0.1); /* Light semi-transparent background */
-  border-color: #444; /* Darker border for dark mode */
-  outline-color: #444; /* Darker outline */
-  width: 70%;
-  border-radius: 5px;
-}
-/* Show content when expanded */
-.collapsible.active + .content {
-  display: block;
-}
-
-
-    /* Show content when expanded */
-    .collapsible.active + .content {
-      display: block;
-    }
-
-
   
   /*
      Social sharing
