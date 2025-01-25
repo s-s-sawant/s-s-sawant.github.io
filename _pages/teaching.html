@@ -112,38 +112,49 @@ author_profile: true
     </div>
   
     <script>
-      var coll = document.getElementsByClassName("collapsible");
-      var expandAllBtn = document.getElementById("expandAll");
-      var collapseAllBtn = document.getElementById("collapseAll");
-      var i 
+      document.addEventListener("DOMContentLoaded", function () {
+  var coll = document.getElementsByClassName("collapsible");
+  var expandAllBtn = document.getElementById("expandAll");
+  var collapseAllBtn = document.getElementById("collapseAll");
+  var i;
 
-      for (i = 0; i < coll.length; i++) {
-      coll[i].addEventListener("click", function() {
+  // Add toggle behavior
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function () {
       this.classList.toggle("active");
       var content = this.nextElementSibling;
-      if (content.style.maxHeight){
+      if (content.style.maxHeight) {
         content.style.maxHeight = null;
       } else {
-        content.style.maxHeight = content.scrollHeight + "px";
-      } 
-      });
-      } 
-  
-      // Expand All functionality
-      expandAllBtn.addEventListener("click", function () {
-        for (var i = 0; i < coll.length; i++) {
-          var content = coll[i].nextElementSibling;
-          coll[i].classList.add("active");
+        // Ensure the scrollHeight is calculated correctly
+        setTimeout(() => {
           content.style.maxHeight = content.scrollHeight + "px";
-        }
-      });
-  
-      // Collapse All functionality
-      collapseAllBtn.addEventListener("click", function () {
-        for (var i = 0; i < coll.length; i++) {
-          var content = coll[i].nextElementSibling;
-          coll[i].classList.remove("active");
-          content.style.maxHeight = null;
-        }
-      });
+        }, 0);
+      }
+    });
+  }
+
+  // Expand All functionality
+  if (expandAllBtn) {
+    expandAllBtn.addEventListener("click", function () {
+      for (var i = 0; i < coll.length; i++) {
+        var content = coll[i].nextElementSibling;
+        coll[i].classList.add("active");
+        content.style.maxHeight = content.scrollHeight + "px";
+      }
+    });
+  }
+
+  // Collapse All functionality
+  if (collapseAllBtn) {
+    collapseAllBtn.addEventListener("click", function () {
+      for (var i = 0; i < coll.length; i++) {
+        var content = coll[i].nextElementSibling;
+        coll[i].classList.remove("active");
+        content.style.maxHeight = null;
+      }
+    });
+  }
+});
+
     </script>
