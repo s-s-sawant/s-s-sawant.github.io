@@ -2,11 +2,11 @@
 title: "On the matching complexes of categorical product of path graphs"
 collection: preprints
 category: preprints
-coauthors: with Raju Kumar Gupta, Sourav Sarkar and Samir Shukla
+coauthor: with Raju Kumar Gupta, Sourav Sarkar and Samir Shukla
 permalink: /publication/matching.md
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2023-06-08
-venue: '2403.15298'
+date: 2024-06-08
+venue: 'arXiv preprints 2403.15298'
 slidesurl: #
 paperurl: #
 citation: Gupta, R.K., Sarkar, S., Sawant, S.S. and Shukla, S., 2024. On the matching complexes of categorical product of path graphs. arXiv preprint arXiv:2403.15298."
