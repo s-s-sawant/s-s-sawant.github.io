@@ -5,74 +5,219 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% include base_path %}
+<head>
+    <!-- <meta charset="UTF-8"> -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+     <h1> Publications/Preprints </h1>
+    <title>Academic Publications</title>
+    <style>
+        /* Dark Mode Base Styles 
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #121212;
+            color: #e0e0e0;
+        }
+        */
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+        .publications-list {
+            list-style: none;
+            padding: 0;
+        }
 
-<br>
+        /* Publication Item */
+        .publication-item {
+            margin-bottom: 30px;
+            padding: 20px;
+            border-left: 4px solid #2962ff;
+            background-color: $background-color;
+            transition: transform 0.2s, background-color 0.2s;
+        }
+
+        .publication-item:hover {
+            transform: translateX(5px);
+            background-color: #2d2d2d;
+        }
+
+        /* Publication Details */
+        .pub-title {
+            font-weight: bold;
+            color: #82b1ff;
+            margin-bottom: 8px;
+            font-size: 1.2em;
+        }
+
+        .pub-authors {
+            color: $text-color;
+            margin-bottom: 5px;
+        }
+
+        .pub-venue {
+            color: #ff7043;
+            /* color: #26a69a; */
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .pub-year {
+          color: #ff7043;
+          font-weight: 500;
+        }
+
+        /* Links */
+        .pub-links {
+            margin-top: 10px;
+            display: flex;
+            gap: 15px;
+        }
+
+        .pub-link {
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 3px;
+            font-size: 0.9em;
+            transition: opacity 0.2s;
+        }
+
+        .pdf-link {
+            background-color: #d32f2f;
+            color: #ffffff;
+        }
+
+        .preprint-link {
+            background-color: #388e3c;
+            color: #ffffff;
+        }
+
+        .doi-link {
+            background-color: #1565c0;
+            color: #ffffff;
+        }
+
+        .pub-link:hover {
+            opacity: 0.8;
+        }
+
+        /* Preprint Styling */
+        .preprint {
+            border-left-color: #ffab00;
+        }
+
+        .preprint .pub-venue {
+            color: #ffab00;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .pub-links {
+                flex-direction: column;
+                gap: 8px;
+            }
+            
+            .pub-link {
+                text-align: center;
+            }
+        }
+
+        .collaborators-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust column width */
+          gap: 10px; /* Space between grid items */
+        }
+    </style>
+</head>
+<body>    
+    <ul class="publications-list">
+        <!-- Published Paper Example -->
+        <li class="publication-item">
+            <div class="pub-title">Complexity of Near-3-Choosability problems</div>
+            <div class="pub-authors">with Sounaka Mishra and Rohini S.</div>
+            <div class="pub-venue">Graphs and Combinatorics, <span class="pub-year">2024</span></div>
+            <div class="pub-links">
+                <a href="https://doi.org/10.1007/s00373-024-02837-x" class="pub-link pdf-link" target="_blank">PDF</a>
+                <a href="https://doi.org/10.1007/s00373-024-02837-x" class="pub-link doi-link" target="_blank">DOI</a>
+            </div>
+        </li>
+        <li class="publication-item">
+          <div class="pub-title">Proper q-caterpillars are distinguished by their Chromatic Symmetric Functions</div>
+          <div class="pub-authors">with G. Arunkumar, Narayanan N., and Raghavendra Rao B. V.</div>
+          <div class="pub-venue">Discrete Mathematics, <span class="pub-year">2024</span></div>
+          <div class="pub-links">
+              <a href="/files/csf_updated.pdf" class="pub-link pdf-link" target="_blank">PDF</a>
+              <a href="https://doi.org/10.1016/j.disc.2024.114162" class="pub-link doi-link" target="_blank">DOI</a>
+          </div>
+        </li>
+        <li class="publication-item">
+          <div class="pub-title">Distinguishing and Reconstructing Directed Graphs by their B-Polynomials</div>
+          <!-- <div class="pub-authors">Your Name, Collaborator A, Collaborator B</div> -->
+          <div class="pub-venue">Annals of
+            Combinatorics, <span class="pub-year">2024</span></div>
+          <div class="pub-links">
+              <a href="/files/B_poly_updated_.pdf" class="pub-link pdf-link" target="_blank">PDF</a>
+              <a href="https://doi.org/10.1007/s00026-024-00702-5" class="pub-link doi-link" target="_blank">DOI</a>
+          </div>
+        </li>
+
+        <!-- Preprint Example -->
+        <li class="publication-item preprint">
+            <div class="pub-title">On the matching complexes of categorical product of path graphs</div>
+            <div class="pub-authors">with Raju Kumar Gupta, Sourav Sarkar and Samir Shukla</div>
+            <div class="pub-venue">arXiv Preprint, <span class="pub-year">2024</span></div>
+            <div class="pub-links">
+                <a href="https://arxiv.org/abs/2403.15298" class="pub-link preprint-link" target="_blank">Preprint</a>
+                <a href="https://arxiv.org/abs/2403.15298" class="pub-link doi-link" target="_blank">DOI</a>
+            </div>
+        </li>
+
+        <!-- Add more publications as needed -->
+    </ul>
+</body>
 <br>
 <h1>Collaborators</h1>
 
-  <!-- Collaborators list -->
-  <ul class="collaborators-list">
-    <li class="collaborator">
-      <div class="collaborator-info">
-        <a href="https://sites.google.com/view/g-arunkumar/"><span> G Arunkumar</span></a>
-      </div>
-    </li>
-    <li class="collaborator">
-      <div class="collaborator-info">
-        <a href="https://home.iitm.ac.in/naru/"><span> Narayanan N </span></a>
-      </div>
-    </li>
-    <li class="collaborator">
-      <div class="collaborator-info">
-        <a href="https://www.cse.iitm.ac.in/~bvrr/"><span> Raghavendra Rao B. V. </span></a>
-      </div>
-    </li>
-    <li class="collaborator">
-      <div class="collaborator-info">
-        <a href="https://sites.google.com/view/rajugupta6174/home"><span> Raju Kumar Gupta</span></a>
-      </div>
-    </li>
-    <li class="collaborator">
-      <div class="collaborator-info">
-        <a href="https://www.researchgate.net/profile/Rohini-s-3"><span> Rohini S.</span></a>
-      </div>
-    </li>
-    <li class="collaborator">
-      <div class="collaborator-info">
-        <a href="https://sites.google.com/view/samir-shukla/home"><span> Samir Shukla </span></a>
-      </div>
-    </li>
-    <li class="collaborator">
-      <div class="collaborator-info">
-        <a href="https://www.researchgate.net/profile/Sounaka-Mishra"><span> Sounaka Mishra </span></a>
-      </div>
-    </li>
-    <li class="collaborator">
-      <div class="collaborator-info">
-        <a href="https://sites.google.com/view/sourav--sarkar"><span> Sourav Sarkar </span></a>
-      </div>
-    </li>
-  </ul>
-  
+<!-- Collaborators grid -->
+<div class="collaborators-grid">
+  <div class="collaborator">
+    <div class="collaborator-info">
+      <a href="https://sites.google.com/view/g-arunkumar/"><span> G Arunkumar</span></a>
+    </div>
+  </div>
+  <div class="collaborator">
+    <div class="collaborator-info">
+      <a href="https://home.iitm.ac.in/naru/"><span> Narayanan N </span></a>
+    </div>
+  </div>
+  <div class="collaborator">
+    <div class="collaborator-info">
+      <a href="https://www.cse.iitm.ac.in/~bvrr/"><span> Raghavendra Rao B. V. </span></a>
+    </div>
+  </div>
+  <div class="collaborator">
+    <div class="collaborator-info">
+      <a href="https://sites.google.com/view/rajugupta6174/home"><span> Raju Kumar Gupta</span></a>
+    </div>
+  </div>
+  <div class="collaborator">
+    <div class="collaborator-info">
+      <a href="https://www.researchgate.net/profile/Rohini-s-3"><span> Rohini S.</span></a>
+    </div>
+  </div>
+  <div class="collaborator">
+    <div class="collaborator-info">
+      <a href="https://sites.google.com/view/samir-shukla/home"><span> Samir Shukla </span></a>
+    </div>
+  </div>
+  <div class="collaborator">
+    <div class="collaborator-info">
+      <a href="https://www.researchgate.net/profile/Sounaka-Mishra"><span> Sounaka Mishra </span></a>
+    </div>
+  </div>
+  <div class="collaborator">
+    <div class="collaborator-info">
+      <a href="https://sites.google.com/view/sourav--sarkar"><span> Sourav Sarkar </span></a>
+    </div>
+  </div>
+</div>
