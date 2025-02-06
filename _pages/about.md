@@ -77,3 +77,7 @@ My broad areas of interest include algebraic combinatorics, topological combinat
         <div class="cgpa">CGPA: 6.78 / 7.00</div>
     </div>
 </div>
+
+
+<hr />
+<!-- <i>"It is not the strongest of the species that survives, nor the most intelligent, but the one most responsive to change." </i> (Leon C. Megginson) -->
