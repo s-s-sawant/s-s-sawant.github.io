@@ -78,6 +78,27 @@
       background-color: #5a6268;
     }
 
+    .show-answer-btn {
+      display: none;
+      background-color: #22a441;
+      color: white;
+      padding: 6px 12px;
+      font-size: 14px;
+      margin-top: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    body.submitted .show-answer-btn {
+      display: inline-block;
+    }
+
+
+    .show-answer-btn:hover {
+      background-color: #218838;
+    }
+
     #result {
       margin-top: 30px;
       background: #1e1e1e;
@@ -131,25 +152,29 @@
     let timerInterval;
 
     function createQuestionHTML(q, index) {
-      let html = `<div class='question' id='question-${index}'><h3>Q${index + 1}. ${q.question}</h3><div class='options'>`;
+      let html = `<div class='question' id='question-${index}'>
+                      <h3>Q${index + 1}. ${q.question}</h3>
+                      <div class='options'>`;
 
       if (q.type === 'mcq') {
-        q.options.forEach((opt, i) => {
-          html += `<label><input type='radio' name='${q.id}' value='${i}'> ${opt}</label>`;
-        });
+          q.options.forEach((opt, i) => {
+              html += `<label><input type='radio' name='${q.id}' value='${i}'> ${opt}</label>`;
+          });
       } else if (q.type === 'msq') {
-        q.options.forEach((opt, i) => {
-          html += `<label><input type='checkbox' name='${q.id}' value='${i}'> ${opt}</label>`;
-        });
+          q.options.forEach((opt, i) => {
+              html += `<label><input type='checkbox' name='${q.id}' value='${i}'> ${opt}</label>`;
+          });
       }
 
       html += `
-        </div>
-        <button type="button" class="clear-btn" onclick="clearSelection('${q.id}', '${q.type}')">Clear Selection</button>
-      </div>`;
+                      </div>
+                      <button type="button" class="clear-btn" onclick="clearSelection('${q.id}', '${q.type}')">Clear Selection</button>
+                      <button type="button" class="show-answer-btn" onclick="showCorrectAnswer('${q.id}', ${JSON.stringify(q.correct)}, '${q.type}')">Show Answer</button>
+                  </div>`;
 
       return html;
     }
+
 
     function shuffleArray(array) {
       for (let i = array.length - 1; i > 0; i--) {
@@ -218,6 +243,13 @@
         btn.disabled = true;
       });
 
+      // Show 'Show Answer' buttons
+      document.querySelectorAll('.show-answer-btn').forEach(btn => {
+          btn.style.display = 'inline-block';
+      });
+
+      document.body.classList.add('submitted');
+
       window.scrollTo(0, document.body.scrollHeight);
     }
 
@@ -245,6 +277,17 @@
         const selected = document.querySelectorAll(`input[name='${questionId}']:checked`);
         selected.forEach(el => el.checked = false);
       }
+    }
+
+    function showCorrectAnswer(questionId, correct, type) {
+      const inputs = document.querySelectorAll(`input[name='${questionId}']`);
+      inputs.forEach((input, i) => {
+          const index = i + 1;
+          if ((type === 'mcq' || type === 'msq') && correct.includes(index)) {
+              input.parentElement.style.backgroundColor = '#28a745'; // green highlight
+              input.parentElement.style.color = 'white';
+          }
+      });
     }
 
     const modelNames = {
