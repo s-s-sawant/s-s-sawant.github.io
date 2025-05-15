@@ -12,10 +12,10 @@ redirect_from:
 
 I am Sagar Sawant, a Postdoctoral Fellow at the <a href="https://www.cmi.ac.in/">Chennai Mathematical Institute</a>, India. I recently completed my PhD in Mathematics at the <a href="https://www.iitm.ac.in">Indian Institute of Technology Madras</a>, under the guidance of <a href="https://math.iitm.ac.in/innerfaculty.php?fname=Narayanan%20N&__ncforminfo=Jj8NMQ3jMxE2Uebk_RRsTIgdpujyjWKbOk9HFFoDQAKsOpT2DV6R7_HOyO8nD39pHBP-5-22wQW7EfjQr_O6wncG5CObDtZ-">Dr. Narayanan N</a>. My <a href="https://s-s-sawant.github.io/files/Thesis_Sagar.pdf">doctoral thesis</a> focused on distinguishing graphs through their symmetric and quasisymmetric functions.
 
-My broad areas of interest include algebraic combinatorics, topological combinatorics, and graph algorithms. Currently, I am working on hyperplane arrangements (geometric combinatorics) and mixing time of random processes (probability theory). Additionally, I am exploring topics in mathematical finance and machine learning.
+My broad areas of interest include algebraic combinatorics, topological combinatorics, and graph algorithms. Currently, I am working on implementation of machine learning techniques on combinatorial datasets to obtain insights into conjectures in combinatorics.
 
 <h2 id="research-experience">Experience</h2>
-
+hyper
 <div class="institute-container">
     <img src="/images/cmi-logo-blue-large.png" alt="CMI Logo">
     <div class="institute-details">
