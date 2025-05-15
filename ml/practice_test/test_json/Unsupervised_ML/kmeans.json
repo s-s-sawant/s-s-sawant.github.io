@@ -1,0 +1,243 @@
+[
+    {
+        "id": "q1",
+        "type": "mcq",
+        "question": "What is the primary objective of the K-Means clustering algorithm?",
+        "options": [
+            "To maximize the number of clusters",
+            "To minimize the within-cluster sum of squares",
+            "To assign labels based on density",
+            "To maximize the distance between clusters"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q2",
+        "type": "msq",
+        "question": "Which of the following are required as input for K-Means?",
+        "options": [
+            "Number of clusters (k)",
+            "Distance metric",
+            "Initial centroids",
+            "Learning rate"
+        ],
+        "correct": [1, 2, 3]
+    },
+    {
+        "id": "q3",
+        "type": "mcq",
+        "question": "Which distance metric is most commonly used in K-Means?",
+        "options": [
+            "Cosine similarity",
+            "Euclidean distance",
+            "Manhattan distance",
+            "Hamming distance"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q4",
+        "type": "msq",
+        "question": "Which of the following are limitations of K-Means?",
+        "options": [
+            "Sensitive to initial centroids",
+            "Assumes spherical clusters",
+            "Cannot handle categorical data directly",
+            "Performs well with non-convex clusters"
+        ],
+        "correct": [1, 2, 3]
+    },
+    {
+        "id": "q5",
+        "type": "mcq",
+        "question": "What is the time complexity of one iteration of the K-Means algorithm (n samples, k clusters, d dimensions)?",
+        "options": [
+            "O(n)",
+            "O(k)",
+            "O(nkd)",
+            "O(nd)"
+        ],
+        "correct": [3]
+    },
+    {
+        "id": "q6",
+        "type": "msq",
+        "question": "Which of the following can be used to determine the optimal number of clusters in K-Means?",
+        "options": [
+            "Elbow method",
+            "Silhouette score",
+            "Gap statistic",
+            "Gradient descent"
+        ],
+        "correct": [1, 2, 3]
+    },
+    {
+        "id": "q7",
+        "type": "mcq",
+        "question": "What happens if two centroids are initialized at the same location in K-Means?",
+        "options": [
+            "They will always remain together",
+            "One will be removed automatically",
+            "They may end up representing the same cluster",
+            "They will immediately move apart"
+        ],
+        "correct": [3]
+    },
+    {
+        "id": "q8",
+        "type": "msq",
+        "question": "Which of the following are possible results of poor centroid initialization in K-Means?",
+        "options": [
+            "Convergence to a local minimum",
+            "Poor clustering performance",
+            "Longer convergence time",
+            "Guaranteed global optimum"
+        ],
+        "correct": [1, 2, 3]
+    },
+    {
+        "id": "q9",
+        "type": "mcq",
+        "question": "Which library provides a K-Means implementation in Python?",
+        "options": [
+            "scikit-learn",
+            "TensorFlow",
+            "nltk",
+            "matplotlib"
+        ],
+        "correct": [1]
+    },
+    {
+        "id": "q10",
+        "type": "msq",
+        "question": "Which of the following are true about K-Means++ initialization?",
+        "options": [
+            "It spreads out the initial centroids",
+            "It improves clustering performance",
+            "It always finds the global optimum",
+            "It is slower than random initialization"
+        ],
+        "correct": [1, 2, 4]
+    },
+    {
+        "id": "q11",
+        "type": "mcq",
+        "question": "How does K-Means update cluster centroids?",
+        "options": [
+            "By averaging all points assigned to each cluster",
+            "By selecting the point closest to the origin",
+            "By maximizing the sum of distances",
+            "By using the median of each cluster"
+        ],
+        "correct": [1]
+    },
+    {
+        "id": "q12",
+        "type": "msq",
+        "question": "Which of the following are stopping criteria for K-Means?",
+        "options": [
+            "Centroids do not change",
+            "Maximum number of iterations reached",
+            "All points are assigned to a single cluster",
+            "Within-cluster sum of squares increases"
+        ],
+        "correct": [1, 2]
+    },
+    {
+        "id": "q13",
+        "type": "mcq",
+        "question": "What is the effect of increasing k in K-Means?",
+        "options": [
+            "Clusters become larger",
+            "Clusters become smaller and more numerous",
+            "No effect",
+            "Centroids move closer together"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q14",
+        "type": "msq",
+        "question": "Which of the following can improve K-Means clustering results?",
+        "options": [
+            "Feature scaling",
+            "Multiple random initializations",
+            "Using K-Means++",
+            "Using categorical data without encoding"
+        ],
+        "correct": [1, 2, 3]
+    },
+    {
+        "id": "q15",
+        "type": "mcq",
+        "question": "What happens if k is set to 1 in K-Means?",
+        "options": [
+            "Each point becomes its own cluster",
+            "All points are assigned to a single cluster",
+            "Algorithm fails to converge",
+            "Clusters are not formed"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q16",
+        "type": "msq",
+        "question": "Which of the following are true about the Elbow method?",
+        "options": [
+            "It plots within-cluster sum of squares versus k",
+            "It helps choose the optimal number of clusters",
+            "It is based on visual inspection",
+            "It always gives a unique answer"
+        ],
+        "correct": [1, 2, 3]
+    },
+    {
+        "id": "q17",
+        "type": "mcq",
+        "question": "Which type of data is K-Means best suited for?",
+        "options": [
+            "Categorical data",
+            "Numerical data with spherical clusters",
+            "Time series data",
+            "Text data"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q18",
+        "type": "msq",
+        "question": "Which of the following are ways to handle categorical variables in K-Means?",
+        "options": [
+            "One-hot encoding",
+            "Label encoding",
+            "Ignoring categorical variables",
+            "Using K-Modes or K-Prototypes"
+        ],
+        "correct": [1, 2, 4]
+    },
+    {
+        "id": "q19",
+        "type": "mcq",
+        "question": "What is a limitation of using K-Means for clusters with different densities?",
+        "options": [
+            "It can merge small dense clusters into large sparse ones",
+            "It always finds the global optimum",
+            "It handles density differences well",
+            "It requires categorical data"
+        ],
+        "correct": [1]
+    },
+    {
+        "id": "q20",
+        "type": "msq",
+        "question": "Which of the following are true about K-Means?",
+        "options": [
+            "It is sensitive to outliers",
+            "It can be used for image compression",
+            "It is an unsupervised algorithm",
+            "It guarantees optimal clustering"
+        ],
+        "correct": [1, 2, 3]
+    }
+]
+

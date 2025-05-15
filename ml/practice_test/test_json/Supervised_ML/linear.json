@@ -1,0 +1,242 @@
+[
+    {
+        "id": "q1",
+        "type": "mcq",
+        "question": "Which of the following is a key assumption of linear regression?",
+        "options": [
+            "The independent variables are categorical.",
+            "The residuals are normally distributed.",
+            "There is multicollinearity among independent variables.",
+            "The dependent variable is binary."
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q2",
+        "type": "msq",
+        "question": "Which of the following can be used to detect multicollinearity in a regression model? (Select all that apply)",
+        "options": [
+            "Variance Inflation Factor (VIF)",
+            "Durbin-Watson statistic",
+            "Condition Number",
+            "Residual plots"
+        ],
+        "correct": [1, 3]
+    },
+    {
+        "id": "q3",
+        "type": "mcq",
+        "question": "In linear regression, the R-squared value represents:",
+        "options": [
+            "The proportion of variance in the dependent variable explained by the model.",
+            "The correlation coefficient between independent and dependent variables.",
+            "The standard error of the estimate.",
+            "The slope of the regression line."
+        ],
+        "correct": [1]
+    },
+    {
+        "id": "q4",
+        "type": "mcq",
+        "question": "Which of the following methods is used to estimate the coefficients in linear regression?",
+        "options": [
+            "Maximum Likelihood Estimation",
+            "Gradient Descent",
+            "Ordinary Least Squares",
+            "Bayesian Inference"
+        ],
+        "correct": [3]
+    },
+    {
+        "id": "q5",
+        "type": "msq",
+        "question": "Which of the following are consequences of violating the assumption of homoscedasticity? (Select all that apply)",
+        "options": [
+            "Biased coefficient estimates",
+            "Inefficient estimates",
+            "Invalid standard errors",
+            "Increased multicollinearity"
+        ],
+        "correct": [2, 3]
+    },
+    {
+        "id": "q6",
+        "type": "mcq",
+        "question": "What does a high Variance Inflation Factor (VIF) indicate?",
+        "options": [
+            "High correlation between independent and dependent variables.",
+            "Presence of heteroscedasticity.",
+            "High multicollinearity among independent variables.",
+            "Autocorrelation in residuals."
+        ],
+        "correct": [3]
+    },
+    {
+        "id": "q7",
+        "type": "mcq",
+        "question": "Which of the following is true about the residuals in a well-fitted linear regression model?",
+        "options": [
+            "They should exhibit a pattern when plotted against predicted values.",
+            "They should have constant variance.",
+            "They should be correlated with independent variables.",
+            "They should increase with the fitted values."
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q8",
+        "type": "msq",
+        "question": "Which techniques can be used to address multicollinearity? (Select all that apply)",
+        "options": [
+            "Removing highly correlated predictors",
+            "Combining correlated variables",
+            "Applying Ridge Regression",
+            "Increasing the sample size"
+        ],
+        "correct": [1, 2, 3]
+    },
+    {
+        "id": "q9",
+        "type": "mcq",
+        "question": "What is the purpose of the Durbin-Watson statistic in regression analysis?",
+        "options": [
+            "To test for multicollinearity",
+            "To detect autocorrelation in residuals",
+            "To assess normality of residuals",
+            "To measure the goodness-of-fit"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q10",
+        "type": "mcq",
+        "question": "In multiple linear regression, adding more predictors to the model will always:",
+        "options": [
+            "Increase the adjusted R-squared value",
+            "Decrease the standard error",
+            "Increase the R-squared value",
+            "Improve the model's predictive power"
+        ],
+        "correct": [3]
+    },
+    {
+        "id": "q11",
+        "type": "mcq",
+        "question": "Which of the following is a limitation of using R-squared to assess model fit?",
+        "options": [
+            "It decreases with the addition of irrelevant predictors.",
+            "It can be negative.",
+            "It does not account for the number of predictors in the model.",
+            "It is unaffected by outliers."
+        ],
+        "correct": [3]
+    },
+    {
+        "id": "q12",
+        "type": "msq",
+        "question": "Which of the following are assumptions of the classical linear regression model? (Select all that apply)",
+        "options": [
+            "Linearity between independent and dependent variables",
+            "No autocorrelation of residuals",
+            "Homoscedasticity of residuals",
+            "Multicollinearity among independent variables"
+        ],
+        "correct": [1, 2, 3]
+    },
+    {
+        "id": "q13",
+        "type": "mcq",
+        "question": "What does the adjusted R-squared value account for that the R-squared does not?",
+        "options": [
+            "The correlation between variables",
+            "The number of predictors in the model",
+            "The sample size",
+            "The variance of residuals"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q14",
+        "type": "mcq",
+        "question": "Which of the following is true about the F-test in linear regression?",
+        "options": [
+            "It tests the significance of individual predictors.",
+            "It assesses the overall significance of the regression model.",
+            "It checks for multicollinearity.",
+            "It evaluates the normality of residuals."
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q15",
+        "type": "msq",
+        "question": "Which of the following can be used to detect outliers in regression analysis? (Select all that apply)",
+        "options": [
+            "Cook's Distance",
+            "Leverage values",
+            "Standardized residuals",
+            "Variance Inflation Factor"
+        ],
+        "correct": [1, 2, 3]
+    },
+    {
+        "id": "q16",
+        "type": "mcq",
+        "question": "In the context of regression, heteroscedasticity refers to:",
+        "options": [
+            "Non-linearity between variables.",
+            "Correlation among residuals.",
+            "Non-constant variance of residuals.",
+            "High multicollinearity."
+        ],
+        "correct": [3]
+    },
+    {
+        "id": "q17",
+        "type": "mcq",
+        "question": "Which transformation is commonly used to stabilize variance in the presence of heteroscedasticity?",
+        "options": [
+            "Logarithmic transformation",
+            "Exponential transformation",
+            "Reciprocal transformation",
+            "Differencing"
+        ],
+        "correct": [1]
+    },
+    {
+        "id": "q18",
+        "type": "msq",
+        "question": "Which of the following are true about Ridge Regression? (Select all that apply)",
+        "options": [
+            "It adds a penalty term to the loss function.",
+            "It can handle multicollinearity.",
+            "It performs variable selection.",
+            "It minimizes the sum of absolute coefficients."
+        ],
+        "correct": [1, 2]
+    },
+    {
+        "id": "q19",
+        "type": "mcq",
+        "question": "What is the primary difference between Ridge and Lasso regression?",
+        "options": [
+            "Ridge regression can perform variable selection; Lasso cannot.",
+            "Lasso regression adds L1 penalty; Ridge adds L2 penalty.",
+            "Ridge regression minimizes absolute errors; Lasso minimizes squared errors.",
+            "Lasso regression is suitable for multicollinearity; Ridge is not."
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q20",
+        "type": "mcq",
+        "question": "Which of the following is NOT an assumption of linear regression?",
+        "options": [
+            "The relationship between independent and dependent variables is linear.",
+            "The residuals are normally distributed.",
+            "The independent variables are uncorrelated.",
+            "The dependent variable is categorical."
+        ],
+        "correct": [4]
+    }
+]

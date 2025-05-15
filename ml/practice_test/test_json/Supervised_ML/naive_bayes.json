@@ -1,0 +1,243 @@
+[
+    {
+        "id": "q1",
+        "type": "mcq",
+        "question": "What is the fundamental assumption of the Naive Bayes classifier?",
+        "options": [
+            "Features are dependent given the class",
+            "Features are independent given the class",
+            "Classes are dependent on each other",
+            "Features are correlated"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q2",
+        "type": "msq",
+        "question": "Which of the following are common variants of the Naive Bayes classifier?",
+        "options": [
+            "Gaussian Naive Bayes",
+            "Multinomial Naive Bayes",
+            "Bernoulli Naive Bayes",
+            "Poisson Naive Bayes"
+        ],
+        "correct": [1, 2, 3]
+    },
+    {
+        "id": "q3",
+        "type": "mcq",
+        "question": "In Gaussian Naive Bayes, how is the likelihood of a feature value computed?",
+        "options": [
+            "Using a Poisson distribution",
+            "Using a Gaussian (normal) distribution",
+            "Using a Bernoulli distribution",
+            "Using a uniform distribution"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q4",
+        "type": "msq",
+        "question": "Which of the following are suitable applications for Naive Bayes classifiers?",
+        "options": [
+            "Text classification",
+            "Spam detection",
+            "Image segmentation",
+            "Sentiment analysis"
+        ],
+        "correct": [1, 2, 4]
+    },
+    {
+        "id": "q5",
+        "type": "mcq",
+        "question": "What is the role of the prior probability in Naive Bayes classification?",
+        "options": [
+            "It is ignored during prediction",
+            "It represents the probability of a class before observing any features",
+            "It is the probability of a feature given a class",
+            "It is the likelihood of the data"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q6",
+        "type": "msq",
+        "question": "Which of the following are limitations of Naive Bayes classifiers?",
+        "options": [
+            "Assumes independence among features",
+            "Performs poorly with highly correlated features",
+            "Cannot be used for multi-class problems",
+            "Sensitive to zero probabilities"
+        ],
+        "correct": [1, 2, 4]
+    },
+    {
+        "id": "q7",
+        "type": "mcq",
+        "question": "Which technique is commonly used to address the zero probability problem in Naive Bayes?",
+        "options": [
+            "Gradient descent",
+            "Laplace smoothing",
+            "Feature scaling",
+            "Principal component analysis"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q8",
+        "type": "msq",
+        "question": "Which of the following statements about Multinomial Naive Bayes are true?",
+        "options": [
+            "It is suitable for discrete count data",
+            "It is commonly used for text classification",
+            "It assumes features are binary",
+            "It models the distribution of features using multinomial distribution"
+        ],
+        "correct": [1, 2, 4]
+    },
+    {
+        "id": "q9",
+        "type": "mcq",
+        "question": "In Bernoulli Naive Bayes, what type of feature values are expected?",
+        "options": [
+            "Continuous values",
+            "Binary values",
+            "Categorical values with more than two categories",
+            "Count values"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q10",
+        "type": "msq",
+        "question": "Which of the following libraries provide Naive Bayes implementations in Python?",
+        "options": [
+            "scikit-learn",
+            "TensorFlow",
+            "nltk",
+            "statsmodels"
+        ],
+        "correct": [1, 3]
+    },
+    {
+        "id": "q11",
+        "type": "mcq",
+        "question": "What is the time complexity of training a Naive Bayes classifier?",
+        "options": [
+            "O(n^2)",
+            "O(nm)",
+            "O(m^2)",
+            "O(n log n)"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q12",
+        "type": "msq",
+        "question": "Which of the following are steps in the prediction phase of Naive Bayes?",
+        "options": [
+            "Calculate the posterior probability for each class",
+            "Select the class with the highest posterior probability",
+            "Update the model parameters",
+            "Compute the likelihood of features given each class"
+        ],
+        "correct": [1, 2, 4]
+    },
+    {
+        "id": "q13",
+        "type": "mcq",
+        "question": "Which assumption is violated if features are highly correlated in Naive Bayes?",
+        "options": [
+            "Conditional independence",
+            "Class prior independence",
+            "Gaussian distribution",
+            "Multinomial distribution"
+        ],
+        "correct": [1]
+    },
+    {
+        "id": "q14",
+        "type": "msq",
+        "question": "Which of the following are true about the output of a Naive Bayes classifier?",
+        "options": [
+            "It provides class probabilities",
+            "It can be used for ranking",
+            "It always outputs continuous values",
+            "It assigns the most probable class label"
+        ],
+        "correct": [1, 2, 4]
+    },
+    {
+        "id": "q15",
+        "type": "mcq",
+        "question": "Which probability rule is central to the Naive Bayes algorithm?",
+        "options": [
+            "Law of total probability",
+            "Bayes' theorem",
+            "Markov property",
+            "Central limit theorem"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q16",
+        "type": "msq",
+        "question": "Which of the following are necessary for training a Naive Bayes classifier?",
+        "options": [
+            "Labeled training data",
+            "Calculation of prior probabilities",
+            "Calculation of likelihoods",
+            "Gradient descent optimization"
+        ],
+        "correct": [1, 2, 3]
+    },
+    {
+        "id": "q17",
+        "type": "mcq",
+        "question": "What happens if a feature value never occurs in the training data for a given class in Naive Bayes?",
+        "options": [
+            "The probability becomes zero and can dominate the prediction",
+            "The probability becomes one",
+            "It is ignored in the calculation",
+            "It increases the likelihood"
+        ],
+        "correct": [1]
+    },
+    {
+        "id": "q18",
+        "type": "msq",
+        "question": "Which of the following are true about Gaussian Naive Bayes?",
+        "options": [
+            "It assumes features are distributed according to a normal distribution",
+            "It is suitable for continuous features",
+            "It is not suitable for text classification",
+            "It estimates mean and variance for each feature per class"
+        ],
+        "correct": [1, 2, 4]
+    },
+    {
+        "id": "q19",
+        "type": "mcq",
+        "question": "What is the main reason Naive Bayes is popular for text classification?",
+        "options": [
+            "It requires a lot of computational resources",
+            "It handles high-dimensional sparse data efficiently",
+            "It does not require labeled data",
+            "It is sensitive to feature scaling"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q20",
+        "type": "msq",
+        "question": "Which of the following are true about the interpretability of Naive Bayes classifiers?",
+        "options": [
+            "They are easy to interpret",
+            "Feature probabilities can be inspected",
+            "They are considered black-box models",
+            "They provide insight into feature importance"
+        ],
+        "correct": [1, 2, 4]
+    }
+]
+

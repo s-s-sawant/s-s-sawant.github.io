@@ -1,0 +1,243 @@
+[
+    {
+        "id": "q1",
+        "type": "mcq",
+        "question": "What is the main goal of manifold learning?",
+        "options": [
+            "Clustering data into groups",
+            "Reducing dimensionality while preserving the intrinsic geometry of the data",
+            "Classifying data into categories",
+            "Generating synthetic data"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q2",
+        "type": "msq",
+        "question": "Which of the following are common manifold learning algorithms?",
+        "options": [
+            "t-SNE",
+            "Isomap",
+            "Locally Linear Embedding (LLE)",
+            "DBSCAN"
+        ],
+        "correct": [1, 2, 3]
+    },
+    {
+        "id": "q3",
+        "type": "mcq",
+        "question": "Which type of data is manifold learning particularly suited for?",
+        "options": [
+            "Data with linear structure",
+            "Data with complex, non-linear structure",
+            "Categorical data",
+            "Time series data"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q4",
+        "type": "msq",
+        "question": "Which of the following are advantages of manifold learning?",
+        "options": [
+            "Can reveal underlying low-dimensional structure",
+            "Useful for data visualization",
+            "Can improve clustering and classification",
+            "Works well with high-dimensional, non-linear data"
+        ],
+        "correct": [1, 2, 3, 4]
+    },
+    {
+        "id": "q5",
+        "type": "mcq",
+        "question": "Which library provides manifold learning algorithms in Python?",
+        "options": [
+            "scikit-learn",
+            "TensorFlow",
+            "nltk",
+            "matplotlib"
+        ],
+        "correct": [1]
+    },
+    {
+        "id": "q6",
+        "type": "msq",
+        "question": "Which of the following are limitations of manifold learning?",
+        "options": [
+            "Computationally expensive for large datasets",
+            "Sensitive to noise",
+            "Choice of parameters can affect results",
+            "Cannot handle non-numeric data"
+        ],
+        "correct": [1, 2, 3, 4]
+    },
+    {
+        "id": "q7",
+        "type": "mcq",
+        "question": "What is the main difference between PCA and manifold learning algorithms?",
+        "options": [
+            "PCA captures non-linear structure, manifold learning captures linear structure",
+            "PCA is supervised, manifold learning is unsupervised",
+            "PCA captures linear structure, manifold learning captures non-linear structure",
+            "PCA requires labeled data"
+        ],
+        "correct": [3]
+    },
+    {
+        "id": "q8",
+        "type": "msq",
+        "question": "Which of the following are applications of manifold learning?",
+        "options": [
+            "Data visualization",
+            "Preprocessing for clustering",
+            "Noise reduction",
+            "Image compression"
+        ],
+        "correct": [1, 2, 3, 4]
+    },
+    {
+        "id": "q9",
+        "type": "mcq",
+        "question": "What is a 'manifold' in the context of manifold learning?",
+        "options": [
+            "A linear subspace",
+            "A low-dimensional, non-linear surface embedded in high-dimensional space",
+            "A cluster of points",
+            "A principal component"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q10",
+        "type": "msq",
+        "question": "Which of the following are true about t-SNE?",
+        "options": [
+            "It is used for data visualization",
+            "It preserves local structure",
+            "It is sensitive to perplexity parameter",
+            "It is a supervised learning algorithm"
+        ],
+        "correct": [1, 2, 3]
+    },
+    {
+        "id": "q11",
+        "type": "mcq",
+        "question": "Which manifold learning algorithm preserves geodesic distances?",
+        "options": [
+            "PCA",
+            "Isomap",
+            "LLE",
+            "DBSCAN"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q12",
+        "type": "msq",
+        "question": "Which of the following are hyperparameters in t-SNE?",
+        "options": [
+            "Perplexity",
+            "Learning rate",
+            "Number of iterations",
+            "Number of clusters"
+        ],
+        "correct": [1, 2, 3]
+    },
+    {
+        "id": "q13",
+        "type": "mcq",
+        "question": "Which manifold learning algorithm is best for preserving local linear relationships?",
+        "options": [
+            "Isomap",
+            "t-SNE",
+            "LLE",
+            "PCA"
+        ],
+        "correct": [3]
+    },
+    {
+        "id": "q14",
+        "type": "msq",
+        "question": "Which of the following are outputs of manifold learning algorithms?",
+        "options": [
+            "Low-dimensional embeddings",
+            "Cluster labels",
+            "Reconstructed data",
+            "Distance matrices"
+        ],
+        "correct": [1]
+    },
+    {
+        "id": "q15",
+        "type": "mcq",
+        "question": "What is the main disadvantage of t-SNE?",
+        "options": [
+            "It is computationally expensive",
+            "It preserves global structure",
+            "It is supervised",
+            "It cannot be used for visualization"
+        ],
+        "correct": [1]
+    },
+    {
+        "id": "q16",
+        "type": "msq",
+        "question": "Which of the following are true about Isomap?",
+        "options": [
+            "It preserves geodesic distances",
+            "It is sensitive to the choice of neighbors",
+            "It is a linear method",
+            "It can be used for non-linear data"
+        ],
+        "correct": [1, 2, 4]
+    },
+    {
+        "id": "q17",
+        "type": "mcq",
+        "question": "What is a common use of manifold learning in machine learning workflows?",
+        "options": [
+            "Feature extraction for downstream tasks",
+            "Supervised classification",
+            "Hyperparameter tuning",
+            "Model ensembling"
+        ],
+        "correct": [1]
+    },
+    {
+        "id": "q18",
+        "type": "msq",
+        "question": "Which of the following are challenges in manifold learning?",
+        "options": [
+            "Selecting appropriate hyperparameters",
+            "Handling large datasets",
+            "Interpreting the results",
+            "Dealing with noise"
+        ],
+        "correct": [1, 2, 3, 4]
+    },
+    {
+        "id": "q19",
+        "type": "mcq",
+        "question": "Which manifold learning algorithm is most commonly used for 2D visualization of high-dimensional data?",
+        "options": [
+            "PCA",
+            "Isomap",
+            "t-SNE",
+            "LLE"
+        ],
+        "correct": [3]
+    },
+    {
+        "id": "q20",
+        "type": "msq",
+        "question": "Which of the following are true about manifold learning?",
+        "options": [
+            "It is unsupervised",
+            "It can be used for non-linear dimensionality reduction",
+            "It is sensitive to parameter choices",
+            "It always preserves global structure"
+        ],
+        "correct": [1, 2, 3]
+    }
+]
+

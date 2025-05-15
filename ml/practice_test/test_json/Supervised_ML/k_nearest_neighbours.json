@@ -1,0 +1,242 @@
+[
+    {
+        "id": "q1",
+        "type": "mcq",
+        "question": "What is the main principle of the k-nearest neighbours (KNN) algorithm?",
+        "options": [
+            "Learning a linear decision boundary",
+            "Predicting the output based on the majority label of the k closest samples",
+            "Building a tree structure for classification",
+            "Using probability estimates for prediction"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q2",
+        "type": "msq",
+        "question": "Which of the following are required to make a prediction using KNN?",
+        "options": [
+            "A distance metric",
+            "The value of k",
+            "A trained model with learned weights",
+            "A labeled dataset"
+        ],
+        "correct": [1, 2, 4]
+    },
+    {
+        "id": "q3",
+        "type": "mcq",
+        "question": "Which distance metric is most commonly used in KNN?",
+        "options": [
+            "Manhattan distance",
+            "Cosine similarity",
+            "Euclidean distance",
+            "Jaccard distance"
+        ],
+        "correct": [3]
+    },
+    {
+        "id": "q4",
+        "type": "msq",
+        "question": "Which of the following are advantages of the KNN algorithm?",
+        "options": [
+            "Simple to implement",
+            "No training phase required",
+            "Works well with high-dimensional data",
+            "Can be used for both classification and regression"
+        ],
+        "correct": [1, 2, 4]
+    },
+    {
+        "id": "q5",
+        "type": "mcq",
+        "question": "What is the effect of choosing a very large value of k in KNN?",
+        "options": [
+            "Model becomes more sensitive to noise",
+            "Model may underfit the data",
+            "Model always overfits",
+            "Model becomes more complex"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q6",
+        "type": "msq",
+        "question": "Which of the following are limitations of KNN?",
+        "options": [
+            "Computationally expensive at prediction time",
+            "Sensitive to irrelevant features",
+            "Requires feature scaling",
+            "Can handle missing values natively"
+        ],
+        "correct": [1, 2, 3]
+    },
+    {
+        "id": "q7",
+        "type": "mcq",
+        "question": "What happens if k=1 in KNN classification?",
+        "options": [
+            "The model predicts the most frequent class in the dataset",
+            "The model predicts the class of the single nearest neighbour",
+            "The model averages the classes of all points",
+            "The model cannot make a prediction"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q8",
+        "type": "msq",
+        "question": "Which of the following are common strategies for handling ties in KNN classification?",
+        "options": [
+            "Choose the class with the smallest label",
+            "Choose randomly among tied classes",
+            "Reduce k by one and retry",
+            "Use distance-weighted voting"
+        ],
+        "correct": [1, 2, 4]
+    },
+    {
+        "id": "q9",
+        "type": "mcq",
+        "question": "Which step is NOT part of the KNN algorithm?",
+        "options": [
+            "Compute distances between the query point and all training points",
+            "Sort the distances and select the k nearest neighbours",
+            "Train a model to learn weights for each feature",
+            "Make a prediction based on the labels of the nearest neighbours"
+        ],
+        "correct": [3]
+    },
+    {
+        "id": "q10",
+        "type": "msq",
+        "question": "Which of the following can be used as distance metrics in KNN?",
+        "options": [
+            "Euclidean distance",
+            "Manhattan distance",
+            "Minkowski distance",
+            "Hamming distance"
+        ],
+        "correct": [1, 2, 3, 4]
+    },
+    {
+        "id": "q11",
+        "type": "mcq",
+        "question": "What is the computational complexity of predicting a single sample with KNN (n training samples, d features)?",
+        "options": [
+            "O(1)",
+            "O(d)",
+            "O(n)",
+            "O(nd)"
+        ],
+        "correct": [4]
+    },
+    {
+        "id": "q12",
+        "type": "msq",
+        "question": "Which of the following preprocessing steps are recommended for KNN?",
+        "options": [
+            "Feature scaling (normalization or standardization)",
+            "Handling missing values",
+            "Encoding categorical variables",
+            "Feature selection"
+        ],
+        "correct": [1, 2, 3, 4]
+    },
+    {
+        "id": "q13",
+        "type": "mcq",
+        "question": "How does KNN regression predict the output for a new sample?",
+        "options": [
+            "By averaging the outputs of the k nearest neighbours",
+            "By taking the mode of the outputs of the k nearest neighbours",
+            "By using a weighted sum of all training outputs",
+            "By fitting a linear model to the neighbours"
+        ],
+        "correct": [1]
+    },
+    {
+        "id": "q14",
+        "type": "msq",
+        "question": "Which of the following are hyperparameters in the KNN algorithm?",
+        "options": [
+            "Number of neighbours (k)",
+            "Distance metric",
+            "Weighting scheme",
+            "Learning rate"
+        ],
+        "correct": [1, 2, 3]
+    },
+    {
+        "id": "q15",
+        "type": "mcq",
+        "question": "Which library provides a KNN implementation in Python?",
+        "options": [
+            "scikit-learn",
+            "TensorFlow",
+            "nltk",
+            "matplotlib"
+        ],
+        "correct": [1]
+    },
+    {
+        "id": "q16",
+        "type": "msq",
+        "question": "Which of the following statements are true about KNN?",
+        "options": [
+            "It is a non-parametric method",
+            "It is a lazy learning algorithm",
+            "It stores the entire training dataset",
+            "It requires model training before prediction"
+        ],
+        "correct": [1, 2, 3]
+    },
+    {
+        "id": "q17",
+        "type": "mcq",
+        "question": "How does feature scaling impact KNN performance?",
+        "options": [
+            "It has no impact",
+            "It can improve performance by ensuring all features contribute equally to distance",
+            "It decreases model accuracy",
+            "It increases computational complexity"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q18",
+        "type": "msq",
+        "question": "Which of the following are challenges when using KNN with high-dimensional data?",
+        "options": [
+            "Curse of dimensionality",
+            "Distance measures become less meaningful",
+            "Increased computational cost",
+            "Improved interpretability"
+        ],
+        "correct": [1, 2, 3]
+    },
+    {
+        "id": "q19",
+        "type": "mcq",
+        "question": "What is the effect of noisy or irrelevant features on KNN?",
+        "options": [
+            "No effect on performance",
+            "Can degrade prediction accuracy",
+            "Always improves accuracy",
+            "Reduces computational time"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q20",
+        "type": "msq",
+        "question": "Which of the following are true about KNN?",
+        "options": [
+            "Can be used for both classification and regression",
+            "Is sensitive to the choice of k",
+            "Does not require a model training phase",
+            "Is robust to outliers"
+        ],
+        "correct": [1, 2, 3]
+    }
+]

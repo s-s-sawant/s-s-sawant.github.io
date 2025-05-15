@@ -1,0 +1,243 @@
+[
+    {
+        "id": "q1",
+        "type": "mcq",
+        "question": "What is the main idea behind Random Decision Trees (Random Forests)?",
+        "options": [
+            "Using a single deep tree for prediction",
+            "Combining multiple decision trees built on random subsets of data and features",
+            "Using only the most important features for a single tree",
+            "Pruning a single tree to reduce overfitting"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q2",
+        "type": "msq",
+        "question": "Which of the following are advantages of Random Decision Trees (Random Forests) compared to a single decision tree?",
+        "options": [
+            "Higher accuracy",
+            "Reduced overfitting",
+            "Better interpretability",
+            "Robustness to noise"
+        ],
+        "correct": [1, 2, 4]
+    },
+    {
+        "id": "q3",
+        "type": "mcq",
+        "question": "What is 'feature bagging' in the context of Random Decision Trees?",
+        "options": [
+            "Selecting the best feature at each split",
+            "Randomly selecting a subset of features for each tree or split",
+            "Using all features for every tree",
+            "Eliminating features with high correlation"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q4",
+        "type": "msq",
+        "question": "Which of the following are common hyperparameters in Random Decision Trees?",
+        "options": [
+            "Number of trees in the forest",
+            "Maximum depth of each tree",
+            "Number of features considered at each split",
+            "Learning rate"
+        ],
+        "correct": [1, 2, 3]
+    },
+    {
+        "id": "q5",
+        "type": "mcq",
+        "question": "How does Random Forest aggregate predictions for classification tasks?",
+        "options": [
+            "Averaging the outputs of all trees",
+            "Majority voting among all trees",
+            "Selecting the prediction of the first tree",
+            "Weighted sum of tree predictions"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q6",
+        "type": "msq",
+        "question": "Which of the following statements about Random Decision Trees are true?",
+        "options": [
+            "Each tree is trained on a bootstrap sample of the data",
+            "Each tree uses a random subset of features at each split",
+            "All trees are identical",
+            "The final prediction is based on aggregation of all trees"
+        ],
+        "correct": [1, 2, 4]
+    },
+    {
+        "id": "q7",
+        "type": "mcq",
+        "question": "What is the main reason Random Decision Trees reduce overfitting compared to a single decision tree?",
+        "options": [
+            "They use deeper trees",
+            "They average out the errors of individual trees",
+            "They ignore noisy data",
+            "They use fewer features"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q8",
+        "type": "msq",
+        "question": "Which of the following are typical applications of Random Decision Trees?",
+        "options": [
+            "Classification",
+            "Regression",
+            "Clustering",
+            "Feature selection"
+        ],
+        "correct": [1, 2, 4]
+    },
+    {
+        "id": "q9",
+        "type": "mcq",
+        "question": "What is 'out-of-bag' (OOB) error in Random Decision Trees?",
+        "options": [
+            "Error on the training data",
+            "Error on a validation set",
+            "Error estimated using samples not included in the bootstrap sample for a tree",
+            "Error on the test set"
+        ],
+        "correct": [3]
+    },
+    {
+        "id": "q10",
+        "type": "msq",
+        "question": "Which of the following are disadvantages of Random Decision Trees?",
+        "options": [
+            "Less interpretable than a single decision tree",
+            "Computationally intensive for large datasets",
+            "Prone to overfitting",
+            "Require hyperparameter tuning"
+        ],
+        "correct": [1, 2, 4]
+    },
+    {
+        "id": "q11",
+        "type": "mcq",
+        "question": "How does Random Decision Trees handle missing data?",
+        "options": [
+            "By ignoring missing values",
+            "By using surrogate splits or averaging predictions",
+            "By deleting rows with missing values",
+            "By replacing missing values with zeros"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q12",
+        "type": "msq",
+        "question": "Which of the following impurity measures can be used in Random Decision Trees for classification?",
+        "options": [
+            "Gini impurity",
+            "Entropy",
+            "Mean squared error",
+            "Variance"
+        ],
+        "correct": [1, 2]
+    },
+    {
+        "id": "q13",
+        "type": "mcq",
+        "question": "What is the effect of increasing the number of trees in a Random Forest?",
+        "options": [
+            "It always leads to overfitting",
+            "It increases computational cost but stabilizes model performance",
+            "It reduces the accuracy",
+            "It makes the model more interpretable"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q14",
+        "type": "msq",
+        "question": "Which of the following statements about feature importance in Random Decision Trees are true?",
+        "options": [
+            "Feature importance can be derived from how often and how well features split the data",
+            "Random Decision Trees provide a ranking of feature importance",
+            "Feature importance is always reliable for highly correlated features",
+            "Feature importance helps in feature selection"
+        ],
+        "correct": [1, 2, 4]
+    },
+    {
+        "id": "q15",
+        "type": "mcq",
+        "question": "What is 'bootstrap aggregating' (bagging) in the context of Random Decision Trees?",
+        "options": [
+            "Using the same dataset for all trees",
+            "Training each tree on a random sample (with replacement) of the data",
+            "Pruning each tree after training",
+            "Combining trees with weighted voting"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q16",
+        "type": "msq",
+        "question": "Which of the following can be tuned to improve Random Decision Trees performance?",
+        "options": [
+            "Number of trees",
+            "Maximum tree depth",
+            "Number of features considered at each split",
+            "Learning rate"
+        ],
+        "correct": [1, 2, 3]
+    },
+    {
+        "id": "q17",
+        "type": "mcq",
+        "question": "How does Random Decision Trees handle high-dimensional data?",
+        "options": [
+            "It cannot handle high-dimensional data",
+            "It efficiently handles high-dimensional data due to feature bagging",
+            "It requires dimensionality reduction first",
+            "It ignores irrelevant features"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q18",
+        "type": "msq",
+        "question": "Which of the following are true about the interpretability of Random Decision Trees?",
+        "options": [
+            "They are less interpretable than single decision trees",
+            "Individual trees can be interpreted, but the ensemble is complex",
+            "They provide feature importance scores",
+            "They are as interpretable as linear regression"
+        ],
+        "correct": [1, 2, 3]
+    },
+    {
+        "id": "q19",
+        "type": "mcq",
+        "question": "What is the typical output of a Random Decision Tree model for a regression task?",
+        "options": [
+            "The mode of tree predictions",
+            "The average of tree predictions",
+            "The median of tree predictions",
+            "The maximum of tree predictions"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q20",
+        "type": "msq",
+        "question": "Which of the following statements about Random Decision Trees are correct?",
+        "options": [
+            "They can handle both classification and regression tasks",
+            "They are robust to outliers and noise",
+            "They always require feature scaling",
+            "They are an ensemble learning method"
+        ],
+        "correct": [1, 2, 4]
+    }
+]
+

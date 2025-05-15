@@ -1,0 +1,243 @@
+[
+    {
+        "id": "q1",
+        "type": "mcq",
+        "question": "What is the main objective of Principal Component Analysis (PCA)?",
+        "options": [
+            "Clustering data into groups",
+            "Reducing dimensionality while preserving as much variance as possible",
+            "Classifying data into categories",
+            "Generating synthetic data"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q2",
+        "type": "msq",
+        "question": "Which of the following are steps in the PCA algorithm?",
+        "options": [
+            "Centering the data",
+            "Computing the covariance matrix",
+            "Computing eigenvectors and eigenvalues",
+            "Projecting data onto principal components"
+        ],
+        "correct": [1, 2, 3, 4]
+    },
+    {
+        "id": "q3",
+        "type": "mcq",
+        "question": "What does the first principal component represent?",
+        "options": [
+            "The direction of maximum variance in the data",
+            "The direction of minimum variance in the data",
+            "The mean of the data",
+            "The direction orthogonal to the data"
+        ],
+        "correct": [1]
+    },
+    {
+        "id": "q4",
+        "type": "msq",
+        "question": "Which of the following are advantages of PCA?",
+        "options": [
+            "Reduces dimensionality",
+            "Removes correlated features",
+            "Improves visualization",
+            "Can improve performance of downstream algorithms"
+        ],
+        "correct": [1, 2, 3, 4]
+    },
+    {
+        "id": "q5",
+        "type": "mcq",
+        "question": "Which library provides PCA implementation in Python?",
+        "options": [
+            "scikit-learn",
+            "TensorFlow",
+            "nltk",
+            "matplotlib"
+        ],
+        "correct": [1]
+    },
+    {
+        "id": "q6",
+        "type": "msq",
+        "question": "Which of the following are limitations of PCA?",
+        "options": [
+            "Assumes linear relationships",
+            "Sensitive to scaling of features",
+            "Difficult to interpret principal components",
+            "Cannot handle missing data"
+        ],
+        "correct": [1, 2, 3, 4]
+    },
+    {
+        "id": "q7",
+        "type": "mcq",
+        "question": "What is the computational complexity of PCA (n samples, d dimensions)?",
+        "options": [
+            "O(n)",
+            "O(nd)",
+            "O(nd^2)",
+            "O(n^2d)"
+        ],
+        "correct": [3]
+    },
+    {
+        "id": "q8",
+        "type": "msq",
+        "question": "Which of the following are applications of PCA?",
+        "options": [
+            "Data visualization",
+            "Noise reduction",
+            "Feature extraction",
+            "Preprocessing for clustering"
+        ],
+        "correct": [1, 2, 3, 4]
+    },
+    {
+        "id": "q9",
+        "type": "mcq",
+        "question": "What does the explained variance ratio in PCA indicate?",
+        "options": [
+            "The proportion of variance explained by each principal component",
+            "The mean of the data",
+            "The number of clusters",
+            "The reconstruction error"
+        ],
+        "correct": [1]
+    },
+    {
+        "id": "q10",
+        "type": "msq",
+        "question": "Which of the following are true about PCA?",
+        "options": [
+            "It is a linear dimensionality reduction technique",
+            "It produces orthogonal components",
+            "It is sensitive to outliers",
+            "It can be used for data compression"
+        ],
+        "correct": [1, 2, 3, 4]
+    },
+    {
+        "id": "q11",
+        "type": "mcq",
+        "question": "What is the main mathematical tool used in PCA?",
+        "options": [
+            "Singular Value Decomposition (SVD)",
+            "Gradient Descent",
+            "Decision Trees",
+            "Random Forest"
+        ],
+        "correct": [1]
+    },
+    {
+        "id": "q12",
+        "type": "msq",
+        "question": "Which of the following are outputs of PCA?",
+        "options": [
+            "Principal components",
+            "Explained variance ratios",
+            "Reconstructed data",
+            "Cluster labels"
+        ],
+        "correct": [1, 2, 3]
+    },
+    {
+        "id": "q13",
+        "type": "mcq",
+        "question": "What happens if all features are perfectly correlated in PCA?",
+        "options": [
+            "All variance is captured by the first principal component",
+            "Variance is evenly distributed",
+            "All principal components are equally important",
+            "PCA cannot be performed"
+        ],
+        "correct": [1]
+    },
+    {
+        "id": "q14",
+        "type": "msq",
+        "question": "Which of the following are true about the principal components in PCA?",
+        "options": [
+            "They are orthogonal to each other",
+            "They are sorted by explained variance",
+            "They are linear combinations of original features",
+            "They are always non-negative"
+        ],
+        "correct": [1, 2, 3]
+    },
+    {
+        "id": "q15",
+        "type": "mcq",
+        "question": "What is the effect of feature scaling on PCA?",
+        "options": [
+            "No effect",
+            "Can significantly affect the principal components",
+            "Only affects the mean",
+            "Reduces variance"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q16",
+        "type": "msq",
+        "question": "Which of the following are challenges in using PCA?",
+        "options": [
+            "Interpreting principal components",
+            "Dealing with missing data",
+            "Selecting the number of components",
+            "Computational cost for large datasets"
+        ],
+        "correct": [1, 2, 3, 4]
+    },
+    {
+        "id": "q17",
+        "type": "mcq",
+        "question": "What is a scree plot?",
+        "options": [
+            "A plot of explained variance versus number of components",
+            "A plot of cluster centroids",
+            "A plot of feature importances",
+            "A plot of residuals"
+        ],
+        "correct": [1]
+    },
+    {
+        "id": "q18",
+        "type": "msq",
+        "question": "Which of the following are true about PCA's use in visualization?",
+        "options": [
+            "It can reduce data to 2 or 3 dimensions for plotting",
+            "It can reveal clusters in data",
+            "It can help detect outliers",
+            "It can be used for image compression"
+        ],
+        "correct": [1, 2, 3, 4]
+    },
+    {
+        "id": "q19",
+        "type": "mcq",
+        "question": "What is the main limitation of PCA for non-linear data?",
+        "options": [
+            "It cannot capture non-linear relationships",
+            "It is computationally expensive",
+            "It requires labeled data",
+            "It always overfits"
+        ],
+        "correct": [1]
+    },
+    {
+        "id": "q20",
+        "type": "msq",
+        "question": "Which of the following are true about PCA?",
+        "options": [
+            "It is unsupervised",
+            "It can be used for noise reduction",
+            "It is sensitive to outliers",
+            "It is commonly used for exploratory data analysis"
+        ],
+        "correct": [1, 2, 3, 4]
+    }
+]
+

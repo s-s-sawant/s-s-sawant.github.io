@@ -20,5 +20,8 @@ main:
   - title: "Favourites"
     url: /favourites/
 
+  - title: "Machine Learning"
+    url: /ml/
+
   - title: "Gallery"
     url: /gallery/

@@ -1,0 +1,243 @@
+[
+    {
+        "id": "q1",
+        "type": "mcq",
+        "question": "What does DBSCAN stand for?",
+        "options": [
+            "Density-Based Spatial Clustering of Applications with Noise",
+            "Distance-Based Spatial Clustering of Applications with Noise",
+            "Density-Based Sequential Clustering of Applications with Noise",
+            "Distance-Based Sequential Clustering of Applications with Noise"
+        ],
+        "correct": [1]
+    },
+    {
+        "id": "q2",
+        "type": "msq",
+        "question": "Which parameters are required for the DBSCAN algorithm?",
+        "options": [
+            "eps (epsilon)",
+            "min_samples",
+            "Number of clusters",
+            "Distance metric"
+        ],
+        "correct": [1, 2, 4]
+    },
+    {
+        "id": "q3",
+        "type": "mcq",
+        "question": "What is a core point in DBSCAN?",
+        "options": [
+            "A point with fewer than min_samples points in its neighborhood",
+            "A point with at least min_samples points within eps distance",
+            "A point that is not assigned to any cluster",
+            "A point with the maximum distance to any other point"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q4",
+        "type": "msq",
+        "question": "Which of the following are advantages of DBSCAN?",
+        "options": [
+            "Can find clusters of arbitrary shape",
+            "Does not require the number of clusters as input",
+            "Can identify outliers as noise",
+            "Sensitive to initial centroids"
+        ],
+        "correct": [1, 2, 3]
+    },
+    {
+        "id": "q5",
+        "type": "mcq",
+        "question": "What happens to points that do not belong to any cluster in DBSCAN?",
+        "options": [
+            "They are assigned to the nearest cluster",
+            "They are labeled as noise",
+            "They are removed from the dataset",
+            "They form a new cluster"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q6",
+        "type": "msq",
+        "question": "Which of the following are limitations of DBSCAN?",
+        "options": [
+            "Difficulty in choosing eps and min_samples",
+            "Not suitable for data with varying densities",
+            "Sensitive to the choice of distance metric",
+            "Requires feature scaling"
+        ],
+        "correct": [1, 2, 3, 4]
+    },
+    {
+        "id": "q7",
+        "type": "mcq",
+        "question": "Which library provides DBSCAN implementation in Python?",
+        "options": [
+            "scikit-learn",
+            "TensorFlow",
+            "nltk",
+            "matplotlib"
+        ],
+        "correct": [1]
+    },
+    {
+        "id": "q8",
+        "type": "msq",
+        "question": "Which of the following are types of points in DBSCAN?",
+        "options": [
+            "Core points",
+            "Border points",
+            "Noise points",
+            "Centroid points"
+        ],
+        "correct": [1, 2, 3]
+    },
+    {
+        "id": "q9",
+        "type": "mcq",
+        "question": "What is the time complexity of DBSCAN for n points?",
+        "options": [
+            "O(n)",
+            "O(n^2)",
+            "O(n log n)",
+            "O(log n)"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q10",
+        "type": "msq",
+        "question": "Which of the following are true about DBSCAN?",
+        "options": [
+            "It can handle noise in the data",
+            "It can find clusters of arbitrary shape",
+            "It is deterministic",
+            "It is sensitive to the scale of features"
+        ],
+        "correct": [1, 2, 3, 4]
+    },
+    {
+        "id": "q11",
+        "type": "mcq",
+        "question": "What is a border point in DBSCAN?",
+        "options": [
+            "A point with more than min_samples neighbors",
+            "A point within eps of a core point but with fewer than min_samples neighbors",
+            "A point not connected to any core point",
+            "A point at the centroid of a cluster"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q12",
+        "type": "msq",
+        "question": "Which of the following can be used as distance metrics in DBSCAN?",
+        "options": [
+            "Euclidean distance",
+            "Manhattan distance",
+            "Cosine distance",
+            "Hamming distance"
+        ],
+        "correct": [1, 2, 3, 4]
+    },
+    {
+        "id": "q13",
+        "type": "mcq",
+        "question": "What is the effect of increasing eps in DBSCAN?",
+        "options": [
+            "Clusters become smaller",
+            "More points are labeled as noise",
+            "Clusters become larger and fewer",
+            "No effect"
+        ],
+        "correct": [3]
+    },
+    {
+        "id": "q14",
+        "type": "msq",
+        "question": "Which of the following are true about the min_samples parameter?",
+        "options": [
+            "It controls the minimum number of points to form a dense region",
+            "Higher values make clusters more stringent",
+            "Lower values make clusters more likely to form",
+            "It has no effect on noise points"
+        ],
+        "correct": [1, 2, 3]
+    },
+    {
+        "id": "q15",
+        "type": "mcq",
+        "question": "What is a noise point in DBSCAN?",
+        "options": [
+            "A point that is a core point",
+            "A point not reachable from any core point",
+            "A point at the center of a cluster",
+            "A point with maximum density"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q16",
+        "type": "msq",
+        "question": "Which of the following are applications of DBSCAN?",
+        "options": [
+            "Geospatial data clustering",
+            "Anomaly detection",
+            "Image segmentation",
+            "Linear regression"
+        ],
+        "correct": [1, 2, 3]
+    },
+    {
+        "id": "q17",
+        "type": "mcq",
+        "question": "What happens if all points are labeled as noise in DBSCAN?",
+        "options": [
+            "No clusters are formed",
+            "All points are assigned to a single cluster",
+            "Algorithm fails to run",
+            "Clusters are merged"
+        ],
+        "correct": [1]
+    },
+    {
+        "id": "q18",
+        "type": "msq",
+        "question": "Which of the following are true about DBSCAN's ability to find clusters?",
+        "options": [
+            "It can find clusters of arbitrary shape",
+            "It can miss clusters in data with varying densities",
+            "It is robust to outliers",
+            "It always finds the global optimum"
+        ],
+        "correct": [1, 2, 3]
+    },
+    {
+        "id": "q19",
+        "type": "mcq",
+        "question": "What is the role of feature scaling in DBSCAN?",
+        "options": [
+            "It is not required",
+            "It can significantly affect clustering results",
+            "It only affects noise points",
+            "It is used to determine min_samples"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q20",
+        "type": "msq",
+        "question": "Which of the following are true about DBSCAN?",
+        "options": [
+            "It is unsupervised",
+            "It is non-parametric",
+            "It can handle large datasets efficiently",
+            "It requires careful parameter tuning"
+        ],
+        "correct": [1, 2, 4]
+    }
+]
+

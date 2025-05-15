@@ -1,0 +1,243 @@
+[
+    {
+        "id": "q1",
+        "type": "mcq",
+        "question": "What is the main criterion used for splitting nodes in a decision tree for classification?",
+        "options": [
+            "Mean Squared Error",
+            "Gini Impurity",
+            "Euclidean Distance",
+            "Manhattan Distance"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q2",
+        "type": "msq",
+        "question": "Which of the following are common algorithms for building decision trees?",
+        "options": [
+            "ID3",
+            "CART",
+            "C4.5",
+            "K-Means"
+        ],
+        "correct": [1, 2, 3]
+    },
+    {
+        "id": "q3",
+        "type": "mcq",
+        "question": "Which measure is commonly used for splitting nodes in regression trees?",
+        "options": [
+            "Gini Impurity",
+            "Entropy",
+            "Mean Squared Error",
+            "Information Gain"
+        ],
+        "correct": [3]
+    },
+    {
+        "id": "q4",
+        "type": "msq",
+        "question": "Which of the following can be reasons for overfitting in decision trees?",
+        "options": [
+            "Tree depth is too large",
+            "Too many features",
+            "Insufficient pruning",
+            "High bias"
+        ],
+        "correct": [1, 2, 3]
+    },
+    {
+        "id": "q5",
+        "type": "mcq",
+        "question": "What is the purpose of pruning in decision trees?",
+        "options": [
+            "To increase tree depth",
+            "To prevent overfitting",
+            "To reduce bias",
+            "To increase accuracy on training data"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q6",
+        "type": "msq",
+        "question": "Which of the following are advantages of decision trees?",
+        "options": [
+            "Easy to interpret",
+            "Can handle both numerical and categorical data",
+            "Robust to outliers",
+            "Require feature scaling"
+        ],
+        "correct": [1, 2, 3]
+    },
+    {
+        "id": "q7",
+        "type": "mcq",
+        "question": "Which of the following is NOT a stopping criterion for growing a decision tree?",
+        "options": [
+            "Maximum tree depth reached",
+            "Minimum samples per leaf reached",
+            "All features are used up",
+            "All samples at a node belong to the same class"
+        ],
+        "correct": [3]
+    },
+    {
+        "id": "q8",
+        "type": "msq",
+        "question": "Which of the following are common ensemble methods that use decision trees as base learners?",
+        "options": [
+            "Random Forest",
+            "AdaBoost",
+            "Gradient Boosting",
+            "Principal Component Analysis"
+        ],
+        "correct": [1, 2, 3]
+    },
+    {
+        "id": "q9",
+        "type": "mcq",
+        "question": "What is the main disadvantage of using a single decision tree?",
+        "options": [
+            "High bias",
+            "High variance",
+            "Requires feature scaling",
+            "Cannot handle categorical data"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q10",
+        "type": "msq",
+        "question": "Which of the following impurity measures can be used for classification trees?",
+        "options": [
+            "Gini Impurity",
+            "Entropy",
+            "Variance",
+            "Mean Absolute Error"
+        ],
+        "correct": [1, 2]
+    },
+    {
+        "id": "q11",
+        "type": "mcq",
+        "question": "What is the time complexity of building a decision tree (with n samples and m features)?",
+        "options": [
+            "O(n)",
+            "O(m)",
+            "O(n log n)",
+            "O(mn log n)"
+        ],
+        "correct": [4]
+    },
+    {
+        "id": "q12",
+        "type": "msq",
+        "question": "Which of the following are hyperparameters for decision trees?",
+        "options": [
+            "Maximum tree depth",
+            "Minimum samples per split",
+            "Learning rate",
+            "Criterion for split"
+        ],
+        "correct": [1, 2, 4]
+    },
+    {
+        "id": "q13",
+        "type": "mcq",
+        "question": "What is the leaf node in a decision tree?",
+        "options": [
+            "A node with only one child",
+            "A node with no children",
+            "A node with maximum depth",
+            "A node with minimum samples"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q14",
+        "type": "msq",
+        "question": "Which of the following are limitations of decision trees?",
+        "options": [
+            "Prone to overfitting",
+            "Unstable to small data variations",
+            "Difficult to interpret",
+            "Can only handle numerical data"
+        ],
+        "correct": [1, 2]
+    },
+    {
+        "id": "q15",
+        "type": "mcq",
+        "question": "Which splitting criterion is used by default in the CART algorithm for classification?",
+        "options": [
+            "Entropy",
+            "Gini Impurity",
+            "Variance Reduction",
+            "Mean Absolute Error"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q16",
+        "type": "msq",
+        "question": "Which of the following are true about feature importance in decision trees?",
+        "options": [
+            "It can be derived from the reduction in impurity",
+            "It helps in feature selection",
+            "It is always reliable for highly correlated features",
+            "It is available after training the tree"
+        ],
+        "correct": [1, 2, 4]
+    },
+    {
+        "id": "q17",
+        "type": "mcq",
+        "question": "What happens if a decision tree is grown without any restrictions?",
+        "options": [
+            "It will always underfit",
+            "It will always overfit",
+            "It will have high bias",
+            "It will have low variance"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q18",
+        "type": "msq",
+        "question": "Which of the following can be used to prevent overfitting in decision trees?",
+        "options": [
+            "Pruning",
+            "Setting minimum samples per leaf",
+            "Limiting maximum depth",
+            "Increasing learning rate"
+        ],
+        "correct": [1, 2, 3]
+    },
+    {
+        "id": "q19",
+        "type": "mcq",
+        "question": "What is information gain in the context of decision trees?",
+        "options": [
+            "The increase in entropy after a split",
+            "The reduction in entropy after a split",
+            "The average impurity of child nodes",
+            "The sum of squared errors"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q20",
+        "type": "msq",
+        "question": "Which of the following statements are true for decision trees?",
+        "options": [
+            "They can handle missing values",
+            "They can model non-linear relationships",
+            "They are sensitive to data rotation",
+            "They require normalization of features"
+        ],
+        "correct": [1, 2, 3]
+    }
+]
+

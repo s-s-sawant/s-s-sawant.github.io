@@ -1,0 +1,243 @@
+[
+    {
+        "id": "q1",
+        "type": "mcq",
+        "question": "What is the primary objective of a Support Vector Machine (SVM)?",
+        "options": [
+            "To maximize the number of features",
+            "To find a hyperplane that maximizes the margin between classes",
+            "To minimize the number of support vectors",
+            "To minimize the number of features"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q2",
+        "type": "msq",
+        "question": "Which of the following tasks can SVMs be used for?",
+        "options": [
+            "Classification",
+            "Regression",
+            "Clustering",
+            "Outlier detection"
+        ],
+        "correct": [1, 2, 4]
+    },
+    {
+        "id": "q3",
+        "type": "mcq",
+        "question": "What are support vectors in the context of SVM?",
+        "options": [
+            "The data points farthest from the hyperplane",
+            "The data points closest to the hyperplane",
+            "All data points in the dataset",
+            "The data points that are misclassified"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q4",
+        "type": "msq",
+        "question": "Which of the following are common kernel functions used in SVMs?",
+        "options": [
+            "Linear kernel",
+            "Polynomial kernel",
+            "Radial Basis Function (RBF) kernel",
+            "Sigmoid kernel"
+        ],
+        "correct": [1, 2, 3, 4]
+    },
+    {
+        "id": "q5",
+        "type": "mcq",
+        "question": "What is the 'kernel trick' in SVM?",
+        "options": [
+            "A method to reduce computation time",
+            "A technique to transform data into higher dimensions for linear separation",
+            "A way to select the best hyperplane",
+            "A method for feature selection"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q6",
+        "type": "msq",
+        "question": "Which of the following are advantages of SVMs?",
+        "options": [
+            "Effective in high-dimensional spaces",
+            "Robust to overfitting with proper regularization",
+            "Can handle both linear and non-linear data",
+            "Directly provides probability estimates"
+        ],
+        "correct": [1, 2, 3]
+    },
+    {
+        "id": "q7",
+        "type": "mcq",
+        "question": "Which parameter in SVM controls the trade-off between maximizing the margin and minimizing classification error?",
+        "options": [
+            "Gamma",
+            "Degree",
+            "C",
+            "Epsilon"
+        ],
+        "correct": [3]
+    },
+    {
+        "id": "q8",
+        "type": "msq",
+        "question": "Which of the following are limitations or disadvantages of SVMs?",
+        "options": [
+            "Choice of kernel is not always straightforward",
+            "Training can be slow for large datasets",
+            "Difficult to interpret the final model",
+            "Cannot handle non-linear data"
+        ],
+        "correct": [1, 2, 3]
+    },
+    {
+        "id": "q9",
+        "type": "mcq",
+        "question": "Which type of SVM is used for data that is not linearly separable?",
+        "options": [
+            "Linear SVM",
+            "Kernel SVM",
+            "Decision Tree SVM",
+            "Random Forest SVM"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q10",
+        "type": "msq",
+        "question": "Which of the following are common applications of SVMs?",
+        "options": [
+            "Text classification",
+            "Image recognition",
+            "Protein structure prediction",
+            "Time series forecasting"
+        ],
+        "correct": [1, 2, 3]
+    },
+    {
+        "id": "q11",
+        "type": "mcq",
+        "question": "What is the computational complexity of training an SVM with n samples and m features?",
+        "options": [
+            "O(n)",
+            "O(mn)",
+            "O(mn^2) to O(mn^3)",
+            "O(n^m)"
+        ],
+        "correct": [3]
+    },
+    {
+        "id": "q12",
+        "type": "msq",
+        "question": "Which of the following are hyperparameters in SVMs?",
+        "options": [
+            "C",
+            "Gamma",
+            "Kernel type",
+            "Learning rate"
+        ],
+        "correct": [1, 2, 3]
+    },
+    {
+        "id": "q13",
+        "type": "mcq",
+        "question": "Which SVM variant is used for regression tasks?",
+        "options": [
+            "Support Vector Classification (SVC)",
+            "Support Vector Regression (SVR)",
+            "One-Class SVM",
+            "Linear SVM"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q14",
+        "type": "msq",
+        "question": "Which of the following statements about support vectors is true?",
+        "options": [
+            "They are the only points that affect the position of the hyperplane",
+            "Removing a support vector can change the decision boundary",
+            "All data points are support vectors",
+            "Support vectors lie closest to the margin"
+        ],
+        "correct": [1, 2, 4]
+    },
+    {
+        "id": "q15",
+        "type": "mcq",
+        "question": "What is the effect of a very large value of C in SVM?",
+        "options": [
+            "Wider margin, more misclassifications allowed",
+            "Narrower margin, fewer misclassifications allowed",
+            "No effect on the margin",
+            "Randomly changes the hyperplane"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q16",
+        "type": "msq",
+        "question": "Which of the following are true about SVMs and feature scaling?",
+        "options": [
+            "Feature scaling is important for SVM performance",
+            "SVMs are scale-invariant",
+            "Unscaled features can lead to poor results",
+            "Standardization or normalization is recommended"
+        ],
+        "correct": [1, 3, 4]
+    },
+    {
+        "id": "q17",
+        "type": "mcq",
+        "question": "What is the main purpose of the margin in SVM?",
+        "options": [
+            "To minimize the number of features",
+            "To maximize the distance between support vectors",
+            "To maximize the distance between classes",
+            "To minimize the number of support vectors"
+        ],
+        "correct": [3]
+    },
+    {
+        "id": "q18",
+        "type": "msq",
+        "question": "Which of the following are common validation methods for SVM models?",
+        "options": [
+            "Cross-validation",
+            "ROC and AUC",
+            "Confusion matrix",
+            "Grid search for hyperparameter tuning"
+        ],
+        "correct": [1, 2, 3, 4]
+    },
+    {
+        "id": "q19",
+        "type": "mcq",
+        "question": "Which of the following is NOT a typical use case for SVMs?",
+        "options": [
+            "Text classification",
+            "Image recognition",
+            "Clustering",
+            "Outlier detection"
+        ],
+        "correct": [3]
+    },
+    {
+        "id": "q20",
+        "type": "msq",
+        "question": "Which of the following are true about SVMs in high-dimensional spaces?",
+        "options": [
+            "SVMs perform well in high-dimensional spaces",
+            "SVMs are less likely to overfit with proper regularization",
+            "SVMs require a large number of samples to work well in high dimensions",
+            "SVMs can be computationally intensive in high dimensions"
+        ],
+        "correct": [1, 2, 4]
+    }
+]
+

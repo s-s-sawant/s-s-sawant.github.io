@@ -1,0 +1,243 @@
+[
+    {
+        "id": "q1",
+        "type": "mcq",
+        "question": "What is the primary purpose of bagging in ensemble learning?",
+        "options": [
+            "To reduce bias",
+            "To reduce variance",
+            "To increase model complexity",
+            "To perform feature selection"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q2",
+        "type": "msq",
+        "question": "Which of the following are common algorithms that use bagging?",
+        "options": [
+            "Random Forest",
+            "Bagged Decision Trees",
+            "AdaBoost",
+            "Bootstrap Aggregation"
+        ],
+        "correct": [1, 2, 4]
+    },
+    {
+        "id": "q3",
+        "type": "mcq",
+        "question": "What does 'boosting' aim to achieve in ensemble methods?",
+        "options": [
+            "Reduce variance by averaging models",
+            "Convert weak learners into a strong learner",
+            "Randomly select features for each learner",
+            "Reduce the number of models"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q4",
+        "type": "msq",
+        "question": "Which of the following are popular boosting algorithms?",
+        "options": [
+            "AdaBoost",
+            "Gradient Boosting",
+            "XGBoost",
+            "Random Forest"
+        ],
+        "correct": [1, 2, 3]
+    },
+    {
+        "id": "q5",
+        "type": "mcq",
+        "question": "In bagging, what is a 'bootstrap sample'?",
+        "options": [
+            "A sample containing only unique data points",
+            "A randomly selected subset of the data with replacement",
+            "A sample containing only outliers",
+            "A subset of features"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q6",
+        "type": "msq",
+        "question": "Which of the following are advantages of boosting?",
+        "options": [
+            "Can reduce both bias and variance",
+            "Often achieves higher accuracy than bagging",
+            "Can be prone to overfitting on noisy data",
+            "Works well with weak base learners"
+        ],
+        "correct": [1, 2, 3, 4]
+    },
+    {
+        "id": "q7",
+        "type": "mcq",
+        "question": "How does AdaBoost update the weights of training samples?",
+        "options": [
+            "Increases weights for correctly classified samples",
+            "Decreases weights for misclassified samples",
+            "Increases weights for misclassified samples",
+            "Keeps all weights constant"
+        ],
+        "correct": [3]
+    },
+    {
+        "id": "q8",
+        "type": "msq",
+        "question": "Which of the following are true about Random Forests?",
+        "options": [
+            "They use bagging",
+            "They use random feature selection at each split",
+            "They use boosting",
+            "They are robust to overfitting"
+        ],
+        "correct": [1, 2, 4]
+    },
+    {
+        "id": "q9",
+        "type": "mcq",
+        "question": "What is the main difference between bagging and boosting?",
+        "options": [
+            "Bagging builds models sequentially, boosting builds models independently",
+            "Bagging builds models independently, boosting builds models sequentially",
+            "Both build models sequentially",
+            "Both build models independently"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q10",
+        "type": "msq",
+        "question": "Which of the following are typical base learners for bagging and boosting?",
+        "options": [
+            "Decision Trees",
+            "Linear Regression",
+            "k-Nearest Neighbors",
+            "Naive Bayes"
+        ],
+        "correct": [1, 2, 3, 4]
+    },
+    {
+        "id": "q11",
+        "type": "mcq",
+        "question": "What is the effect of increasing the number of estimators in a bagging ensemble?",
+        "options": [
+            "Decreases variance",
+            "Increases bias",
+            "Decreases bias",
+            "Has no effect"
+        ],
+        "correct": [1]
+    },
+    {
+        "id": "q12",
+        "type": "msq",
+        "question": "Which of the following are hyperparameters in boosting algorithms?",
+        "options": [
+            "Number of estimators",
+            "Learning rate",
+            "Maximum tree depth",
+            "Bootstrap sample size"
+        ],
+        "correct": [1, 2, 3]
+    },
+    {
+        "id": "q13",
+        "type": "mcq",
+        "question": "Which boosting algorithm is known for its speed and performance in machine learning competitions?",
+        "options": [
+            "AdaBoost",
+            "Gradient Boosting",
+            "XGBoost",
+            "Random Forest"
+        ],
+        "correct": [3]
+    },
+    {
+        "id": "q14",
+        "type": "msq",
+        "question": "Which of the following are disadvantages of bagging?",
+        "options": [
+            "Can be computationally expensive",
+            "Less interpretable than single models",
+            "Can increase bias",
+            "Requires careful tuning of hyperparameters"
+        ],
+        "correct": [1, 2]
+    },
+    {
+        "id": "q15",
+        "type": "mcq",
+        "question": "In boosting, what happens if a weak learner performs worse than random guessing?",
+        "options": [
+            "It is removed from the ensemble",
+            "Its weight is set to zero",
+            "It is given negative weight",
+            "It is retrained until it performs better"
+        ],
+        "correct": [3]
+    },
+    {
+        "id": "q16",
+        "type": "msq",
+        "question": "Which of the following statements are true for bagging?",
+        "options": [
+            "Reduces variance",
+            "Improves stability of models",
+            "Can be parallelized easily",
+            "Always reduces bias"
+        ],
+        "correct": [1, 2, 3]
+    },
+    {
+        "id": "q17",
+        "type": "mcq",
+        "question": "What is the main reason boosting can overfit on noisy datasets?",
+        "options": [
+            "It ignores misclassified samples",
+            "It focuses on hard-to-classify or noisy samples",
+            "It uses only a single base learner",
+            "It uses random feature selection"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q18",
+        "type": "msq",
+        "question": "Which of the following are common evaluation metrics for bagging and boosting models?",
+        "options": [
+            "Accuracy",
+            "ROC-AUC",
+            "Mean Squared Error",
+            "Gini Impurity"
+        ],
+        "correct": [1, 2, 3]
+    },
+    {
+        "id": "q19",
+        "type": "mcq",
+        "question": "Which ensemble method typically gives each base learner equal weight in the final prediction?",
+        "options": [
+            "Bagging",
+            "Boosting",
+            "Stacking",
+            "Blending"
+        ],
+        "correct": [1]
+    },
+    {
+        "id": "q20",
+        "type": "msq",
+        "question": "Which of the following are true about boosting?",
+        "options": [
+            "Models are built sequentially",
+            "Each new model focuses on errors of previous models",
+            "Can use decision trees as base learners",
+            "Always uses bagging"
+        ],
+        "correct": [1, 2, 3]
+    }
+]
+
