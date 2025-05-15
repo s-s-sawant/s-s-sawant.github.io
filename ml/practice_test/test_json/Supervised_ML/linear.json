@@ -2,241 +2,241 @@
     {
         "id": "q1",
         "type": "mcq",
-        "question": "Which of the following is a key assumption of linear regression?",
+        "question": "Linear regression belongs to which category of machine learning?",
         "options": [
-            "The independent variables are categorical.",
-            "The residuals are normally distributed.",
-            "There is multicollinearity among independent variables.",
-            "The dependent variable is binary."
+            "Unsupervised learning",
+            "Supervised learning",
+            "Reinforcement learning",
+            "Semi-supervised learning"
         ],
         "correct": [2]
     },
     {
         "id": "q2",
-        "type": "msq",
-        "question": "Which of the following can be used to detect multicollinearity in a regression model? (Select all that apply)",
-        "options": [
-            "Variance Inflation Factor (VIF)",
-            "Durbin-Watson statistic",
-            "Condition Number",
-            "Residual plots"
-        ],
-        "correct": [1, 3]
-    },
-    {
-        "id": "q3",
         "type": "mcq",
-        "question": "In linear regression, the R-squared value represents:",
+        "question": "If you predict housing prices based only on the size of each house, which regression is this?",
         "options": [
-            "The proportion of variance in the dependent variable explained by the model.",
-            "The correlation coefficient between independent and dependent variables.",
-            "The standard error of the estimate.",
-            "The slope of the regression line."
-        ],
-        "correct": [1]
-    },
-    {
-        "id": "q4",
-        "type": "mcq",
-        "question": "Which of the following methods is used to estimate the coefficients in linear regression?",
-        "options": [
-            "Maximum Likelihood Estimation",
-            "Gradient Descent",
-            "Ordinary Least Squares",
-            "Bayesian Inference"
-        ],
-        "correct": [3]
-    },
-    {
-        "id": "q5",
-        "type": "msq",
-        "question": "Which of the following are consequences of violating the assumption of homoscedasticity? (Select all that apply)",
-        "options": [
-            "Biased coefficient estimates",
-            "Inefficient estimates",
-            "Invalid standard errors",
-            "Increased multicollinearity"
-        ],
-        "correct": [2, 3]
-    },
-    {
-        "id": "q6",
-        "type": "mcq",
-        "question": "What does a high Variance Inflation Factor (VIF) indicate?",
-        "options": [
-            "High correlation between independent and dependent variables.",
-            "Presence of heteroscedasticity.",
-            "High multicollinearity among independent variables.",
-            "Autocorrelation in residuals."
-        ],
-        "correct": [3]
-    },
-    {
-        "id": "q7",
-        "type": "mcq",
-        "question": "Which of the following is true about the residuals in a well-fitted linear regression model?",
-        "options": [
-            "They should exhibit a pattern when plotted against predicted values.",
-            "They should have constant variance.",
-            "They should be correlated with independent variables.",
-            "They should increase with the fitted values."
+            "Multivariate Logistic Regression",
+            "Linear Regression",
+            "Multivariate Linear Regression",
+            "Logistic Regression"
         ],
         "correct": [2]
     },
     {
-        "id": "q8",
-        "type": "msq",
-        "question": "Which techniques can be used to address multicollinearity? (Select all that apply)",
+        "id": "q3",
+        "type": "mcq",
+        "question": "In the regression model y = a + bx, what does 'b' represent?",
         "options": [
-            "Removing highly correlated predictors",
-            "Combining correlated variables",
-            "Applying Ridge Regression",
-            "Increasing the sample size"
+            "Intercept",
+            "Slope",
+            "Residual",
+            "Variance"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q4",
+        "type": "msq",
+        "question": "Which of the following are assumptions of linear regression?",
+        "options": [
+            "Linearity",
+            "Homoscedasticity",
+            "No multicollinearity",
+            "Dependent variable is categorical"
         ],
         "correct": [1, 2, 3]
     },
     {
+        "id": "q5",
+        "type": "msq",
+        "question": "Which metrics can be used to evaluate a linear regression model?",
+        "options": [
+            "Mean Squared Error (MSE)",
+            "R-squared",
+            "Accuracy",
+            "Adjusted R-squared"
+        ],
+        "correct": [1, 2, 4]
+    },
+    {
+        "id": "q6",
+        "type": "mcq",
+        "question": "What does the coefficient of determination (R-squared) represent?",
+        "options": [
+            "The proportion of variance in the dependent variable explained by the model",
+            "The mean of the residuals",
+            "The sum of squared errors",
+            "The slope of the regression line"
+        ],
+        "correct": [1]
+    },
+    {
+        "id": "q7",
+        "type": "mcq",
+        "question": "In multiple linear regression, what does 'multicollinearity' refer to?",
+        "options": [
+            "Correlation between independent variables",
+            "Correlation between dependent and independent variable",
+            "Non-linearity in the data",
+            "Variance of residuals"
+        ],
+        "correct": [1]
+    },
+    {
+        "id": "q8",
+        "type": "msq",
+        "question": "Which of the following can help address multicollinearity?",
+        "options": [
+            "Remove correlated features",
+            "Use dimensionality reduction (e.g., PCA)",
+            "Increase the number of features",
+            "Regularization (e.g., Ridge)"
+        ],
+        "correct": [1, 2, 4]
+    },
+    {
         "id": "q9",
         "type": "mcq",
-        "question": "What is the purpose of the Durbin-Watson statistic in regression analysis?",
+        "question": "Which method is commonly used to fit the best line in linear regression?",
         "options": [
-            "To test for multicollinearity",
-            "To detect autocorrelation in residuals",
-            "To assess normality of residuals",
-            "To measure the goodness-of-fit"
+            "Gradient descent",
+            "Least squares method",
+            "Maximum likelihood estimation",
+            "Random forests"
         ],
         "correct": [2]
     },
     {
         "id": "q10",
         "type": "mcq",
-        "question": "In multiple linear regression, adding more predictors to the model will always:",
+        "question": "What does the intercept in a linear regression model represent?",
         "options": [
-            "Increase the adjusted R-squared value",
-            "Decrease the standard error",
-            "Increase the R-squared value",
-            "Improve the model's predictive power"
+            "The value of x when y is zero",
+            "The value of y when all predictors are zero",
+            "The slope of the line",
+            "The error term"
         ],
-        "correct": [3]
+        "correct": [2]
     },
     {
         "id": "q11",
-        "type": "mcq",
-        "question": "Which of the following is a limitation of using R-squared to assess model fit?",
+        "type": "msq",
+        "question": "Which of the following are true about adjusted R-squared?",
         "options": [
-            "It decreases with the addition of irrelevant predictors.",
-            "It can be negative.",
-            "It does not account for the number of predictors in the model.",
-            "It is unaffected by outliers."
+            "It penalizes the addition of irrelevant predictors",
+            "It can decrease if a new predictor does not improve the model",
+            "It is always greater than R-squared",
+            "It is used in multiple regression"
         ],
-        "correct": [3]
+        "correct": [1, 2, 4]
     },
     {
         "id": "q12",
-        "type": "msq",
-        "question": "Which of the following are assumptions of the classical linear regression model? (Select all that apply)",
+        "type": "mcq",
+        "question": "In the model Y = α + β1X1 + β2X2 + ... + ε, which regression is this?",
         "options": [
-            "Linearity between independent and dependent variables",
-            "No autocorrelation of residuals",
-            "Homoscedasticity of residuals",
-            "Multicollinearity among independent variables"
+            "Simple linear regression",
+            "Multiple linear regression",
+            "Polynomial regression",
+            "Logistic regression"
         ],
-        "correct": [1, 2, 3]
+        "correct": [2]
     },
     {
         "id": "q13",
-        "type": "mcq",
-        "question": "What does the adjusted R-squared value account for that the R-squared does not?",
+        "type": "msq",
+        "question": "Which of the following can be consequences of violating linear regression assumptions?",
         "options": [
-            "The correlation between variables",
-            "The number of predictors in the model",
-            "The sample size",
-            "The variance of residuals"
+            "Biased coefficient estimates",
+            "Inefficient predictions",
+            "Incorrect confidence intervals",
+            "Improved model accuracy"
         ],
-        "correct": [2]
+        "correct": [1, 2, 3]
     },
     {
         "id": "q14",
         "type": "mcq",
-        "question": "Which of the following is true about the F-test in linear regression?",
+        "question": "What is the main difference between simple and multiple linear regression?",
         "options": [
-            "It tests the significance of individual predictors.",
-            "It assesses the overall significance of the regression model.",
-            "It checks for multicollinearity.",
-            "It evaluates the normality of residuals."
-        ],
-        "correct": [2]
-    },
-    {
-        "id": "q15",
-        "type": "msq",
-        "question": "Which of the following can be used to detect outliers in regression analysis? (Select all that apply)",
-        "options": [
-            "Cook's Distance",
-            "Leverage values",
-            "Standardized residuals",
-            "Variance Inflation Factor"
-        ],
-        "correct": [1, 2, 3]
-    },
-    {
-        "id": "q16",
-        "type": "mcq",
-        "question": "In the context of regression, heteroscedasticity refers to:",
-        "options": [
-            "Non-linearity between variables.",
-            "Correlation among residuals.",
-            "Non-constant variance of residuals.",
-            "High multicollinearity."
-        ],
-        "correct": [3]
-    },
-    {
-        "id": "q17",
-        "type": "mcq",
-        "question": "Which transformation is commonly used to stabilize variance in the presence of heteroscedasticity?",
-        "options": [
-            "Logarithmic transformation",
-            "Exponential transformation",
-            "Reciprocal transformation",
-            "Differencing"
+            "Simple uses one predictor, multiple uses more than one",
+            "Simple is unsupervised, multiple is supervised",
+            "Simple uses categorical variables, multiple uses continuous",
+            "Simple uses regularization"
         ],
         "correct": [1]
     },
     {
-        "id": "q18",
-        "type": "msq",
-        "question": "Which of the following are true about Ridge Regression? (Select all that apply)",
-        "options": [
-            "It adds a penalty term to the loss function.",
-            "It can handle multicollinearity.",
-            "It performs variable selection.",
-            "It minimizes the sum of absolute coefficients."
-        ],
-        "correct": [1, 2]
-    },
-    {
-        "id": "q19",
+        "id": "q15",
         "type": "mcq",
-        "question": "What is the primary difference between Ridge and Lasso regression?",
+        "question": "Which statement is true about the residuals in linear regression?",
         "options": [
-            "Ridge regression can perform variable selection; Lasso cannot.",
-            "Lasso regression adds L1 penalty; Ridge adds L2 penalty.",
-            "Ridge regression minimizes absolute errors; Lasso minimizes squared errors.",
-            "Lasso regression is suitable for multicollinearity; Ridge is not."
+            "They should be correlated with predictors",
+            "They should be normally distributed with mean zero",
+            "They should be as large as possible",
+            "They should increase with x"
         ],
         "correct": [2]
     },
     {
-        "id": "q20",
+        "id": "q16",
+        "type": "msq",
+        "question": "Which of the following are types of regularization used in regression?",
+        "options": [
+            "Lasso (L1)",
+            "Ridge (L2)",
+            "Elastic Net",
+            "Random Forest"
+        ],
+        "correct": [1, 2, 3]
+    },
+    {
+        "id": "q17",
+        "type": "mcq",
+        "question": "What is the effect of adding irrelevant features in multiple linear regression?",
+        "options": [
+            "It always improves R-squared",
+            "It may increase R-squared but decrease adjusted R-squared",
+            "It always decreases both R-squared and adjusted R-squared",
+            "It has no effect"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "q18",
         "type": "mcq",
         "question": "Which of the following is NOT an assumption of linear regression?",
         "options": [
-            "The relationship between independent and dependent variables is linear.",
-            "The residuals are normally distributed.",
-            "The independent variables are uncorrelated.",
-            "The dependent variable is categorical."
+            "Linearity",
+            "Independence of errors",
+            "Homoscedasticity",
+            "Dependent variable is binary"
         ],
         "correct": [4]
+    },
+    {
+        "id": "q19",
+        "type": "msq",
+        "question": "Which of the following are ways to check for homoscedasticity?",
+        "options": [
+            "Plot residuals vs fitted values",
+            "Use Breusch-Pagan test",
+            "Check for normality of predictors",
+            "Plot histogram of residuals"
+        ],
+        "correct": [1, 2]
+    },
+    {
+        "id": "q20",
+        "type": "mcq",
+        "question": "Which of the following best describes the bias-variance tradeoff in regression?",
+        "options": [
+            "Balancing model complexity to avoid underfitting and overfitting",
+            "Maximizing the number of predictors",
+            "Using only categorical variables",
+            "Minimizing training error at all costs"
+        ],
+        "correct": [1]
     }
 ]
