@@ -1,183 +1,183 @@
 [
     {
-        "id": "s1",
+        "id": "ds1",
         "type": "mcq",
-        "question": "Which of the following is NOT a measure of central tendency?",
+        "question": "Given a dataset with extreme outliers, which robust measure of spread should be preferred over standard deviation?",
         "options": [
-            "Mean",
-            "Median",
-            "Mode",
+            "Range",
+            "Interquartile Range (IQR)",
+            "Mean Absolute Deviation",
             "Variance"
         ],
-        "correct": [4]
+        "correct": [2]
     },
     {
-        "id": "s2",
+        "id": "ds2",
         "type": "mcq",
-        "question": "The mean of the data set {2, 4, 6, 8, 10} is:",
+        "question": "For a grouped frequency distribution, which formula correctly computes the median?",
         "options": [
-            "5",
-            "6",
-            "7",
-            "8"
+            "Median = l + [(n/2 - cf)/f] × h",
+            "Median = (n + 1)/2",
+            "Median = (Upper limit + Lower limit)/2",
+            "Median = (Sum of frequencies)/n"
+        ],
+        "correct": [1]
+    },
+    {
+        "id": "ds3",
+        "type": "mcq",
+        "question": "Which of the following is the best method to visually compare the spread and symmetry of two continuous distributions?",
+        "options": [
+            "Bar chart",
+            "Pie chart",
+            "Boxplot",
+            "Line graph"
+        ],
+        "correct": [3]
+    },
+    {
+        "id": "ds4",
+        "type": "mcq",
+        "question": "A dataset is highly platykurtic. What does this indicate about its shape?",
+        "options": [
+            "It has heavy tails and is peaked",
+            "It is flat with light tails",
+            "It is symmetric and bell-shaped",
+            "It is skewed right"
         ],
         "correct": [2]
     },
     {
-        "id": "s3",
+        "id": "ds5",
         "type": "mcq",
-        "question": "The median of the data set {3, 5, 7, 9, 11} is:",
+        "question": "Given two datasets with identical means and variances, which additional descriptive statistic is most useful for comparing their distribution shapes?",
         "options": [
-            "5",
-            "7",
-            "9",
-            "11"
-        ],
-        "correct": [2]
-    },
-    {
-        "id": "s4",
-        "type": "mcq",
-        "question": "Which of the following is a measure of dispersion?",
-        "options": [
-            "Mean",
-            "Mode",
-            "Range",
-            "Median"
-        ],
-        "correct": [3]
-    },
-    {
-        "id": "s5",
-        "type": "mcq",
-        "question": "What does a standard deviation of zero indicate?",
-        "options": [
-            "All values are the same",
-            "All values are different",
-            "Mean is zero",
-            "Data is skewed"
-        ],
-        "correct": [1]
-    },
-    {
-        "id": "s6",
-        "type": "mcq",
-        "question": "Which statistic is most affected by outliers?",
-        "options": [
-            "Mean",
-            "Median",
-            "Mode",
-            "All are equally affected"
-        ],
-        "correct": [1]
-    },
-    {
-        "id": "s7",
-        "type": "mcq",
-        "question": "If the data set is {2, 2, 3, 4, 5}, what is the mode?",
-        "options": [
-            "2",
-            "3",
-            "4",
-            "5"
-        ],
-        "correct": [1]
-    },
-    {
-        "id": "s8",
-        "type": "mcq",
-        "question": "Which of the following is NOT a type of data?",
-        "options": [
-            "Quantitative",
-            "Qualitative",
-            "Ordinal",
-            "Integral"
-        ],
-        "correct": [4]
-    },
-    {
-        "id": "s9",
-        "type": "mcq",
-        "question": "The range of the data set {5, 8, 12, 20, 25} is:",
-        "options": [
-            "5",
-            "8",
-            "20",
-            "25"
-        ],
-        "correct": [3]
-    },
-    {
-        "id": "s10",
-        "type": "mcq",
-        "question": "Variance is:",
-        "options": [
-            "The square of the standard deviation",
-            "The square root of the standard deviation",
-            "Always less than the mean",
-            "A measure of central tendency"
-        ],
-        "correct": [1]
-    },
-    {
-        "id": "s11",
-        "type": "mcq",
-        "question": "Which of the following is a graphical representation of data?",
-        "options": [
-            "Histogram",
-            "Mean",
-            "Variance",
-            "Median"
-        ],
-        "correct": [1]
-    },
-    {
-        "id": "s12",
-        "type": "mcq",
-        "question": "If the mean and median of a data set are equal, the distribution is likely:",
-        "options": [
-            "Skewed right",
-            "Skewed left",
-            "Symmetric",
-            "Bimodal"
-        ],
-        "correct": [3]
-    },
-    {
-        "id": "s13",
-        "type": "mcq",
-        "question": "Which of the following is not a measure of variability?",
-        "options": [
-            "Standard deviation",
-            "Range",
-            "Median",
-            "Variance"
-        ],
-        "correct": [3]
-    },
-    {
-        "id": "s14",
-        "type": "mcq",
-        "question": "A boxplot is used to display:",
-        "options": [
-            "Mean and standard deviation",
-            "Quartiles and outliers",
-            "Frequency distribution",
-            "Mode and range"
-        ],
-        "correct": [2]
-    },
-    {
-        "id": "s15",
-        "type": "msq",
-        "question": "Which of the following are measures of central tendency?",
-        "options": [
-            "Mean",
+            "Skewness",
             "Median",
             "Mode",
             "Range"
         ],
+        "correct": [1]
+    },
+    {
+        "id": "ds6",
+        "type": "mcq",
+        "question": "Which of the following statements about the coefficient of variation (CV) is TRUE?",
+        "options": [
+            "CV is unitless and allows comparison of variability between datasets with different units.",
+            "CV is always greater than 1.",
+            "CV is only defined for data measured in the same units.",
+            "CV is the square of the standard deviation."
+        ],
+        "correct": [1]
+    },
+    {
+        "id": "ds7",
+        "type": "mcq",
+        "question": "In a bivariate dataset, which statistic quantifies the linear relationship between the two variables?",
+        "options": [
+            "Covariance",
+            "Correlation coefficient",
+            "Regression slope",
+            "All of the above"
+        ],
+        "correct": [4]
+    },
+    {
+        "id": "ds8",
+        "type": "mcq",
+        "question": "Which summary statistic is most appropriate for describing the central tendency of a highly skewed dataset?",
+        "options": [
+            "Mean",
+            "Median",
+            "Mode",
+            "Standard deviation"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "ds9",
+        "type": "msq",
+        "question": "Which of the following are true about the sampling distribution of the mean?",
+        "options": [
+            "It becomes approximately normal as sample size increases, regardless of population shape.",
+            "Its mean equals the population mean.",
+            "Its standard deviation decreases as sample size increases.",
+            "It is always bimodal for skewed populations."
+        ],
         "correct": [1,2,3]
+    },
+    {
+        "id": "ds10",
+        "type": "mcq",
+        "question": "A data set has a mean of 50 and a standard deviation of 5. What is the z-score for a value of 60?",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "ds11",
+        "type": "mcq",
+        "question": "Which of the following best describes the use of a contingency table?",
+        "options": [
+            "To summarize the frequency distribution of a single variable",
+            "To display the joint distribution of two categorical variables",
+            "To visualize the correlation between two numerical variables",
+            "To compute the mean and variance"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "ds12",
+        "type": "mcq",
+        "question": "A scatter plot is most useful for:",
+        "options": [
+            "Comparing means between groups",
+            "Detecting outliers in univariate data",
+            "Visualizing the relationship between two quantitative variables",
+            "Summarizing categorical data"
+        ],
+        "correct": [3]
+    },
+    {
+        "id": "ds13",
+        "type": "mcq",
+        "question": "Which of the following is a valid interpretation of a negative skewness value in a dataset?",
+        "options": [
+            "The distribution has a longer right tail",
+            "The distribution has a longer left tail",
+            "The distribution is symmetric",
+            "The mean is greater than the median"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "ds14",
+        "type": "msq",
+        "question": "Which of the following statements are true regarding outliers in a boxplot?",
+        "options": [
+            "Outliers are plotted as individual points beyond the whiskers.",
+            "They can indicate data entry errors or true variability.",
+            "They always represent errors in the data.",
+            "Boxplots can help identify potential outliers."
+        ],
+        "correct": [1,2,4]
+    },
+    {
+        "id": "ds15",
+        "type": "mcq",
+        "question": "For a dataset with a mean of 100, median of 80, and mode of 60, what is the likely skewness?",
+        "options": [
+            "Positively skewed",
+            "Negatively skewed",
+            "Symmetric",
+            "Uniform"
+        ],
+        "correct": [1]
     }
 ]
 
