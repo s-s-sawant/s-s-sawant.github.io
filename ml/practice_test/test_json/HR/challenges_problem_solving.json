@@ -1,0 +1,123 @@
+[
+  {
+    "id": "q1",
+    "type": "mcq",
+    "question": "How should you answer 'Can you work under pressure?'",
+    "options": [
+      "Say no.",
+      "Say yes and provide examples of working under pressure.",
+      "Avoid the question.",
+      "Say you dislike pressure."
+    ],
+    "correct": [2]
+  },
+  {
+    "id": "q2",
+    "type": "msq",
+    "question": "Which are effective ways to handle workplace conflict? (Select all that apply)",
+    "options": [
+      "Address issues directly and constructively.",
+      "Ignore the problem.",
+      "Involve relevant parties as needed.",
+      "Complain to others."
+    ],
+    "correct": [1,3]
+  },
+  {
+    "id": "q3",
+    "type": "mcq",
+    "question": "What is the best way to answer 'What makes you angry?'",
+    "options": [
+      "Describe yourself as a hothead.",
+      "Give an answer suited to your personality and the company's style.",
+      "Say you never get angry.",
+      "Refuse to answer."
+    ],
+    "correct": [2]
+  },
+  {
+    "id": "q4",
+    "type": "msq",
+    "question": "Which are good strategies for solving hypothetical problems in interviews? (Select all that apply)",
+    "options": [
+      "Describe the process you would follow to analyze and solve the problem.",
+      "Try to solve the problem on the spot without information.",
+      "Consult with relevant stakeholders.",
+      "Give a random answer."
+    ],
+    "correct": [1,3]
+  },
+  {
+    "id": "q5",
+    "type": "mcq",
+    "question": "How should you answer 'What was the toughest decision you ever had to make?'",
+    "options": [
+      "Say you never had to make tough decisions.",
+      "Explain why the decision was difficult and how you handled it.",
+      "Give an unprepared or irrelevant answer.",
+      "Refuse to answer."
+    ],
+    "correct": [2]
+  },
+  {
+    "id": "q6",
+    "type": "msq",
+    "question": "Which are good ways to define success in an interview? (Select all that apply)",
+    "options": [
+      "Give a well-accepted definition and relate it to your achievements.",
+      "Say you have not thought about it.",
+      "Mention progressive realization of goals.",
+      "Focus only on financial success."
+    ],
+    "correct": [1,3]
+  },
+  {
+    "id": "q7",
+    "type": "mcq",
+    "question": "What is a good way to answer 'What do you worry about?'",
+    "options": [
+      "Redefine worry as goal-oriented thinking and problem-solving.",
+      "Say you never worry.",
+      "Admit to worrying a lot.",
+      "Refuse to answer."
+    ],
+    "correct": [1]
+  },
+  {
+    "id": "q8",
+    "type": "msq",
+    "question": "Which are effective ways to handle challenging tasks? (Select all that apply)",
+    "options": [
+      "Break the task into manageable steps.",
+      "Seek feedback and adjust as needed.",
+      "Give up if it seems hard.",
+      "Stay organized and focused."
+    ],
+    "correct": [1,2,4]
+  },
+  {
+    "id": "q9",
+    "type": "mcq",
+    "question": "How should you answer 'What's the most difficult part of being a [job title]?'",
+    "options": [
+      "Identify a universally challenging area and explain how you excel at it.",
+      "Say nothing is difficult.",
+      "Admit you struggle with important tasks.",
+      "Refuse to answer."
+    ],
+    "correct": [1]
+  },
+  {
+    "id": "q10",
+    "type": "msq",
+    "question": "Which of the following are important qualities for problem-solving? (Select all that apply)",
+    "options": [
+      "Analytical thinking",
+      "Creativity",
+      "Persistence",
+      "Avoiding feedback"
+    ],
+    "correct": [1,2,3]
+  }
+]
+

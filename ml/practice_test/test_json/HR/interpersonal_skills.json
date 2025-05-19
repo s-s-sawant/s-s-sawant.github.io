@@ -1,0 +1,123 @@
+[
+  {
+    "id": "q1",
+    "type": "mcq",
+    "question": "How should you answer 'How do you feel about reporting to a younger person (minority, woman, etc)?'",
+    "options": [
+      "Say you would prefer not to.",
+      "Affirm the value of merit-based promotions and respect for all colleagues.",
+      "Express discomfort.",
+      "Refuse to answer."
+    ],
+    "correct": [2]
+  },
+  {
+    "id": "q2",
+    "type": "msq",
+    "question": "Which are good ways to respond to requests for confidential information about a former employer? (Select all that apply)",
+    "options": [
+      "Politely refuse and explain the importance of confidentiality.",
+      "Share the information.",
+      "Make up information.",
+      "Allude to your achievements without revealing secrets."
+    ],
+    "correct": [1,4]
+  },
+  {
+    "id": "q3",
+    "type": "mcq",
+    "question": "How should you answer 'Would you lie for the company?'",
+    "options": [
+      "Say you would always lie for the company.",
+      "State you would never do anything to hurt the company but value personal integrity.",
+      "Say it depends on the situation.",
+      "Refuse to answer."
+    ],
+    "correct": [2]
+  },
+  {
+    "id": "q4",
+    "type": "msq",
+    "question": "Which are good strategies for discussing your boss's strengths and weaknesses? (Select all that apply)",
+    "options": [
+      "Stress only the good points.",
+      "Be critical and share negative stories.",
+      "Refuse to answer.",
+      "Avoid negativity."
+    ],
+    "correct": [1,4]
+  },
+  {
+    "id": "q5",
+    "type": "mcq",
+    "question": "What is the best way to answer 'Do you have the stomach to fire people?'",
+    "options": [
+      "Describe a rational and fair management process for hiring and firing.",
+      "Boast about firing many people.",
+      "Say you would never fire anyone.",
+      "Refuse to answer."
+    ],
+    "correct": [1]
+  },
+  {
+    "id": "q6",
+    "type": "msq",
+    "question": "Which are important qualities when hiring people? (Select all that apply)",
+    "options": [
+      "Motivation",
+      "Qualifications",
+      "Team fit",
+      "Availability only"
+    ],
+    "correct": [1,2,3]
+  },
+  {
+    "id": "q7",
+    "type": "mcq",
+    "question": "How should you answer 'How many hours a week do you normally work?'",
+    "options": [
+      "Give a low number.",
+      "Explain you work hard and enjoy your work, making it difficult to count hours.",
+      "Say you avoid working overtime.",
+      "Refuse to answer."
+    ],
+    "correct": [2]
+  },
+  {
+    "id": "q8",
+    "type": "msq",
+    "question": "Which are good ways to show flexibility about relocation or travel? (Select all that apply)",
+    "options": [
+      "Express openness and ask for more details about the requirements.",
+      "Flatly refuse.",
+      "Say you never travel.",
+      "Explain you would consider it for the right opportunity."
+    ],
+    "correct": [1,4]
+  },
+  {
+    "id": "q9",
+    "type": "mcq",
+    "question": "How should you answer 'Would you work with people from diverse backgrounds?'",
+    "options": [
+      "Emphasize your respect for diversity and inclusion.",
+      "Say you would prefer not to.",
+      "Refuse to answer.",
+      "Express discomfort."
+    ],
+    "correct": [1]
+  },
+  {
+    "id": "q10",
+    "type": "msq",
+    "question": "Which of the following behaviors demonstrate strong interpersonal skills? (Select all that apply)",
+    "options": [
+      "Active listening",
+      "Collaboration",
+      "Interrupting frequently",
+      "Providing constructive feedback"
+    ],
+    "correct": [1,2,4]
+  }
+]
+

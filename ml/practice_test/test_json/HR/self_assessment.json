@@ -1,0 +1,123 @@
+[
+  {
+    "id": "q1",
+    "type": "mcq",
+    "question": "What is the most effective way to introduce yourself in an interview?",
+    "options": [
+      "Discuss personal matters unrelated to the job.",
+      "Recap your entire life story.",
+      "Start with the present and explain why you are well qualified for the position.",
+      "Focus on your hobbies."
+    ],
+    "correct": [3]
+  },
+  {
+    "id": "q2",
+    "type": "msq",
+    "question": "Which of the following are considered key strengths by most employers? (Select all that apply)",
+    "options": [
+      "Tendency to avoid teamwork",
+      "Proven track record as an achiever",
+      "Good communication skills",
+      "Positive attitude and sense of humor"
+    ],
+    "correct": [2,3,4]
+  },
+  {
+    "id": "q3",
+    "type": "mcq",
+    "question": "How should you approach the question about your greatest weakness?",
+    "options": [
+      "Disguise a strength as a weakness or explain why nothing would prevent you from excelling.",
+      "Admit a major flaw that could eliminate you from consideration.",
+      "Discuss unrelated personal weaknesses.",
+      "Refuse to answer the question."
+    ],
+    "correct": [1]
+  },
+  {
+    "id": "q4",
+    "type": "msq",
+    "question": "When asked about regrets or mistakes, which responses are recommended? (Select all that apply)",
+    "options": [
+      "Say you have no regrets and explain your approach to avoid them.",
+      "Describe a principle or habit you practice to avoid regrets.",
+      "Confess a significant personal regret.",
+      "Blame others for your mistakes."
+    ],
+    "correct": [1,2]
+  },
+  {
+    "id": "q5",
+    "type": "mcq",
+    "question": "Which is the best way to describe your outside interests in an interview?",
+    "options": [
+      "Say you have no interests outside work.",
+      "List all your hobbies regardless of relevance.",
+      "Mention activities that demonstrate qualities valuable to the employer.",
+      "Focus on activities that may interfere with your job."
+    ],
+    "correct": [3]
+  },
+  {
+    "id": "q6",
+    "type": "msq",
+    "question": "Which of these are good strategies for handling the 'Silent Treatment' in an interview? (Select all that apply)",
+    "options": [
+      "Remain calm and confident.",
+      "Start talking to fill the silence.",
+      "Show frustration.",
+      "Keep quiet yourself and politely ask if you can clarify anything."
+    ],
+    "correct": [1,4]
+  },
+  {
+    "id": "q7",
+    "type": "mcq",
+    "question": "How should you respond if asked about the strong and weak points of your previous boss?",
+    "options": [
+      "Be critical and share negative stories.",
+      "Refuse to answer.",
+      "Stress only the good points and avoid negativity.",
+      "Discuss confidential company issues."
+    ],
+    "correct": [3]
+  },
+  {
+    "id": "q8",
+    "type": "msq",
+    "question": "Which are effective ways to present your strengths in an interview? (Select all that apply)",
+    "options": [
+      "Be humble and avoid mentioning achievements.",
+      "Prepare specific examples matching the employer's needs.",
+      "Highlight qualities that fit the company culture.",
+      "Focus only on technical skills."
+    ],
+    "correct": [2,3]
+  },
+  {
+    "id": "q9",
+    "type": "mcq",
+    "question": "What is a recommended way to discuss your greatest strengths?",
+    "options": [
+      "List a few strengths without examples.",
+      "Mention strengths that match the employer's needs and provide specific examples.",
+      "Focus only on your hobbies.",
+      "Say you have no strengths."
+    ],
+    "correct": [2]
+  },
+  {
+    "id": "q10",
+    "type": "msq",
+    "question": "Which of the following are good habits for avoiding regrets at work? (Select all that apply)",
+    "options": [
+      "Review daily events and conversations to check for misunderstandings.",
+      "Address issues directly and promptly.",
+      "Ignore mistakes and hope they resolve themselves.",
+      "Make each team member feel valued and respected."
+    ],
+    "correct": [1,2,4]
+  }
+]
+

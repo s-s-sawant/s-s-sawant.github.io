@@ -1,0 +1,123 @@
+[
+  {
+    "id": "q1",
+    "type": "mcq",
+    "question": "What is the best way to answer 'Why should I hire you?'",
+    "options": [
+      "Say you need the job.",
+      "Give general reasons.",
+      "Match your qualifications to the company's needs with specific examples.",
+      "Refuse to answer."
+    ],
+    "correct": [3]
+  },
+  {
+    "id": "q2",
+    "type": "msq",
+    "question": "Which are good ways to address concerns about being overqualified? (Select all that apply)",
+    "options": [
+      "Highlight the benefits of your experience.",
+      "Express your long-term commitment.",
+      "Say you are desperate.",
+      "Show how you can contribute immediately."
+    ],
+    "correct": [1,2,4]
+  },
+  {
+    "id": "q3",
+    "type": "mcq",
+    "question": "How should you answer 'I'm concerned that you don't have as much experience as we'd like'?",
+    "options": [
+      "Say you can learn quickly.",
+      "Agree you are not qualified.",
+      "Explain how your combination of strengths matches the company's needs.",
+      "Refuse to answer."
+    ],
+    "correct": [3]
+  },
+  {
+    "id": "q4",
+    "type": "msq",
+    "question": "Which are effective ways to show you are a good fit for the company? (Select all that apply)",
+    "options": [
+      "Research the company’s values and culture.",
+      "Tailor your answers to the company’s needs.",
+      "Discuss how your goals align with the company.",
+      "Focus only on salary."
+    ],
+    "correct": [1,2,3]
+  },
+  {
+    "id": "q5",
+    "type": "mcq",
+    "question": "How should you answer 'Describe your ideal company, location and job'?",
+    "options": [
+      "Describe what the current company is offering.",
+      "Talk about a different industry.",
+      "Mention only salary and perks.",
+      "Say you have no preferences."
+    ],
+    "correct": [1]
+  },
+  {
+    "id": "q6",
+    "type": "msq",
+    "question": "Which are good ways to handle reference checks? (Select all that apply)",
+    "options": [
+      "Express a desire for confidentiality until the right time.",
+      "Refuse without explanation.",
+      "Say no references are available.",
+      "Explain you are proud of your record and will provide references when appropriate."
+    ],
+    "correct": [1,4]
+  },
+  {
+    "id": "q7",
+    "type": "mcq",
+    "question": "How should you answer 'What salary are you looking for?'",
+    "options": [
+      "State a specific number immediately.",
+      "Postpone the question until later in the process and ask about the company's range.",
+      "Say any salary is fine.",
+      "Refuse to answer."
+    ],
+    "correct": [2]
+  },
+  {
+    "id": "q8",
+    "type": "msq",
+    "question": "Which are good ways to answer questions about negative information about the company? (Select all that apply)",
+    "options": [
+      "Avoid negativity and focus on positive aspects.",
+      "Share negative gossip.",
+      "Refuse to answer.",
+      "Emphasize your interest in the company’s strengths."
+    ],
+    "correct": [1,4]
+  },
+  {
+    "id": "q9",
+    "type": "mcq",
+    "question": "How should you answer 'Why should I hire you from the outside when I could promote someone from within?'",
+    "options": [
+      "Say you are better than internal candidates.",
+      "Say you don't know.",
+      "Refuse to answer.",
+      "Explain the unique qualifications you offer that match the company's needs."
+    ],
+    "correct": [4]
+  },
+  {
+    "id": "q10",
+    "type": "msq",
+    "question": "Which are effective ways to demonstrate your knowledge of the company? (Select all that apply)",
+    "options": [
+      "Reference recent company news or achievements.",
+      "Discuss the company's mission and values.",
+      "Mention you have not researched the company.",
+      "Connect your experience to the company’s current goals."
+    ],
+    "correct": [1,2,4]
+  }
+]
+

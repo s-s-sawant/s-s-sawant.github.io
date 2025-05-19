@@ -1,0 +1,123 @@
+[
+  {
+    "id": "q1",
+    "type": "mcq",
+    "question": "What is the best way to answer 'Why are you leaving your current position?'",
+    "options": [
+      "State honestly what you are hoping to find in a new position.",
+      "Say you were fired for poor performance.",
+      "Badmouth your previous employer.",
+      "Refuse to answer."
+    ],
+    "correct": [1]
+  },
+  {
+    "id": "q2",
+    "type": "msq",
+    "question": "Which are good strategies when discussing your future goals in an interview? (Select all that apply)",
+    "options": [
+      "Describe specific career and personal development goals.",
+      "Say you have no goals.",
+      "Focus only on financial goals.",
+      "Mention milestones and steps you are taking to achieve them."
+    ],
+    "correct": [1,4]
+  },
+  {
+    "id": "q3",
+    "type": "mcq",
+    "question": "How should you respond to 'Where do you see yourself five years from now?'",
+    "options": [
+      "Express a desire for a long-term commitment and focus on performing well in the current role.",
+      "Describe a specific job title you want.",
+      "Say you are using this job as a stepping stone.",
+      "Avoid answering."
+    ],
+    "correct": [1]
+  },
+  {
+    "id": "q4",
+    "type": "msq",
+    "question": "Which of these are good reasons to leave your current job? (Select all that apply)",
+    "options": [
+      "Seeking more responsibility or growth.",
+      "Looking for a better cultural fit.",
+      "Desiring more money.",
+      "Wanting to avoid work."
+    ],
+    "correct": [1,2,3]
+  },
+  {
+    "id": "q5",
+    "type": "mcq",
+    "question": "What is the best way to answer 'Why do you want to work at our company?'",
+    "options": [
+      "Show you have done research and link your skills to the company's needs.",
+      "Say you need any job.",
+      "Mention only the salary.",
+      "Say you have not researched the company."
+    ],
+    "correct": [1]
+  },
+  {
+    "id": "q6",
+    "type": "msq",
+    "question": "When discussing career options, which approaches are effective? (Select all that apply)",
+    "options": [
+      "Describe possibilities at your current firm and interest in new challenges.",
+      "Say you have no other options.",
+      "Mention you are exploring opportunities with other firms.",
+      "Focus only on salary."
+    ],
+    "correct": [1,3]
+  },
+  {
+    "id": "q7",
+    "type": "mcq",
+    "question": "How should you explain a long period out of work?",
+    "options": [
+      "Complain about the job market.",
+      "Say you were not interested in working.",
+      "Emphasize that you have been selective and looking for the right fit.",
+      "Blame previous employers."
+    ],
+    "correct": [3]
+  },
+  {
+    "id": "q8",
+    "type": "msq",
+    "question": "Which are good ways to show motivation in an interview? (Select all that apply)",
+    "options": [
+      "Describe how you set and achieve goals.",
+      "Show enthusiasm for the role and company.",
+      "Say you have no motivation.",
+      "Highlight your willingness to learn."
+    ],
+    "correct": [1,2,4]
+  },
+  {
+    "id": "q9",
+    "type": "mcq",
+    "question": "What is the best way to answer 'Have you considered starting your own business?'",
+    "options": [
+      "Align your answer with the company's culture and focus on your commitment to working in organizations.",
+      "Express enthusiasm for leaving corporate life.",
+      "Say you have no interest in business.",
+      "Refuse to answer."
+    ],
+    "correct": [1]
+  },
+  {
+    "id": "q10",
+    "type": "msq",
+    "question": "Which of the following are effective ways to research a company before an interview? (Select all that apply)",
+    "options": [
+      "Read the company's annual reports.",
+      "Talk to contacts at the company.",
+      "Rely only on rumors.",
+      "Review trade press articles about the company."
+    ],
+    "correct": [1,2,4]
+  }
+]
+

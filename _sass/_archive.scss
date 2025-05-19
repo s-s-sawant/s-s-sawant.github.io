@@ -134,6 +134,69 @@
         .collaborator-info span {
             font-size: 21px;
         }
+
+
+/* Video list
+=============================================================================
+*/
+  .slider-container {
+      overflow-x: auto;
+      white-space: nowrap;
+      padding-bottom: 12px;
+      scrollbar-color: #cebfbf #252a34;
+      scrollbar-width: thin;
+    }
+    .video-slide {
+      display: inline-block;
+      background: #312c2c;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+      margin-right: 20px;
+      width: 320px;
+      vertical-align: top;
+      transition: transform 0.3s;
+      text-align: center;
+    }
+    .video-slide:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    }
+    .video-thumb {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px 8px 0 0;
+      display: block;
+    }
+    .video-title {
+      display: block;
+      padding: 12px;
+      font-size: 1.1em;
+      color: #eaeaea;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.2s;
+    }
+    
+    /* Custom scrollbar for webkit browsers */
+    .slider-container::-webkit-scrollbar {
+      height: 10px;
+    }
+    .slider-container::-webkit-scrollbar-thumb {
+      background: #5c5959;
+      border-radius: 5px;
+    }
+    .slider-container::-webkit-scrollbar-track {
+      background: #2d649b;
+    }
+    @media (max-width: 400px) {
+      .video-slide {
+        width: 240px;
+      }
+      .video-thumb {
+        height: 120px;
+      }
+    }
 /*
    List view
    ========================================================================== */

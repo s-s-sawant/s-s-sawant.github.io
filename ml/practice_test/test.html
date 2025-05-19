@@ -129,6 +129,15 @@
     li {
       margin: 6px 0;
     }
+
+    :root {
+  --nord-red: #bf616a;
+    }
+
+    /* Then in your existing styles */
+    .question.incorrect {
+      background-color: var(--nord-red);
+    }
   </style>
 </head>
 <body>
@@ -202,56 +211,61 @@
     }
 
     function submitQuiz() {
-      let score = 0;
-      let incorrectQuestions = [];
-      questions.forEach((q, index) => {
-        let userAnswers = [];
-        if (q.type === 'mcq') {
-          const selected = document.querySelector(`input[name='${q.id}']:checked`);
-          if (selected) {
-            userAnswers.push(parseInt(selected.value) + 1);
-          }
-        } else if (q.type === 'msq') {
-          const selected = document.querySelectorAll(`input[name='${q.id}']:checked`);
-          selected.forEach(el => userAnswers.push(parseInt(el.value) + 1));
-        }
-        if (arraysEqual(userAnswers, q.correct)) {
-          score++;
-        } else {
-          incorrectQuestions.push({ number: index + 1, text: q.question });
-        }
-      });
-
-      const resultDiv = document.getElementById('result');
-      resultDiv.innerHTML = `<h2>Your Score: ${score} / ${questions.length}</h2>`;
-
-      if (incorrectQuestions.length > 0) {
-        resultDiv.innerHTML += '<h3>Incorrectly Answered Questions:</h3><ul>' +
-          incorrectQuestions.map(q => `<li><strong>Q${q.number}:</strong> ${q.text}</li>`).join('') +
-          '</ul>';
-      } else {
-        resultDiv.innerHTML += '<p>All answers are correct. Well done!</p>';
+  let score = 0;
+  let incorrectQuestions = [];
+  
+  questions.forEach((q, index) => {
+    let userAnswers = [];
+    if (q.type === 'mcq') {
+      const selected = document.querySelector(`input[name='${q.id}']:checked`);
+      if (selected) {
+        userAnswers.push(parseInt(selected.value) + 1);
       }
-
-      document.querySelectorAll('#quizForm input[type="radio"], #quizForm input[type="checkbox"]').forEach(input => {
-        input.disabled = true;
-      });
-
-      clearInterval(timerInterval);
-
-      document.querySelectorAll('.clear-btn').forEach(btn => {
-        btn.disabled = true;
-      });
-
-      // Show 'Show Answer' buttons
-      document.querySelectorAll('.show-answer-btn').forEach(btn => {
-          btn.style.display = 'inline-block';
-      });
-
-      document.body.classList.add('submitted');
-
-      window.scrollTo(0, document.body.scrollHeight);
+    } else if (q.type === 'msq') {
+      const selected = document.querySelectorAll(`input[name='${q.id}']:checked`);
+      selected.forEach(el => userAnswers.push(parseInt(el.value) + 1));
     }
+    
+    if (arraysEqual(userAnswers, q.correct)) {
+      score++;
+    } else {
+      incorrectQuestions.push({ number: index + 1, text: q.question, id: q.id });
+      // Highlight the incorrect question with Nord red background
+      document.getElementById(`question-${index}`).style.backgroundColor = '#bf616a';
+    }
+  });
+
+  const resultDiv = document.getElementById('result');
+  resultDiv.innerHTML = `<h2>Your Score: ${score} / ${questions.length}</h2>`;
+
+  if (incorrectQuestions.length > 0) {
+    resultDiv.innerHTML += '<h3>Incorrectly Answered Questions:</h3><ul>' +
+      incorrectQuestions.map(q => `<li><strong>Q${q.number}:</strong> ${q.text}</li>`).join('') +
+      '</ul>';
+  } else {
+    resultDiv.innerHTML += '<p>All answers are correct. Well done!</p>';
+  }
+
+  document.querySelectorAll('#quizForm input[type="radio"], #quizForm input[type="checkbox"]').forEach(input => {
+    input.disabled = true;
+  });
+
+  clearInterval(timerInterval);
+
+  document.querySelectorAll('.clear-btn').forEach(btn => {
+    btn.disabled = true;
+  });
+
+  // Show 'Show Answer' buttons
+  document.querySelectorAll('.show-answer-btn').forEach(btn => {
+    btn.style.display = 'inline-block';
+  });
+
+  document.body.classList.add('submitted');
+
+  window.scrollTo(0, document.body.scrollHeight);
+}
+
 
     function startTimer() {
       const timerDisplay = document.getElementById('timer');
@@ -291,24 +305,31 @@
     }
 
     const modelNames = {
-      linear: "Linear Regression",
-      logistic: "Logistic Regression",
-      decision_trees: "Decision Tree",
-      rdt: "Random Forest",
-      svm: "Support Vector Machine",
-      naive_bayes: "Naive Bayes",
-      k_nearest_neighbours: "K-Nearest Neighbors",
-      bag_boost: "Bagging-Boosting",
-      nn: "Neural Network",
-      dbscan: "DBSCAN",
-      em: "Estimation Maximization",
-      hclustering: "Hierarchical Clustering",
-      kmeans: "K-Means Clustering",
-      lle: "Locally Linear Embedding (LLE)",
-      manifold: "Manifold Learning",
-      pca: "Principal Component Analysis (PCA)",
-      bias_variance: "Bias v/s Variance"
-    };
+	  linear: "Linear Regression",
+	  logistic: "Logistic Regression",
+	  decision_trees: "Decision Tree",
+	  rdt: "Random Forest",
+	  svm: "Support Vector Machine",
+	  naive_bayes: "Naive Bayes",
+	  k_nearest_neighbours: "K-Nearest Neighbors",
+	  bag_boost: "Bagging-Boosting",
+	  nn: "Neural Network",
+	  dbscan: "DBSCAN",
+	  em: "Estimation Maximization",
+	  hclustering: "Hierarchical Clustering",
+	  kmeans: "K-Means Clustering",
+	  lle: "Locally Linear Embedding (LLE)",
+	  manifold: "Manifold Learning",
+	  pca: "Principal Component Analysis (PCA)",
+	  bias_variance: "Bias v/s Variance",
+	  self_assessment: "Self-Assessment & Personal Qualities",
+	  career_motivation: "Career Motivation & Goals",
+	  work_experience: "Work Experience & Achievements",
+	  challenges_problem_solving: "Handling Challenges & Problem Solving",
+	  interpersonal_skills: "Interpersonal Skills & Workplace Behavior",
+	  job_fit_company_knowledge: "Job Fit, Company Knowledge & Logistics"
+	};
+
 
     window.onload = () => {
       const params = getQueryParams();

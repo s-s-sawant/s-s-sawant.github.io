@@ -22,20 +22,25 @@
     ul {
       list-style-type: none;
       padding: 0;
+      margin: 0;
     }
 
     li {
       background: #1e1e1e;
-      margin: 10px 0;
+      margin: 0;
       padding: 15px 20px;
-      border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+      border-bottom: 1px solid #333;
       transition: background 0.3s ease, transform 0.2s ease;
+    }
+
+    li:last-child {
+      border-bottom: none;
+      border-radius: 0 0 8px 8px;
     }
 
     li:hover {
       background: #272727;
-      transform: scale(1.02);
+      transform: scale(1.01);
     }
 
     a {
@@ -49,33 +54,94 @@
     a:hover {
       color: #ffffff;
     }
+
+    /* Collapsible menu styling */
+    .collapsible-menu {
+        margin-bottom: 20px;
+    }
+    
+    .collapsible-menu input[type="checkbox"] {
+        display: none;
+    }
+    
+    .collapsible-menu label {
+        background: #2c2c2c;
+        color: #e0e0e0;
+        display: block;
+        padding: 15px;
+        cursor: pointer;
+        border-radius: 8px 8px 0 0;
+        font-size: 20px;
+        font-weight: bold;
+        border-bottom: 1px solid #444;
+    }
+    
+    .collapsible-menu label:hover {
+        background: #333;
+    }
+    
+    .menu-content {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+        background-color: #1e1e1e;
+        border-radius: 0 0 8px 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    }
+    
+    .collapsible-menu input:checked ~ .menu-content {
+        max-height: 1000px;
+    }
   </style>
 </head>
 <body>
-  <h1>Supervised Learning Models</h1>
-  <ul>
-    <li><a href="test.html?folder=Supervised_ML&model=linear" target="_blank">Linear Regression</a></li>
-    <li><a href="test.html?folder=Supervised_ML&model=logistic" target="_blank">Logistic Regression</a></li>
-    <li><a href="test.html?folder=Supervised_ML&model=decision_trees" target="_blank">Decision Tree</a></li>
-    <li><a href="test.html?folder=Supervised_ML&model=rdt" target="_blank">Random Forest</a></li>
-    <li><a href="test.html?folder=Supervised_ML&model=svm" target="_blank">Support Vector Machine</a></li>
-    <li><a href="test.html?folder=Supervised_ML&model=naive_bayes" target="_blank">Naive Bayes</a></li>
-    <li><a href="test.html?folder=Supervised_ML&model=k_nearest_neighbours" target="_blank">K-Nearest Neighbors</a></li>
-    <li><a href="test.html?folder=Supervised_ML&model=bag_boost" target="_blank">Bagging-Boosting</a></li>
-    <li><a href="test.html?folder=Supervised_ML&model=nn" target="_blank">Neural Network</a></li>
-    <li><a href="test.html?folder=Supervised_ML&model=bias_variance" target="_blank">Bias v/s Variance</a></li>
+    <div class="collapsible-menu">
+        <input type="checkbox" id="menu1" checked>
+        <label for="menu1">Supervised Learning Models</label>
+        <div class="menu-content">
+            <ul>
+                <li><a href="test.html?folder=Supervised_ML&model=linear">Linear Regression</a></li>
+                <li><a href="test.html?folder=Supervised_ML&model=logistic">Logistic Regression</a></li>
+                <li><a href="test.html?folder=Supervised_ML&model=decision_trees">Decision Tree</a></li>
+                <li><a href="test.html?folder=Supervised_ML&model=rdt">Random Forest</a></li>
+                <li><a href="test.html?folder=Supervised_ML&model=svm">Support Vector Machine</a></li>
+                <li><a href="test.html?folder=Supervised_ML&model=naive_bayes">Naive Bayes</a></li>
+                <li><a href="test.html?folder=Supervised_ML&model=k_nearest_neighbours">K-Nearest Neighbors</a></li>
+                <li><a href="test.html?folder=Supervised_ML&model=bag_boost">Bagging-Boosting</a></li>
+                <li><a href="test.html?folder=Supervised_ML&model=nn">Neural Network</a></li>    
+            </ul>
+        </div>
+    </div>
 
-  </ul>
+    <div class="collapsible-menu">
+        <input type="checkbox" id="menu2">
+        <label for="menu2">Unsupervised Learning Models</label>
+        <div class="menu-content">
+            <ul>
+                <li><a href="test.html?folder=Unsupervised_ML&model=dbscan">DBSCAN</a></li>
+                <li><a href="test.html?folder=Unsupervised_ML&model=em">Estimation Maximization</a></li>
+                <li><a href="test.html?folder=Unsupervised_ML&model=hclustering">Hierarchical Clustering</a></li>
+                <li><a href="test.html?folder=Unsupervised_ML&model=kmeans">K-Means Clustering</a></li>
+                <li><a href="test.html?folder=Unsupervised_ML&model=lle">Locally Linear Embedding (LLE)</a></li>
+                <li><a href="test.html?folder=Unsupervised_ML&model=manifold">Manifold Learning</a></li>
+                <li><a href="test.html?folder=Unsupervised_ML&model=pca">Principal Component Analysis (PCA)</a></li>
+            </ul>
+        </div>
+    </div>
 
-  <h1>Unsupervised Learning Models</h1>
-  <ul>
-    <li><a href="test.html?folder=Unsupervised_ML&model=dbscan" target="_blank">DBSCAN</a></li>
-    <li><a href="test.html?folder=Unsupervised_ML&model=em" target="_blank">Estimation Maximization</a></li>
-    <li><a href="test.html?folder=Unsupervised_ML&model=hclustering" target="_blank">Hierarchical Clustering</a></li>
-    <li><a href="test.html?folder=Unsupervised_ML&model=kmeans" target="_blank">K-Means Clustering</a></li>
-    <li><a href="test.html?folder=Unsupervised_ML&model=lle" target="_blank">Locally Linear Embedding (LLE)</a></li>
-    <li><a href="test.html?folder=Unsupervised_ML&model=manifold" target="_blank">Manifold Learning</a></li>
-    <li><a href="test.html?folder=Unsupervised_ML&model=pca" target="_blank">Principal Component Analysis (PCA)</a></li>
-  </ul>
+    <div class="collapsible-menu">
+        <input type="checkbox" id="menu3">
+        <label for="menu3">Behavioral HR</label>
+        <div class="menu-content">
+            <ul>
+                <li><a href="test.html?folder=HR&model=self_assessment">Self-Assessment & Personal Qualities</a></li>
+                <li><a href="test.html?folder=HR&model=career_motivation">Career Motivation & Goals</a></li>
+                <li><a href="test.html?folder=HR&model=work_experience">Work Experience & Achievements</a></li>
+                <li><a href="test.html?folder=HR&model=challenges_problem_solving">Handling Challenges & Problem Solving</a></li>
+                <li><a href="test.html?folder=HR&model=interpersonal_skills">Interpersonal Skills & Workplace Behavior</a></li>
+                <li><a href="test.html?folder=HR&model=job_fit_company_knowledge">Job Fit, Company Knowledge & Logistics</a></li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
