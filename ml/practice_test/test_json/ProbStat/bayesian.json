@@ -1,0 +1,183 @@
+[
+    {
+        "id": "b1",
+        "type": "mcq",
+        "question": "Bayes’ theorem relates which of the following probabilities?",
+        "options": [
+            "Prior and posterior probabilities",
+            "Mean and variance",
+            "Sample and population mean",
+            "Type I and Type II errors"
+        ],
+        "correct": [1]
+    },
+    {
+        "id": "b2",
+        "type": "mcq",
+        "question": "In Bayesian statistics, the prior probability represents:",
+        "options": [
+            "The probability after observing data",
+            "The probability before observing data",
+            "The probability of a Type I error",
+            "The probability of the sample mean"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "b3",
+        "type": "mcq",
+        "question": "The posterior probability is:",
+        "options": [
+            "The probability before observing data",
+            "The probability after observing data",
+            "Always equal to the prior",
+            "The probability of the null hypothesis"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "b4",
+        "type": "mcq",
+        "question": "Which of the following is the correct formula for Bayes’ theorem?",
+        "options": [
+            "P(A|B) = P(B|A) P(A) / P(B)",
+            "P(A|B) = P(A) + P(B) - P(A ∩ B)",
+            "P(A|B) = P(A) × P(B)",
+            "P(A|B) = P(A) / P(B|A)"
+        ],
+        "correct": [1]
+    },
+    {
+        "id": "b5",
+        "type": "mcq",
+        "question": "Which of the following is NOT required for Bayesian inference?",
+        "options": [
+            "Prior probability",
+            "Likelihood",
+            "Posterior probability",
+            "Sample mean"
+        ],
+        "correct": [4]
+    },
+    {
+        "id": "b6",
+        "type": "mcq",
+        "question": "Which of the following is a key advantage of Bayesian statistics?",
+        "options": [
+            "It does not require prior information",
+            "It allows updating of probabilities as new data arrives",
+            "It only works for large samples",
+            "It ignores the likelihood"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "b7",
+        "type": "msq",
+        "question": "Which of the following are components of Bayes’ theorem?",
+        "options": [
+            "Prior probability",
+            "Likelihood",
+            "Posterior probability",
+            "Sample variance"
+        ],
+        "correct": [1,2,3]
+    },
+    {
+        "id": "b8",
+        "type": "mcq",
+        "question": "If the prior probability of rain is 0.3 and the likelihood of seeing clouds given rain is 0.8, what is the numerator in Bayes’ theorem for P(rain|clouds)?",
+        "options": [
+            "0.24",
+            "0.3",
+            "0.8",
+            "1.1"
+        ],
+        "correct": [1]
+    },
+    {
+        "id": "b9",
+        "type": "mcq",
+        "question": "Which of the following best describes the likelihood in Bayes’ theorem?",
+        "options": [
+            "The probability of the data given the hypothesis",
+            "The probability of the hypothesis given the data",
+            "The prior probability",
+            "The posterior probability"
+        ],
+        "correct": [1]
+    },
+    {
+        "id": "b10",
+        "type": "mcq",
+        "question": "Bayesian inference is particularly useful when:",
+        "options": [
+            "There is no prior information",
+            "Prior information is available and can be updated",
+            "Only large samples are available",
+            "The data is qualitative"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "b11",
+        "type": "mcq",
+        "question": "Which of the following is true about the posterior probability?",
+        "options": [
+            "It is always equal to the likelihood",
+            "It is the updated probability after observing data",
+            "It is not used in Bayesian inference",
+            "It is always less than the prior"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "b12",
+        "type": "mcq",
+        "question": "In Bayesian statistics, if the prior is uniform, the posterior is proportional to:",
+        "options": [
+            "The likelihood",
+            "The prior",
+            "The variance",
+            "The mean"
+        ],
+        "correct": [1]
+    },
+    {
+        "id": "b13",
+        "type": "msq",
+        "question": "Which of the following are applications of Bayesian statistics?",
+        "options": [
+            "Spam filtering",
+            "Medical diagnosis",
+            "Stock market prediction",
+            "All of the above"
+        ],
+        "correct": [1,2,3,4]
+    },
+    {
+        "id": "b14",
+        "type": "mcq",
+        "question": "The sum of posterior probabilities for all mutually exclusive and exhaustive events is:",
+        "options": [
+            "0",
+            "1",
+            "Depends on the prior",
+            "Depends on the likelihood"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "b15",
+        "type": "mcq",
+        "question": "Which of the following is NOT a limitation of Bayesian statistics?",
+        "options": [
+            "Requires specification of a prior",
+            "Can be computationally intensive",
+            "Cannot update beliefs with new data",
+            "May be subjective"
+        ],
+        "correct": [3]
+    }
+]
+

@@ -131,7 +131,7 @@
     }
 
     :root {
-  --nord-red: #68393e;
+  --nord-red: #bf616a;
     }
 
     /* Then in your existing styles */
@@ -231,7 +231,7 @@
     } else {
       incorrectQuestions.push({ number: index + 1, text: q.question, id: q.id });
       // Highlight the incorrect question with Nord red background
-      document.getElementById(`question-${index}`).style.backgroundColor = '#68393e';
+      document.getElementById(`question-${index}`).style.backgroundColor = '#bf616a';
     }
   });
 
@@ -322,6 +322,10 @@
 	  manifold: "Manifold Learning",
 	  pca: "Principal Component Analysis (PCA)",
 	  bias_variance: "Bias v/s Variance",
+    prob: "Probability",
+    stat: "Statistics & Descriptive Statistics",
+    hypotest: "Hypothesis Testing",
+    bayesian: "Bayesian Statistics",
 	  self_assessment: "Self-Assessment & Personal Qualities",
 	  career_motivation: "Career Motivation & Goals",
 	  work_experience: "Work Experience & Achievements",

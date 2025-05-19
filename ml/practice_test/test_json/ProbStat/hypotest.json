@@ -1,0 +1,183 @@
+[
+    {
+        "id": "h1",
+        "type": "mcq",
+        "question": "What is the null hypothesis (H0) in hypothesis testing?",
+        "options": [
+            "A statement of no effect or no difference",
+            "A statement that there is an effect",
+            "A statement that the mean is always zero",
+            "A statement that the sample is biased"
+        ],
+        "correct": [1]
+    },
+    {
+        "id": "h2",
+        "type": "mcq",
+        "question": "If the p-value is less than the significance level α, what is the correct decision?",
+        "options": [
+            "Fail to reject H0",
+            "Reject H0",
+            "Accept H0",
+            "Increase the sample size"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "h3",
+        "type": "mcq",
+        "question": "Which of the following is NOT a type of error in hypothesis testing?",
+        "options": [
+            "Type I error",
+            "Type II error",
+            "Type III error",
+            "Type IV error"
+        ],
+        "correct": [4]
+    },
+    {
+        "id": "h4",
+        "type": "mcq",
+        "question": "The probability of rejecting the null hypothesis when it is actually true is:",
+        "options": [
+            "Type I error (α)",
+            "Type II error (β)",
+            "Power",
+            "p-value"
+        ],
+        "correct": [1]
+    },
+    {
+        "id": "h5",
+        "type": "mcq",
+        "question": "The significance level (α) is usually set at:",
+        "options": [
+            "0.01",
+            "0.05",
+            "0.10",
+            "All of the above"
+        ],
+        "correct": [4]
+    },
+    {
+        "id": "h6",
+        "type": "mcq",
+        "question": "Which test is used to compare the means of two independent samples?",
+        "options": [
+            "Paired t-test",
+            "Chi-square test",
+            "Independent two-sample t-test",
+            "ANOVA"
+        ],
+        "correct": [3]
+    },
+    {
+        "id": "h7",
+        "type": "mcq",
+        "question": "A p-value is:",
+        "options": [
+            "The probability that the null hypothesis is true",
+            "The probability of observing the data given that H0 is true",
+            "The probability of Type II error",
+            "The significance level"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "h8",
+        "type": "mcq",
+        "question": "Which of the following increases the power of a statistical test?",
+        "options": [
+            "Decreasing the sample size",
+            "Increasing the significance level",
+            "Decreasing the effect size",
+            "Increasing the sample size"
+        ],
+        "correct": [4]
+    },
+    {
+        "id": "h9",
+        "type": "mcq",
+        "question": "The alternative hypothesis (H1) is:",
+        "options": [
+            "Always accepted",
+            "Tested for possible rejection",
+            "A statement of effect or difference",
+            "Always equal to the null hypothesis"
+        ],
+        "correct": [3]
+    },
+    {
+        "id": "h10",
+        "type": "mcq",
+        "question": "Which of the following is NOT a step in hypothesis testing?",
+        "options": [
+            "Formulate hypotheses",
+            "Select significance level",
+            "Calculate sample mean",
+            "Make a decision"
+        ],
+        "correct": [3]
+    },
+    {
+        "id": "h11",
+        "type": "mcq",
+        "question": "If the probability of Type I error is 0.05, what is the confidence level?",
+        "options": [
+            "0.05",
+            "0.95",
+            "0.90",
+            "0.99"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "h12",
+        "type": "msq",
+        "question": "Which of the following are assumptions for the t-test?",
+        "options": [
+            "Data are normally distributed",
+            "Samples are independent",
+            "Variances are equal",
+            "Sample size must be greater than 100"
+        ],
+        "correct": [1,2,3]
+    },
+    {
+        "id": "h13",
+        "type": "mcq",
+        "question": "Which test is used for categorical data to test independence?",
+        "options": [
+            "t-test",
+            "z-test",
+            "Chi-square test",
+            "ANOVA"
+        ],
+        "correct": [3]
+    },
+    {
+        "id": "h14",
+        "type": "mcq",
+        "question": "In hypothesis testing, the region where H0 is rejected is called:",
+        "options": [
+            "Acceptance region",
+            "Rejection region",
+            "Critical region",
+            "Both 2 and 3"
+        ],
+        "correct": [4]
+    },
+    {
+        "id": "h15",
+        "type": "mcq",
+        "question": "Which of the following is the correct sequence in hypothesis testing?",
+        "options": [
+            "Formulate hypotheses, choose significance level, select test, collect data, make decision",
+            "Collect data, formulate hypotheses, choose significance level, select test, make decision",
+            "Choose significance level, collect data, formulate hypotheses, select test, make decision",
+            "Select test, collect data, make decision, formulate hypotheses, choose significance level"
+        ],
+        "correct": [1]
+    }
+]
+

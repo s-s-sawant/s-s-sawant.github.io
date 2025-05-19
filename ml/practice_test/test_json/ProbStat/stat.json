@@ -1,0 +1,183 @@
+[
+    {
+        "id": "s1",
+        "type": "mcq",
+        "question": "Which of the following is NOT a measure of central tendency?",
+        "options": [
+            "Mean",
+            "Median",
+            "Mode",
+            "Variance"
+        ],
+        "correct": [4]
+    },
+    {
+        "id": "s2",
+        "type": "mcq",
+        "question": "The mean of the data set {2, 4, 6, 8, 10} is:",
+        "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "s3",
+        "type": "mcq",
+        "question": "The median of the data set {3, 5, 7, 9, 11} is:",
+        "options": [
+            "5",
+            "7",
+            "9",
+            "11"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "s4",
+        "type": "mcq",
+        "question": "Which of the following is a measure of dispersion?",
+        "options": [
+            "Mean",
+            "Mode",
+            "Range",
+            "Median"
+        ],
+        "correct": [3]
+    },
+    {
+        "id": "s5",
+        "type": "mcq",
+        "question": "What does a standard deviation of zero indicate?",
+        "options": [
+            "All values are the same",
+            "All values are different",
+            "Mean is zero",
+            "Data is skewed"
+        ],
+        "correct": [1]
+    },
+    {
+        "id": "s6",
+        "type": "mcq",
+        "question": "Which statistic is most affected by outliers?",
+        "options": [
+            "Mean",
+            "Median",
+            "Mode",
+            "All are equally affected"
+        ],
+        "correct": [1]
+    },
+    {
+        "id": "s7",
+        "type": "mcq",
+        "question": "If the data set is {2, 2, 3, 4, 5}, what is the mode?",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "correct": [1]
+    },
+    {
+        "id": "s8",
+        "type": "mcq",
+        "question": "Which of the following is NOT a type of data?",
+        "options": [
+            "Quantitative",
+            "Qualitative",
+            "Ordinal",
+            "Integral"
+        ],
+        "correct": [4]
+    },
+    {
+        "id": "s9",
+        "type": "mcq",
+        "question": "The range of the data set {5, 8, 12, 20, 25} is:",
+        "options": [
+            "5",
+            "8",
+            "20",
+            "25"
+        ],
+        "correct": [3]
+    },
+    {
+        "id": "s10",
+        "type": "mcq",
+        "question": "Variance is:",
+        "options": [
+            "The square of the standard deviation",
+            "The square root of the standard deviation",
+            "Always less than the mean",
+            "A measure of central tendency"
+        ],
+        "correct": [1]
+    },
+    {
+        "id": "s11",
+        "type": "mcq",
+        "question": "Which of the following is a graphical representation of data?",
+        "options": [
+            "Histogram",
+            "Mean",
+            "Variance",
+            "Median"
+        ],
+        "correct": [1]
+    },
+    {
+        "id": "s12",
+        "type": "mcq",
+        "question": "If the mean and median of a data set are equal, the distribution is likely:",
+        "options": [
+            "Skewed right",
+            "Skewed left",
+            "Symmetric",
+            "Bimodal"
+        ],
+        "correct": [3]
+    },
+    {
+        "id": "s13",
+        "type": "mcq",
+        "question": "Which of the following is not a measure of variability?",
+        "options": [
+            "Standard deviation",
+            "Range",
+            "Median",
+            "Variance"
+        ],
+        "correct": [3]
+    },
+    {
+        "id": "s14",
+        "type": "mcq",
+        "question": "A boxplot is used to display:",
+        "options": [
+            "Mean and standard deviation",
+            "Quartiles and outliers",
+            "Frequency distribution",
+            "Mode and range"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "s15",
+        "type": "msq",
+        "question": "Which of the following are measures of central tendency?",
+        "options": [
+            "Mean",
+            "Median",
+            "Mode",
+            "Range"
+        ],
+        "correct": [1,2,3]
+    }
+]
+

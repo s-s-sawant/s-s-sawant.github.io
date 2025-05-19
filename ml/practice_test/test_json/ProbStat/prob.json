@@ -1,0 +1,183 @@
+[
+    {
+        "id": "p1",
+        "type": "mcq",
+        "question": "A fair coin is tossed three times. What is the probability of getting exactly two heads?",
+        "options": [
+            "1/8",
+            "3/8",
+            "1/2",
+            "5/8"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "p2",
+        "type": "mcq",
+        "question": "If two events A and B are mutually exclusive, what is P(A ∩ B)?",
+        "options": [
+            "P(A) + P(B)",
+            "P(A) × P(B)",
+            "0",
+            "1"
+        ],
+        "correct": [3]
+    },
+    {
+        "id": "p3",
+        "type": "mcq",
+        "question": "A die is rolled once. What is the probability of getting a number greater than 4?",
+        "options": [
+            "1/6",
+            "1/3",
+            "1/2",
+            "2/3"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "p4",
+        "type": "mcq",
+        "question": "If P(A) = 0.4, P(B) = 0.5, and A and B are independent, what is P(A ∩ B)?",
+        "options": [
+            "0.2",
+            "0.9",
+            "0.1",
+            "0.4"
+        ],
+        "correct": [1]
+    },
+    {
+        "id": "p5",
+        "type": "mcq",
+        "question": "The probability of an impossible event is:",
+        "options": [
+            "1",
+            "0",
+            "0.5",
+            "Cannot be determined"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "p6",
+        "type": "mcq",
+        "question": "If a card is drawn at random from a standard deck, what is the probability that it is a heart or a queen?",
+        "options": [
+            "4/13",
+            "1/4",
+            "1/13",
+            "17/52"
+        ],
+        "correct": [1]
+    },
+    {
+        "id": "p7",
+        "type": "mcq",
+        "question": "If P(A) = 0.6, P(B) = 0.7, and P(A ∩ B) = 0.5, what is P(A ∪ B)?",
+        "options": [
+            "0.8",
+            "1.3",
+            "0.9",
+            "0.7"
+        ],
+        "correct": [1]
+    },
+    {
+        "id": "p8",
+        "type": "mcq",
+        "question": "Which of the following is NOT a property of probability?",
+        "options": [
+            "P(A) ≥ 0 for any event A",
+            "P(S) = 1 where S is the sample space",
+            "P(A ∪ B) = P(A) + P(B) for any events A and B",
+            "P(A') = 1 - P(A)"
+        ],
+        "correct": [3]
+    },
+    {
+        "id": "p9",
+        "type": "msq",
+        "question": "Which of the following statements are true for independent events A and B?",
+        "options": [
+            "P(A|B) = P(A)",
+            "P(B|A) = P(B)",
+            "P(A ∩ B) = P(A) × P(B)",
+            "P(A ∪ B) = P(A) + P(B) - P(A) × P(B)"
+        ],
+        "correct": [1,2,3,4]
+    },
+    {
+        "id": "p10",
+        "type": "mcq",
+        "question": "A box contains 5 red and 3 blue balls. Two balls are drawn without replacement. What is the probability that both are red?",
+        "options": [
+            "5/8",
+            "5/14",
+            "10/56",
+            "5/28"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "p11",
+        "type": "mcq",
+        "question": "If E is an event in a sample space S, what is the complement of E?",
+        "options": [
+            "The event that E does not occur",
+            "The event that E occurs",
+            "The event S",
+            "The event with probability 0"
+        ],
+        "correct": [1]
+    },
+    {
+        "id": "p12",
+        "type": "mcq",
+        "question": "If P(A) = 0.7 and P(B|A) = 0.5, what is P(A ∩ B)?",
+        "options": [
+            "0.35",
+            "0.2",
+            "0.5",
+            "0.85"
+        ],
+        "correct": [1]
+    },
+    {
+        "id": "p13",
+        "type": "mcq",
+        "question": "A random variable X takes values 1, 2, 3 with probabilities 0.2, 0.5, 0.3 respectively. What is E[X]?",
+        "options": [
+            "2.0",
+            "2.1",
+            "2.3",
+            "2.5"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "p14",
+        "type": "mcq",
+        "question": "If two events are independent, which of the following is always true?",
+        "options": [
+            "P(A ∩ B) = P(A) + P(B)",
+            "P(A ∩ B) = P(A) × P(B)",
+            "P(A|B) = P(B|A)",
+            "P(A ∪ B) = P(A) × P(B)"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": "p15",
+        "type": "mcq",
+        "question": "If P(A) = 0.4 and P(B) = 0.5, and A and B are mutually exclusive, what is P(A ∪ B)?",
+        "options": [
+            "0.2",
+            "0.9",
+            "0.5",
+            "0.4"
+        ],
+        "correct": [2]
+    }
+]
+
