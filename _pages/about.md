@@ -15,7 +15,7 @@ I am Sagar Sawant, a Postdoctoral Fellow at the <a href="https://www.cmi.ac.in/"
 My broad areas of interest include algebraic combinatorics, topological combinatorics, and graph algorithms. Currently, I am working on implementation of machine learning techniques on combinatorial datasets to obtain insights into conjectures in combinatorics.
 
 <h2 id="research-experience">Experience</h2>
-hyper
+
 <div class="institute-container">
     <img src="/images/cmi-logo-blue-large.png" alt="CMI Logo">
     <div class="institute-details">

@@ -21,31 +21,24 @@ Test your understanding of core concepts in Machine Learning through an interact
 </a>
 </p>
 
-<h1>
-    Video Gallery on Machine Learning
-</h1>
-<h2>LLM: Transformers and Attention</h2>
-  <div class="slider-container">
-    <div class="video-slide">
-      <a href="https://youtube.com/watch?v=wjZofJX0v4M" target="_blank" rel="noopener">
-        <img class="video-thumb" src="https://img.youtube.com/vi/wjZofJX0v4M/hqdefault.jpg" alt="Transformer explained visually">
-        <span class="video-title">Transformers explained visually</span>
-      </a>
-    </div>
-    <div class="video-slide">
-  <a href="https://www.youtube.com/watch?v=eMlx5fFNoYc" target="_blank" rel="noopener">
-    <img class="video-thumb" src="https://img.youtube.com/vi/eMlx5fFNoYc/hqdefault.jpg" alt="Attention in transformers, step-by-step">
-    <span class="video-title">Attention in transformers</span>
-  </a>
-</div>
-<div class="video-slide">
-  <a href="https://www.youtube.com/watch?v=9-Jl0dxWQs8" target="_blank" rel="noopener">
-    <img class="video-thumb" src="https://img.youtube.com/vi/9-Jl0dxWQs8/hqdefault.jpg" alt="Language Models: History and Evolution">
-    <span class="video-title">How LLM store facts</span>
-  </a>
-</div>
-    <!-- Add more slides as needed -->
-  </div>
+<div id="video_content"></div>
+</br>
+<div id="book_content"></div>
+
+  <script>
+    fetch('video_gallery.txt')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('video_content').innerHTML = data;
+      });
+
+    fetch('book_library.txt')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('book_content').innerHTML = data;
+      });
+  </script>
+
 
 
 </body>

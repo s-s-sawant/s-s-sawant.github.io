@@ -1,0 +1,84 @@
+<h1>
+  Library
+</h1>
+    <div class="book-slider-container" id="bookSlider">
+      <!-- Book 1 -->
+      <div class="book-slide">
+        <div class="book-cover-container">
+          <a href="probability_stats_for_DS.pdf" target="_blank" rel="noopener">
+            <img class="book-cover" src="thumbnails/probability_stats_for_DS.png" alt="Probability and Statistics for Data Science">
+          </a>
+        </div>
+        <div class="book-info">
+          <a href="probability_stats_for_DS.pdf" class="book-title" target="_blank" rel="noopener">Probability and Statistics for Data Science</a>
+          <div class="book-author">Carlos Fernandez-Granda</div>
+        </div>
+      </div>
+      
+      <!-- Book 2 -->
+      <div class="book-slide">
+        <div class="book-cover-container">
+          <a href="http://14.139.161.31/OddSem-0822-1122/Hands-On_Machine_Learning_with_Scikit-Learn-Keras-and-TensorFlow-2nd-Edition-Aurelien-Geron.pdf" target="_blank" rel="noopener">
+            <img class="book-cover" src="thumbnails/geron.jpg" alt="Hands-On Machine Learning with Scikit-Learn Keras and TensorFlow">
+          </a>
+        </div>
+        <div class="book-info">
+          <a href="http://14.139.161.31/OddSem-0822-1122/Hands-On_Machine_Learning_with_Scikit-Learn-Keras-and-TensorFlow-2nd-Edition-Aurelien-Geron.pdf" class="book-title" target="_blank" rel="noopener">Hands-On Machine Learning</a>
+          <div class="book-author">Aurélien Géron</div>
+        </div>
+      </div>
+      
+      <!-- Book 3 -->
+      <div class="book-slide">
+        <div class="book-cover-container">
+          <a href="http://ndl.ethernet.edu.et/bitstream/123456789/88600/1/2015_Book_LinearAlgebraDoneRight.pdf" target="_blank" rel="noopener">
+            <img class="book-cover" src="thumbnails/linear_algebra.jpg" alt="Linear Algebra Done Right">
+          </a>
+        </div>
+        <div class="book-info">
+          <a href="http://ndl.ethernet.edu.et/bitstream/123456789/88600/1/2015_Book_LinearAlgebraDoneRight.pdf" class="book-title" target="_blank" rel="noopener">Linear Algebra Done Right</a>
+          <div class="book-author">Sheldon Axler</div>
+        </div>
+      </div>
+      
+      <!-- Book 4 -->
+      <div class="book-slide">
+        <div class="book-cover-container">
+          <a href="https://nessie.ilab.sztaki.hu/~kornai/2020/AdvancedMachineLearning/Ng_MachineLearningYearning.pdf" target="_blank" rel="noopener">
+            <img class="book-cover" src="thumbnails/ml_yearn.jpg" alt="Machine Learning Yearning">
+          </a>
+        </div>
+        <div class="book-info">
+          <a href="https://nessie.ilab.sztaki.hu/~kornai/2020/AdvancedMachineLearning/Ng_MachineLearningYearning.pdf" class="book-title" target="_blank" rel="noopener">Machine Learning Yearning</a>
+          <div class="book-author">Andrew Ng</div>
+        </div>
+      </div>
+      
+      <!-- Book 5 -->
+      <div class="book-slide">
+        <div class="book-cover-container">
+          <a href="https://www.scribd.com/document/505110428/Calculus-Thomas-Finney-9-Edition" target="_blank" rel="noopener">
+            <img class="book-cover" src="thumbnails/calculus.jpg" alt="Calculus 9th Edition">
+          </a>
+        </div>
+        <div class="book-info">
+          <a href="https://www.scribd.com/document/505110428/Calculus-Thomas-Finney-9-Edition" class="book-title" target="_blank" rel="noopener">Calculus Thomas Finney 9th Edition</a>
+          <div class="book-author">George B. Thomas & Ross L. Finney</div>
+        </div>
+      </div>
+      
+      <!-- Book 6 -->
+      <div class="book-slide">
+        <div class="book-cover-container">
+          <a href="https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf" target="_blank" rel="noopener">
+            <img class="book-cover" src="thumbnails/ml_theory_algo.jpg" alt="Understanding Machine Learning From Theory to Algorithms">
+          </a>
+        </div>
+        <div class="book-info">
+          <a href="https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf" class="book-title" target="_blank" rel="noopener">Understanding Machine Learning From Theory to Algorithms</a>
+          <div class="book-author">Shai Shalev-Shwartz & Shai Ben-David</div>
+        </div>
+      </div>
+      <!-- Add more books as needed -->
+    
+</div>
