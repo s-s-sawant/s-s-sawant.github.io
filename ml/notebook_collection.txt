@@ -1,0 +1,69 @@
+<h1>
+  Jupyter Notebooks
+</h1>
+<div class="book-slider-container" id="notebookSlider">
+  <!-- Notebook 1 -->
+  <div class="book-slide">
+    <div class="book-cover-container">
+      <a href="notebooks/python_interview_questions.ipynb" target="_blank" rel="noopener">
+        <img class="book-cover" src="thumbnails/jupyter.png" alt="Python Interview Questions">
+      </a>
+    </div>
+    <div class="book-info">
+      <a href="notebooks/python_interview_questions.ipynb" class="book-title" target="_blank" rel="noopener">Python Interview Questions</a>
+      <div class="book-author">Jupyter Notebook</div>
+    </div>
+  </div>
+  
+  <!-- Notebook 2 -->
+  <div class="book-slide">
+    <div class="book-cover-container">
+      <a href="notebooks/data_structure_python_questions.ipynb" target="_blank" rel="noopener">
+        <img class="book-cover" src="thumbnails/jupyter.png" alt="Data Structure Python Questions">
+      </a>
+    </div>
+    <div class="book-info">
+      <a href="notebooks/data_structure_python_questions.ipynb" class="book-title" target="_blank" rel="noopener">Data Structure Python Questions</a>
+      <div class="book-author">Jupyter Notebook</div>
+    </div>
+  </div>
+  
+  <!-- Notebook 3 -->
+  <div class="book-slide">
+    <div class="book-cover-container">
+      <a href="notebooks/numpy_interview_questions.ipynb" target="_blank" rel="noopener">
+        <img class="book-cover" src="thumbnails/jupyter.png" alt="NumPy Interview Questions">
+      </a>
+    </div>
+    <div class="book-info">
+      <a href="notebooks/numpy_interview_questions.ipynb" class="book-title" target="_blank" rel="noopener">NumPy Interview Questions</a>
+      <div class="book-author">Jupyter Notebook</div>
+    </div>
+  </div>
+  
+  <!-- Notebook 4 -->
+  <div class="book-slide">
+    <div class="book-cover-container">
+      <a href="notebooks/pandas_interview_questions.ipynb" target="_blank" rel="noopener">
+        <img class="book-cover" src="thumbnails/jupyter.png" alt="Pandas Interview Questions">
+      </a>
+    </div>
+    <div class="book-info">
+      <a href="notebooks/pandas_interview_questions.ipynb" class="book-title" target="_blank" rel="noopener">Pandas Interview Questions</a>
+      <div class="book-author">Jupyter Notebook</div>
+    </div>
+  </div>
+  
+  <!-- Notebook 5 -->
+  <div class="book-slide">
+    <div class="book-cover-container">
+      <a href="notebooks/matplot_seaborn.ipynb" target="_blank" rel="noopener">
+        <img class="book-cover" src="thumbnails/jupyter.png" alt="Matplotlib & Seaborn Guide">
+      </a>
+    </div>
+    <div class="book-info">
+      <a href="notebooks/matplot_seaborn.ipynb" class="book-title" target="_blank" rel="noopener">Matplotlib & Seaborn Guide</a>
+      <div class="book-author">Jupyter Notebook</div>
+    </div>
+  </div>
+</div>

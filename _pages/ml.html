@@ -24,6 +24,9 @@ Test your understanding of core concepts in Machine Learning through an interact
 <div id="video_content"></div>
 </br>
 <div id="book_content"></div>
+</br>
+<div id="notebook_collection"></div>
+
 
   <script>
     fetch('video_gallery.txt')
@@ -36,6 +39,12 @@ Test your understanding of core concepts in Machine Learning through an interact
       .then(response => response.text())
       .then(data => {
         document.getElementById('book_content').innerHTML = data;
+      });
+
+    fetch('notebook_collection.txt')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('notebook_collection').innerHTML = data;
       });
   </script>
 
