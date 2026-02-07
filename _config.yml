@@ -27,10 +27,9 @@ author:
   pronouns         : "he/him"  
   bio              : "Ph.D. (Mathematics), <br />
                       - Algebraic Combinatorics <br>
-                      - Topological Combinatorics<br>
-                      - Graph Algorithms"
-  location         : "Chennai"
-  employer         : "Chennai Mathematical Institute"
+                      - Graph Algorithsm <br>"
+  location         : "Noida, Uttar Pradesh"
+  employer         : "Raphe mPhibr Pvt. Ltd."
   uri              : # URL
   email            : "sagarsawant.math@gmail.com" 
 
@@ -41,7 +40,6 @@ author:
   orcid            : #
   semantic         : # URL
   pubmed           : #
-  researchgate     : "https://www.researchgate.net/profile/Sagar-Sawant-2"
   mathscinet       : "https://mathscinet.ams.org/mathscinet/author?authorId=1623821"
 
   # Repositories and software development
@@ -62,7 +60,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : sagar-sawant-b2b2801bb
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
