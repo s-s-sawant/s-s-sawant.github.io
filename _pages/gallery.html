@@ -99,37 +99,84 @@ author_profile: true
         <div class="caption">MERU 2024, GEHU Bhimtal</div>
       </div>
     </div>
-    <button class="prev" onclick="prevSlide()">&#10094;</button>
-    <button class="next" onclick="nextSlide()">&#10095;</button>
+    <button class="prev" onclick="moveSlide(event, -1)">&#10094;</button>
+    <button class="next" onclick="moveSlide(event, 1)">&#10095;</button>
   </div>
 
-  <script>
-    let currentSlide = 0;
-    const slides = document.querySelectorAll('.slide');
-    const totalSlides = slides.length;
 
-    function showSlide(index) {
-      if (index >= totalSlides) {
-        currentSlide = 0;
-      } else if (index < 0) {
-        currentSlide = totalSlides - 1;
-      } else {
-        currentSlide = index;
-      }
+  <h2>
+  Throwback to the NCC days
+  </h2>
+  <div class="slideshow-container">
+    <div class="slides">
+      <div class="slide">
+        <img src="/images/ruia_ncc.jpg" alt="Ruia NCC">
+        <div class="caption">Ruia NCC 2015-16</div>
+      </div>
+      <div class="slide">
+        <img src="/images/rd_start.jpg" alt="RD Start">
+        <div class="caption">Rifle Drill</div>
+      </div>
+      <div class="slide">
+        <img src="/images/rd_salute.jpg" alt="RD Salute">
+        <div class="caption">Rifle Drill</div>
+      </div>
+      <div class="slide">
+        <img src="/images/rd_rifle_still.jpg" alt="Rifle Still">
+        <div class="caption">Rifle Drill</div>
+      </div>
+      <div class="slide">
+        <img src="/images/rd_rifle_throw.jpg" alt="Rifle Throw">
+        <div class="caption">Rifle Drill</div>
+      </div>
+      <div class="slide">
+        <img src="/images/rd_rifle_circle_throw.jpg" alt="Rifle Circle Throw">
+        <div class="caption">Rifle Drill</div>
+      </div>
+      <div class="slide">
+        <img src="/images/rd_back_throw.jpg" alt="Back Throw">
+        <div class="caption">Rifle Drill</div>
+      </div>
+      <div class="slide">
+        <img src="/images/rd_rifle_salute.jpg" alt="Rifle Salute">
+        <div class="caption">Rifle Drill</div>
+      </div>
+    </div>
+    <button class="prev" onclick="moveSlide(event, -1)">&#10094;</button>
+    <button class="next" onclick="moveSlide(event, 1)">&#10095;</button>
 
-      const offset = -currentSlide * 100;
-      document.querySelector('.slides').style.transform = `translateX(${offset}%)`;
+</div>
+
+<script>
+  // Keep track of indices for multiple slideshows
+  const slideIndices = new Map();
+
+  function moveSlide(event, step) {
+    // 1. Find the specific container this button belongs to
+    const container = event.target.closest('.slideshow-container');
+    
+    // 2. Initialize index for this container if it doesn't exist
+    if (!slideIndices.has(container)) {
+      slideIndices.set(container, 0);
     }
 
-    function nextSlide() {
-      showSlide(currentSlide + 1);
+    const slidesWrapper = container.querySelector('.slides');
+    const allSlides = container.querySelectorAll('.slide');
+    const totalSlides = allSlides.length;
+    
+    // 3. Calculate new index
+    let currentIndex = slideIndices.get(container) + step;
+
+    if (currentIndex >= totalSlides) {
+      currentIndex = 0;
+    } else if (currentIndex < 0) {
+      currentIndex = totalSlides - 1;
     }
 
-    function prevSlide() {
-      showSlide(currentSlide - 1);
-    }
-
-    // Optional: Auto-play the slideshow
-    setInterval(nextSlide, 4000);
-  </script>
+    // 4. Update the Map and move the slides
+    slideIndices.set(container, currentIndex);
+    const offset = -currentIndex * 100;
+    slidesWrapper.style.transform = `translateX(${offset}%)`;
+  }
+</script>
 </body>
