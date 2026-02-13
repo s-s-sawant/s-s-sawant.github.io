@@ -5,36 +5,256 @@ permalink: /talks/
 author_profile: true
 ---
 
+<head>
+    <title>Academic Talks</title>
+    <style>
+        header {
+            border-bottom: 2px solid var(--primary-text);
+            margin-bottom: 3rem;
+            padding-bottom: 1rem;
+        }
 
-<!-- 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %} -->
+        h1 {
+            font-family: 'Lora', serif;
+            font-size: 2.5rem;
+            margin: 0;
+            letter-spacing: -0.5px;
+        }
 
-{% include base_path %}
+        .talk-group {
+            margin-bottom: 2.5rem;
+            position: relative;
+        }
 
-<!-- New style rendering if talk categories are defined -->
-{% if site.talk_category %}
-  {% for category in site.talk_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.talks reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single-talk.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.talks reversed %}
-    {% include archive-single-talk.html %}
-  {% endfor %}
-{% endif %}
+        .talk-title {
+            font-size: 1.35rem;
+            font-weight: 700;
+            color: var(--primary-text);
+            margin-bottom: 1rem;
+            display: block;
+            line-height: 1.2;
+        }
+
+        .talk-metadata {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .venue-entry {
+            margin-bottom: 1.2rem;
+            padding-left: 1.2rem;
+            border-left: 2px solid var(--border-color);
+            display: flex;
+            flex-direction: column; /* Stack rows vertically */
+        }
+
+        .venue-top-row {
+            display: flex;
+            justify-content: space-between; /* Venue left, Location right */
+            align-items: flex-start;
+            width: 100%;
+        }
+
+        .venue-name {
+            font-weight: 600;
+            color: var(--primary-text);
+            flex: 1; /* Takes up available space */
+            padding-right: 15px;
+        }
+
+        .venue-location {
+            font-size: 0.9rem;
+            color: var(--secondary-text);
+            font-style: italic;
+            text-align: right;
+            white-space: nowrap; /* Keeps city, country on one line */
+        }
+
+        .talk-date {
+            font-size: 0.85rem;
+            color: #90a4ae;
+            font-weight: 500;
+            margin-top: 4px; /* Space below the venue/location row */
+        }
+
+        .tag {
+            display: inline-block;
+            background: var(--bg-subtle);
+            border: 1px solid var(--border-color);
+            padding: 2px 10px;
+            border-radius: 4px; /* More professional for academic sites */
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--secondary-text);
+            margin-top: 0.5rem;
+        }
+
+        @media (max-width: 600px) {
+            .venue-top-row {
+                flex-direction: column;
+            }
+            .venue-location {
+                text-align: left;
+                margin-top: 2px;
+            }
+        }
+    </style>
+</head>
+<body>
 
 
 
-<p style="text-decoration:underline;">A map of all the places I've given a talk!</p>
-<iframe src="/talkmap/map.html" height="300" width="700" style="border:none;"></iframe>
+    <main>
+      <section id="talks">
+
+        <div class="talk-group">
+            <span class="talk-title">Polynomial factorizations in Integral Domains</span>
+            <div class="talk-metadata">
+                <div class="venue-entry">
+                    <div class="venue-top-row">
+                        <span class="venue-name">Summer School-2024, Dept of Mathematics, IIT Madras</span>
+                        <span class="venue-location">Chennai, India</span>
+                    </div>
+                    <span class="talk-date">June, 2024</span>
+                </div>
+            </div>
+        </div>
+    
+        <div class="talk-group">
+            <span class="talk-title">Proper q-caterpillars are distinguished by their Chromatic Symmetric Functions</span>
+            <div class="talk-metadata">
+                <div class="venue-entry">
+                    <div class="venue-top-row">
+                        <span class="venue-name">2nd Meru Annual Combinatorics Conference, Graphic Era Hill University</span>
+                        <span class="venue-location">Bhimtal, India</span>
+                    </div>
+                </div>
+                <div class="venue-entry">
+                    <div class="venue-top-row">
+                        <span class="venue-name">International Conference on Graph Theory and its Applications, Amrita Vishwavidyapeetham</span>
+                        <span class="venue-location">Coimbatore, India</span>
+                    </div>
+                    <span class="talk-date">December, 2023</span>
+                </div>
+                <div class="venue-entry">
+                    <div class="venue-top-row">
+                        <span class="venue-name">Algebraic Combinatorics Seminar, Institute of Mathematical Sciences</span>
+                        <span class="venue-location">Chennai, India</span>
+                    </div>
+                    <span class="talk-date">September, 2023</span>
+                </div>
+            </div>
+        </div>
+    
+        <div class="talk-group">
+            <span class="talk-title">Stanley’s Tree Isomorphism Conjecture</span>
+            <div class="talk-metadata">
+                <div class="venue-entry">
+                    <div class="venue-top-row">
+                        <span class="venue-name">In-House Symposium 2023, Dept of Mathematics, IIT Madras</span>
+                        <span class="venue-location">Chennai, India</span>
+                    </div>
+                    <span class="talk-date">July, 2023</span>
+                </div>
+            </div>
+        </div>
+    
+        <div class="talk-group">
+            <span class="talk-title">Linear algebra methods in combinatorics</span>
+            <div class="talk-metadata">
+                <div class="venue-entry">
+                    <div class="venue-top-row">
+                        <span class="venue-name">Summer School-2023, Dept of Mathematics, IIT Madras</span>
+                        <span class="venue-location">Chennai, India</span>
+                    </div>
+                    <span class="talk-date">June, 2023</span>
+                </div>
+            </div>
+        </div>
+    
+        <div class="talk-group">
+            <span class="talk-title">On distinguishing digraphs from their quasisymmetric B-polynomial</span>
+            <div class="talk-metadata">
+                <div class="venue-entry">
+                    <div class="venue-top-row">
+                        <span class="venue-name">1st Meru Annual Combinatorics Conference, Pondicherry University</span>
+                        <span class="venue-location">Pondicherry, India</span>
+                    </div>
+                    <span class="talk-date">May, 2023</span>
+                </div>
+                <div class="venue-entry">
+                    <div class="venue-top-row">
+                        <span class="venue-name">Algebraic Combinatorics Seminar, Gustave-Eiffel University</span>
+                        <span class="venue-location">Paris, France</span>
+                    </div>
+                    <span class="talk-date">April, 2023</span>
+                </div>
+                <div class="venue-entry">
+                    <div class="venue-top-row">
+                        <span class="venue-name">37th Annual Conference of the Ramanujan Mathematical Society, SSN College of Engineering</span>
+                        <span class="venue-location">Chennai, India</span>
+                    </div>
+                    <span class="talk-date">December, 2022</span>
+                </div>
+                <div class="venue-entry">
+                    <div class="venue-top-row">
+                        <span class="venue-name">39th Kolloquium über Kombinatorik, Universität Paderborn</span>
+                        <span class="venue-location">Paderborn, Germany</span>
+                    </div>
+                    <span class="talk-date">November, 2022</span>
+                </div>
+                <div class="venue-entry">
+                    <div class="venue-top-row">
+                        <span class="venue-name">In-House Symposium 2022, Dept of Mathematics, IIT Madras</span>
+                        <span class="venue-location">Chennai, India</span>
+                    </div>
+                    <span class="talk-date">July, 2022</span>
+                </div>
+            </div>
+        </div>
+    
+        <div class="talk-group">
+            <span class="talk-title">On digraph analog of Stanley’s Tree Conjecture</span>
+            <div class="talk-metadata">
+                <div class="venue-entry">
+                    <div class="venue-top-row">
+                        <span class="venue-name">Graph Theory Seminar, IRIF</span>
+                        <span class="venue-location">Paris, France</span>
+                    </div>
+                    <span class="talk-date">April, 2023</span>
+                </div>
+            </div>
+        </div>
+    
+        <div class="talk-group">
+            <span class="talk-title">Essentials of Mathematics in competitive exams</span>
+            <div class="talk-metadata">
+                <div class="venue-entry">
+                    <div class="venue-top-row">
+                        <span class="venue-name">Invited Talk, R. N. Ruia College</span>
+                        <span class="venue-location">Mumbai, India</span>
+                    </div>
+                    <span class="talk-date">November, 2020</span>
+                </div>
+            </div>
+        </div>
+    
+        <div class="talk-group">
+            <span class="talk-title">A counterexample to Hedetnieme’s Conjecture</span>
+            <div class="talk-metadata">
+                <div class="venue-entry">
+                    <div class="venue-top-row">
+                        <span class="venue-name">Invited Talk, Mumbai University</span>
+                        <span class="venue-location">Mumbai, India</span>
+                    </div>
+                    <span class="talk-date">February, 2020</span>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+    </main>
+
+</body>
